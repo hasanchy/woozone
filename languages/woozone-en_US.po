@@ -1,0 +1,6381 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WZone - WooCommerce Amazon Affiliates\n"
+"POT-Creation-Date: 2026-03-05 10:31+0200\n"
+"PO-Revision-Date: 2026-03-05 10:31+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: plugin.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: __/@snippets.php:33
+#, fuzzy
+msgid ""
+"Check amazon new locations: amz_locale_reference doesn't have the needed rows"
+msgstr ""
+"Check amazon new locations: amz_locale_reference doesn't have the needed rows"
+
+#: __/@snippets.php:43 aa-framework/framework.class.php:9337
+#, fuzzy, php-format
+msgid "Check plugin table %s: installed ok."
+msgstr "Check plugin table %s: installed ok."
+
+#: aa-framework/ajax-list-table.php:176 aa-framework/ajax-list-table.php:2173
+#: aa-framework/ajax-list-table.php:2432 aa-framework/framework.class.php:3780
+#: aa-framework/framework.class.php:3885 aa-framework/framework.class.php:3986
+#: aa-framework/framework.class.php:4011 aa-framework/framework.class.php:4060
+#: aa-framework/framework.class.php:5096
+#: aa-framework/helpers/amz.helper.class.php:629
+#: aa-framework/helpers/amz.helper.class.php:769
+#: aa-framework/helpers/amz.helper.class.php:1129
+#: aa-framework/helpers/ebay.helper.class.php:589
+#: aa-framework/helpers/ebay.helper.class.php:616
+#: aa-framework/helpers/ebay.helper.class.php:651
+#: aa-framework/helpers/ebay.helper.class.php:867
+#: aa-framework/utils/action_admin_ajax.php:93
+#: aa-framework/utils/action_admin_ajax.php:122
+#: aa-framework/utils/action_admin_ajax.php:148
+#: aa-framework/utils/action_admin_ajax.php:174
+#: aa-framework/utils/action_admin_ajax.php:199
+#: aa-framework/utils/action_admin_ajax.php:224
+#: aa-framework/utils/action_admin_ajax.php:250
+#: aa-framework/utils/action_admin_ajax.php:276
+#: aa-framework/utils/action_admin_ajax.php:301
+#: aa-framework/utils/action_admin_ajax.php:327
+#: aa-framework/utils/action_admin_ajax.php:346
+#: aa-framework/utils/action_admin_ajax.php:365
+#: aa-framework/utils/action_admin_ajax.php:505
+#: aa-framework/utils/action_admin_ajax.php:562
+#: aa-framework/utils/action_admin_ajax.php:703
+#: aa-framework/utils/action_admin_ajax.php:762
+#: aa-framework/utils/action_admin_ajax.php:793
+#: lib/frontend/frontend.class.php:1205 lib/frontend/frontend.class.php:3489
+#: lib/scripts/directimport/directimport.php:155
+#: modules/advanced_search/ajax-request.php:6
+#: modules/advanced_search/ajax-request.php:258
+#: modules/advanced_search/ajax-request.php:540
+#: modules/amazon_debug/ajax-request.php:92 modules/amz_report/init.php:48
+#: modules/asin_grabber/init.php:327 modules/assets_download/init.php:260
+#: modules/auto_import/init.php:1305 modules/bitly/init.php:66
+#: modules/content_spinner/init.php:201 modules/dashboard/ajax.php:37
+#: modules/depedencies/ajax.php:35 modules/insane_import/init.php:1317
+#: modules/insane_import/init.php:1354 modules/insane_import/init.php:1406
+#: modules/insane_import/init.php:1621 modules/insane_import/init.php:2059
+#: modules/insane_import/init.php:2730 modules/insane_import/init.php:2855
+#: modules/insane_import/init.php:3064 modules/insane_import/init.php:3207
+#: modules/insane_import/init.php:3240 modules/insane_import/init.php:4032
+#: modules/noaws_import/init.php:63 modules/noaws_sync_widget/init.php:68
+#: modules/noaws_sync_widget/main.class.php:317
+#: modules/noaws_sync_widget/main.class.php:1142
+#: modules/noaws_sync_widget/main.class.php:1305
+#: modules/price_select/init.php:364 modules/product_in_post/init.php:163
+#: modules/report/init.php:1524 modules/server_status/ajax.php:38
+#: modules/server_status/ajax.php:272
+#: modules/synchronization/base_interface.php:2040
+#: modules/woocustom/init.php:1174 validation.php:35
+#, fuzzy
+msgid "Only administrator can update this option!"
+msgstr "Only administrator can update this option!"
+
+#: aa-framework/ajax-list-table.php:779 aa-framework/ajax-list-table.php:809
+#: aa-framework/ajax-list-table.php:825 aa-framework/ajax-list-table.php:857
+#: aa-framework/ajax-list-table.php:893 modules/report/init.php:243
+#: modules/report/init.php:263 modules/synchronization/base_interface.php:2018
+#, fuzzy
+msgid "Show All"
+msgstr "Show All"
+
+#: aa-framework/ajax-list-table.php:782
+#, fuzzy
+msgid "per pages"
+msgstr "per pages"
+
+#: aa-framework/ajax-list-table.php:971
+#: modules/synchronization/base_interface.php:1987
+#, fuzzy
+msgid "Search"
+msgstr "Search"
+
+#: aa-framework/ajax-list-table.php:1032
+#, fuzzy
+msgid "The last product synchronized was:"
+msgstr "The last product synchronized was:"
+
+#: aa-framework/ajax-list-table.php:1034
+#, fuzzy
+msgid "This was synchronized at:"
+msgstr "This was synchronized at:"
+
+#: aa-framework/ajax-list-table.php:1207 aa-framework/ajax-list-table.php:1254
+#: aa-framework/ajax-list-table.php:1368
+#, fuzzy
+msgid "View product"
+msgstr "View product"
+
+#: aa-framework/ajax-list-table.php:1208 aa-framework/ajax-list-table.php:1255
+#: aa-framework/ajax-list-table.php:1367
+#, fuzzy
+msgid "Edit product"
+msgstr "Edit product"
+
+#: aa-framework/ajax-list-table.php:1239
+#, fuzzy
+msgid "Fresh (spin) Content"
+msgstr "Fresh (spin) Content"
+
+#: aa-framework/ajax-list-table.php:1242
+#, fuzzy
+msgid "Old (original) Content"
+msgstr "Old (original) Content"
+
+#: aa-framework/ajax-list-table.php:1284
+#, fuzzy
+msgid "SPIN Content now!"
+msgstr "SPIN Content now!"
+
+#: aa-framework/ajax-list-table.php:1303
+#, fuzzy
+msgid "SAVE Content"
+msgstr "SAVE Content"
+
+#: aa-framework/ajax-list-table.php:1303
+#, fuzzy
+msgid "Rollback Content"
+msgstr "Rollback Content"
+
+#: aa-framework/ajax-list-table.php:1351
+#, fuzzy
+msgid "Number of variation:"
+msgstr "Number of variation:"
+
+#: aa-framework/ajax-list-table.php:1355
+#, fuzzy
+msgid "Assets:"
+msgstr "Assets:"
+
+#: aa-framework/ajax-list-table.php:1356
+#, fuzzy
+msgid "new"
+msgstr "new"
+
+#: aa-framework/ajax-list-table.php:1356
+#: modules/speed_optimization/init.php:1333
+#, fuzzy
+msgid "done"
+msgstr "done"
+
+#: aa-framework/ajax-list-table.php:1366
+#, fuzzy
+msgid "Download assets NOW!"
+msgstr "Download assets NOW!"
+
+#: aa-framework/ajax-list-table.php:1403
+#, fuzzy
+msgid "Variations:"
+msgstr "Variations:"
+
+#: aa-framework/ajax-list-table.php:1478 aa-framework/ajax-list-table.php:1580
+#: aa-framework/ajax-list-table.php:1771 aa-framework/framework.class.php:11624
+#: modules/auto_import/init.php:419 modules/auto_import/init.php:842
+#: modules/report/init.php:91 templates/badges/badges-icons.php:20
+#: templates/badges/badges.php:20
+#, fuzzy
+msgid "New"
+msgstr "New"
+
+#: aa-framework/ajax-list-table.php:1479 aa-framework/ajax-list-table.php:1581
+#: modules/report/init.php:92
+#, fuzzy
+msgid "Done (success)"
+msgstr "Done (success)"
+
+#: aa-framework/ajax-list-table.php:1480 aa-framework/ajax-list-table.php:1582
+#: aa-framework/ajax-list-table.php:1773 modules/auto_import/init.php:421
+#: modules/auto_import/init.php:844 modules/report/init.php:93
+#, fuzzy
+msgid "Error"
+msgstr "Error"
+
+#: aa-framework/ajax-list-table.php:1481 modules/auto_import/init.php:422
+#: modules/report/init.php:94
+#, fuzzy
+msgid "Already imported"
+msgstr "Already imported"
+
+#: aa-framework/ajax-list-table.php:1495 aa-framework/ajax-list-table.php:1549
+#: aa-framework/ajax-list-table.php:1837 aa-framework/ajax-list-table.php:1895
+#: modules/advanced_search/ajax-request.php:407
+#: modules/advanced_search/ajax-request.php:506
+#, fuzzy
+msgid "View"
+msgstr "View"
+
+#: aa-framework/ajax-list-table.php:1496 aa-framework/ajax-list-table.php:1550
+#: aa-framework/ajax-list-table.php:1838 aa-framework/ajax-list-table.php:1896
+#, fuzzy
+msgid "Edit"
+msgstr "Edit"
+
+#: aa-framework/ajax-list-table.php:1604
+#, fuzzy
+msgid "View all"
+msgstr "View all"
+
+#: aa-framework/ajax-list-table.php:1614 modules/auto_import/init.php:102
+#: modules/auto_import/init.php:821
+#, fuzzy
+msgid "Recurrency"
+msgstr "Recurrency"
+
+#: aa-framework/ajax-list-table.php:1619 modules/auto_import/init.php:91
+#: modules/auto_import/init.php:811 modules/import_stats/init.php:215
+#: modules/noaws_sync_widget/list.table.php:192
+#, fuzzy
+msgid "Country"
+msgstr "Country"
+
+#: aa-framework/ajax-list-table.php:1624
+#, fuzzy
+msgid "Main Aff Id"
+msgstr "Main Aff Id"
+
+#: aa-framework/ajax-list-table.php:1629 modules/auto_import/init.php:129
+#: modules/insane_import/init.php:652 modules/insane_import/init.php:866
+#: modules/speed_optimization/init.php:1836
+#, fuzzy
+msgid "Category"
+msgstr "Category"
+
+#: aa-framework/ajax-list-table.php:1633 modules/auto_import/init.php:125
+#: modules/insane_import/init.php:645 modules/insane_import/init.php:861
+#, fuzzy
+msgid "Keyword"
+msgstr "Keyword"
+
+#: aa-framework/ajax-list-table.php:1637
+#, fuzzy
+msgid "Node"
+msgstr "Node"
+
+#: aa-framework/ajax-list-table.php:1641
+#, fuzzy
+msgid "Nb Pages"
+msgstr "Nb Pages"
+
+#: aa-framework/ajax-list-table.php:1645 modules/insane_import/init.php:1123
+#, fuzzy
+msgid "Import in"
+msgstr "Import in"
+
+#: aa-framework/ajax-list-table.php:1724
+#, fuzzy
+msgid "Created at"
+msgstr "Created at"
+
+#: aa-framework/ajax-list-table.php:1728
+#, fuzzy
+msgid "Started at"
+msgstr "Started at"
+
+#: aa-framework/ajax-list-table.php:1732
+#, fuzzy
+msgid "Ended at"
+msgstr "Ended at"
+
+#: aa-framework/ajax-list-table.php:1736
+#, fuzzy
+msgid "Next run"
+msgstr "Next run"
+
+#: aa-framework/ajax-list-table.php:1772
+#: modules/speed_optimization/init.php:132
+#, fuzzy
+msgid "Done"
+msgstr "Done"
+
+#: aa-framework/ajax-list-table.php:1774
+#, fuzzy
+msgid "Already"
+msgstr "Already"
+
+#: aa-framework/ajax-list-table.php:1852
+#, fuzzy
+msgid "Import details"
+msgstr "Import details"
+
+#: aa-framework/ajax-list-table.php:1904 aa-framework/ajax-list-table.php:1927
+#, fuzzy
+msgid "Show more details"
+msgstr "Show more details"
+
+#: aa-framework/ajax-list-table.php:2011
+#: modules/advanced_search/ajax-request.php:125
+#: modules/advanced_search/ajax-request.php:568
+#: modules/synchronization/base_interface.php:1946
+#, fuzzy
+msgid "All"
+msgstr "All"
+
+#: aa-framework/ajax-list-table.php:2012 modules/assets_download/init.php:157
+#: modules/auto_import/init.php:792 modules/auto_import/init.php:800
+#: modules/auto_import/init.php:925 modules/content_spinner/init.php:150
+#, fuzzy
+msgid "Published"
+msgstr "Published"
+
+#: aa-framework/ajax-list-table.php:2013
+#, fuzzy
+msgid "Scheduled"
+msgstr "Scheduled"
+
+#: aa-framework/ajax-list-table.php:2014
+#, fuzzy
+msgid "Private"
+msgstr "Private"
+
+#: aa-framework/ajax-list-table.php:2015
+#, fuzzy
+msgid "Pending Review"
+msgstr "Pending Review"
+
+#: aa-framework/ajax-list-table.php:2016
+#: modules/wizard/steps/price_setup.php:44
+#, fuzzy
+msgid "Draft"
+msgstr "Draft"
+
+#: aa-framework/ajax-list-table.php:2153 aa-framework/ajax-list-table.php:2156
+#, fuzzy
+msgid " - latest"
+msgstr " - latest"
+
+#: aa-framework/ajax-list-table.php:2513
+#, fuzzy
+msgid "Spinned content in"
+msgstr "Spinned content in"
+
+#: aa-framework/ajax-list-table.php:2517
+#, fuzzy
+msgid "Imported attributes in"
+msgstr "Imported attributes in"
+
+#: aa-framework/ajax-list-table.php:2521
+#, fuzzy, php-format
+msgid "%d variations in"
+msgstr "%d variations in"
+
+#: aa-framework/ajax-list-table.php:2525
+#, fuzzy, php-format
+msgid "%d remote images in"
+msgstr "%d remote images in"
+
+#: aa-framework/ajax-list-table.php:2529
+#, fuzzy
+msgid "Total duration"
+msgstr "Total duration"
+
+#: aa-framework/ajax-list-table.php:2533
+#, fuzzy, php-format
+msgid "%d images downloaded in"
+msgstr "%d images downloaded in"
+
+#: aa-framework/ajax-list-table.php:2579
+#, fuzzy
+msgid ""
+"doesn't contain duration to download product images - if you don't use "
+"remote images"
+msgstr ""
+"doesn't contain duration to download product images - if you don't use "
+"remote images"
+
+#: aa-framework/ajax-list-table.php:2626
+#, fuzzy
+msgid "Number of products"
+msgstr "Number of products"
+
+#: aa-framework/ajax-list-table.php:2630
+#, fuzzy
+msgid "Number of variations"
+msgstr "Number of variations"
+
+#: aa-framework/ajax-list-table.php:2635
+#, fuzzy
+msgid "Number of attributes"
+msgstr "Number of attributes"
+
+#: aa-framework/ajax-list-table.php:2639 modules/server_status/init.php:254
+#, fuzzy
+msgid "Number of images"
+msgstr "Number of images"
+
+#: aa-framework/ajax-list-table.php:2647
+#, fuzzy
+msgid "wp_posts rows"
+msgstr "wp_posts rows"
+
+#: aa-framework/ajax-list-table.php:2651
+#, fuzzy
+msgid "wp_postmeta rows"
+msgstr "wp_postmeta rows"
+
+#: aa-framework/ajax-list-table.php:2655
+#, fuzzy
+msgid "wp_terms rows"
+msgstr "wp_terms rows"
+
+#: aa-framework/framework.class.php:2931
+#, fuzzy
+msgid "Install Default Setup"
+msgstr "Install Default Setup"
+
+#: aa-framework/framework.class.php:2932
+#, fuzzy
+msgid "Dismiss This Message"
+msgstr "Dismiss This Message"
+
+#: aa-framework/framework.class.php:2964
+#, fuzzy
+msgid ""
+"<h3>Thank you for using WooZone, the best Amazon Affiliate WooCommerce "
+"plugin available on the market.</h3>"
+msgstr ""
+"<h3>Thank you for using WooZone, the best Amazon Affiliate WooCommerce "
+"plugin available on the market.</h3>"
+
+#: aa-framework/framework.class.php:2968
+#, fuzzy, php-format
+msgid ""
+"When you're using aateam demo keys, you're not allowed to use this module."
+"<br/>Please follow the instructions to generate your own Amazon API keys and "
+"register for the affiliation program. You can find the instructions <a href="
+"\"%s\" target=\"_blank\">here</a> or you can open a ticket at <a href=\"%s"
+"\">support.aa-team.com</a>. <br />"
+msgstr ""
+"When you're using aateam demo keys, you're not allowed to use this module."
+"<br/>Please follow the instructions to generate your own Amazon API keys and "
+"register for the affiliation program. You can find the instructions <a href="
+"\"%s\" target=\"_blank\">here</a> or you can open a ticket at <a href=\"%s"
+"\">support.aa-team.com</a>. <br />"
+
+#: aa-framework/framework.class.php:2972
+#, fuzzy, php-format
+msgid ""
+"For an easier understanding about how awesome our plugin is, we give you the "
+"opportunity to import %s products using our demo keys.<br />"
+msgstr ""
+"For an easier understanding about how awesome our plugin is, we give you the "
+"opportunity to import %s products using our demo keys.<br />"
+
+#: aa-framework/framework.class.php:2973
+#, fuzzy
+msgid "These are the products you choose to import:"
+msgstr "These are the products you choose to import:"
+
+#: aa-framework/framework.class.php:2991
+#, fuzzy, php-format
+msgid ""
+"In order to use the plugin at its full capacity, please follow the "
+"instructions to generate your own Amazon API keys and register for the "
+"affiliation program. You can find the instructions <a href=\"%s\" target="
+"\"_blank\">here</a> or you can open a ticket at <a href=\"%s\">support.aa-"
+"team.com</a>. <br />"
+msgstr ""
+"In order to use the plugin at its full capacity, please follow the "
+"instructions to generate your own Amazon API keys and register for the "
+"affiliation program. You can find the instructions <a href=\"%s\" target="
+"\"_blank\">here</a> or you can open a ticket at <a href=\"%s\">support.aa-"
+"team.com</a>. <br />"
+
+#: aa-framework/framework.class.php:2994
+#, fuzzy
+msgid "Set your own keys now"
+msgstr "Set your own keys now"
+
+#: aa-framework/framework.class.php:4238 modules/server_status/init.php:441
+#: modules/wizard/init.php:1310
+#, fuzzy
+msgctxt "Page setting"
+msgid "Cart Page"
+msgstr "Cart Page"
+
+#: aa-framework/framework.class.php:4242 modules/server_status/init.php:445
+#: modules/wizard/init.php:1318
+#, fuzzy
+msgctxt "Page setting"
+msgid "Checkout Page"
+msgstr "Checkout Page"
+
+#: aa-framework/framework.class.php:4255 modules/wizard/init.php:1338
+#, fuzzy, php-format
+msgid "You need to install default WooCommerce page: %s"
+msgstr "You need to install default WooCommerce page: %s"
+
+#: aa-framework/framework.class.php:4390
+#, fuzzy
+msgid "Invalid CSS path to file: <strong>"
+msgstr "Invalid CSS path to file: <strong>"
+
+#: aa-framework/framework.class.php:4537
+#, fuzzy
+msgid "Invalid JS path to file: <strong>"
+msgstr "Invalid JS path to file: <strong>"
+
+#. Plugin Name of the plugin/theme
+#: aa-framework/framework.class.php:4560
+#, fuzzy
+msgid "WZone - WooCommerce Amazon Affiliates"
+msgstr "WZone - WooCommerce Amazon Affiliates"
+
+#: aa-framework/framework.class.php:4561
+#, fuzzy
+msgid "WZone"
+msgstr "WZone"
+
+#: aa-framework/framework.class.php:4570
+#, fuzzy
+msgid "Plugin configuration"
+msgstr "Plugin configuration"
+
+#: aa-framework/framework.class.php:4571 aa-framework/menu.php:90
+#, fuzzy
+msgid "Config"
+msgstr "Config"
+
+#: aa-framework/framework.class.php:4581
+#, fuzzy
+msgid "Amazon Advanced Search"
+msgstr "Amazon Advanced Search"
+
+#: aa-framework/framework.class.php:4582
+#, fuzzy
+msgid "Amazon Search"
+msgstr "Amazon Search"
+
+#: aa-framework/framework.class.php:4591
+#, fuzzy
+msgid "Import Insane Mode"
+msgstr "Import Insane Mode"
+
+#: aa-framework/framework.class.php:4592
+#, fuzzy
+msgid "Insane Mode Import"
+msgstr "Insane Mode Import"
+
+#: aa-framework/framework.class.php:4601
+#, fuzzy
+msgid "CSV bulk products import"
+msgstr "CSV bulk products import"
+
+#: aa-framework/framework.class.php:4602
+#, fuzzy
+msgid "CSV import"
+msgstr "CSV import"
+
+#: aa-framework/framework.class.php:5326 aa-framework/framework.class.php:5329
+#, fuzzy
+msgid "this product has no assets to be dowloaded!"
+msgstr "this product has no assets to be dowloaded!"
+
+#: aa-framework/framework.class.php:5339
+#, fuzzy
+msgid "Images download in progress ... "
+msgstr "Images download in progress ... "
+
+#: aa-framework/framework.class.php:5339 modules/auto_import/init.php:1494
+#: modules/speed_optimization/init.php:546
+#: modules/speed_optimization/init.php:622
+#: modules/speed_optimization/init.php:644
+#: modules/speed_optimization/init.php:664
+#: modules/speed_optimization/init.php:680
+#: modules/wizard/steps/_header_html.php:69
+#, fuzzy
+msgid "CLOSE"
+msgstr "CLOSE"
+
+#: aa-framework/framework.class.php:5341
+#, fuzzy
+msgid ""
+"Please be patient while the images are downloaded.\n"
+"\t\t\tThis can take a while if your server is slow (inexpensive hosting) or "
+"if you have many images.\n"
+"\t\t\tDo not navigate away from this page until this script is done.\n"
+"\t\t\tYou will be notified via this box when the regenerating is completed."
+msgstr ""
+"Please be patient while the images are downloaded.\n"
+"\t\t\tThis can take a while if your server is slow (inexpensive hosting) or "
+"if you have many images.\n"
+"\t\t\tDo not navigate away from this page until this script is done.\n"
+"\t\t\tYou will be notified via this box when the regenerating is completed."
+
+#: aa-framework/framework.class.php:5379
+#, fuzzy
+msgid "Debugging Information:"
+msgstr "Debugging Information:"
+
+#: aa-framework/framework.class.php:5383 aa-framework/framework.class.php:5396
+#, fuzzy
+msgid "Total Images:"
+msgstr "Total Images:"
+
+#: aa-framework/framework.class.php:5387 aa-framework/framework.class.php:5397
+#, fuzzy
+msgid "Images Downloaded:"
+msgstr "Images Downloaded:"
+
+#: aa-framework/framework.class.php:5391 aa-framework/framework.class.php:5398
+#, fuzzy
+msgid "Downloaded Failures:"
+msgstr "Downloaded Failures:"
+
+#: aa-framework/framework.class.php:6177
+#, fuzzy
+msgid "Amazon Settings"
+msgstr "Amazon Settings"
+
+#: aa-framework/framework.class.php:6181
+#: modules/wizard/steps/amazon_config.php:27
+#, fuzzy
+msgid "Access Key ID"
+msgstr "Access Key ID"
+
+#: aa-framework/framework.class.php:6185
+#: modules/wizard/steps/amazon_config.php:39
+#, fuzzy
+msgid "Secret Access Key"
+msgstr "Secret Access Key"
+
+#: aa-framework/framework.class.php:6189
+#, fuzzy
+msgid "Amazon location"
+msgstr "Amazon location"
+
+#: aa-framework/framework.class.php:6193 aa-framework/framework.class.php:6224
+#: modules/auto_import/init.php:94 modules/wizard/steps/amazon_config.php:96
+#, fuzzy
+msgid "Main Affiliate ID"
+msgstr "Main Affiliate ID"
+
+#: aa-framework/framework.class.php:6197
+#, fuzzy
+msgid "Affiliate IDs"
+msgstr "Affiliate IDs"
+
+#: aa-framework/framework.class.php:6204
+#, fuzzy
+msgid "EBay Settings"
+msgstr "EBay Settings"
+
+#: aa-framework/framework.class.php:6208
+#, fuzzy
+msgid "DEVID"
+msgstr "DEVID"
+
+#: aa-framework/framework.class.php:6212
+#, fuzzy
+msgid "AppID"
+msgstr "AppID"
+
+#: aa-framework/framework.class.php:6216
+#, fuzzy
+msgid "CertID"
+msgstr "CertID"
+
+#: aa-framework/framework.class.php:6220
+#, fuzzy
+msgid "Ebay location"
+msgstr "Ebay location"
+
+#: aa-framework/framework.class.php:6228
+#, fuzzy
+msgid "Affiliate campid IDs"
+msgstr "Affiliate campid IDs"
+
+#: aa-framework/framework.class.php:6470
+#, fuzzy
+msgid "Amazon Products"
+msgstr "Amazon Products"
+
+#: aa-framework/framework.class.php:6471
+#, fuzzy
+msgid "Ebay Products"
+msgstr "Ebay Products"
+
+#: aa-framework/framework.class.php:7348
+#, fuzzy
+msgid "view last requests"
+msgstr "view last requests"
+
+#: aa-framework/framework.class.php:7353 modules/auto_import/init.php:631
+#: modules/auto_import/init.php:1031
+#, fuzzy
+msgid "Time"
+msgstr "Time"
+
+#: aa-framework/framework.class.php:7356
+#, fuzzy
+msgid "From file"
+msgstr "From file"
+
+#: aa-framework/framework.class.php:7359
+#, fuzzy
+msgid "From function"
+msgstr "From function"
+
+#: aa-framework/framework.class.php:7362 modules/auto_import/init.php:415
+#: modules/auto_import/init.php:479 modules/auto_import/init.php:838
+#: modules/auto_import/init.php:888
+#: modules/noaws_sync_widget/list.table.php:190
+#, fuzzy
+msgid "Status"
+msgstr "Status"
+
+#: aa-framework/framework.class.php:7365
+#, fuzzy
+msgid "Status message"
+msgstr "Status message"
+
+#: aa-framework/framework.class.php:7871
+#, fuzzy
+msgid "Check plugin tables: error requesting tables list."
+msgstr "Check plugin tables: error requesting tables list."
+
+#: aa-framework/framework.class.php:7894
+#, fuzzy
+msgid "Check plugin tables: all installed ( "
+msgstr "Check plugin tables: all installed ( "
+
+#: aa-framework/framework.class.php:7901
+#, fuzzy
+msgid "Check plugin tables: missing ( "
+msgstr "Check plugin tables: missing ( "
+
+#: aa-framework/framework.class.php:8184
+#, fuzzy
+msgid "Check cronjobs prefix: OK."
+msgstr "Check cronjobs prefix: OK."
+
+#: aa-framework/framework.class.php:8278
+#, fuzzy, php-format
+msgid "Check plugin tables (alter): %s OK."
+msgstr "Check plugin tables (alter): %s OK."
+
+#: aa-framework/framework.class.php:9072 aa-framework/utils/utils.php:764
+#: modules/bitly/init.php:134 modules/direct_import/init.php:255
+#, fuzzy, php-format
+msgid "curl error; http code: %s; details: %s"
+msgstr "curl error; http code: %s; details: %s"
+
+#: aa-framework/framework.class.php:9088
+#, fuzzy, php-format
+msgid "bitly error; status_code: %s; status_txt: %s"
+msgstr "bitly error; status_code: %s; status_txt: %s"
+
+#: aa-framework/framework.class.php:9303
+#, fuzzy, php-format
+msgid "Check plugin table %s: error requesting tables list."
+msgstr "Check plugin table %s: error requesting tables list."
+
+#: aa-framework/framework.class.php:9313
+#, fuzzy, php-format
+msgid "Check plugin table %s: missing."
+msgstr "Check plugin table %s: missing."
+
+#: aa-framework/framework.class.php:9327
+#, fuzzy, php-format
+msgid "Check plugin table %s: is empty - no rows found."
+msgstr "Check plugin table %s: is empty - no rows found."
+
+#: aa-framework/framework.class.php:9514
+#, fuzzy, php-format
+msgid "product was imported from [[country]] location %s"
+msgstr "product was imported from [[country]] location %s"
+
+#: aa-framework/framework.class.php:9524
+#, fuzzy, php-format
+msgid "current [[country]] location in amazon config module is %s"
+msgstr "current [[country]] location in amazon config module is %s"
+
+#: aa-framework/framework.class.php:9551
+#, fuzzy, php-format
+msgid ""
+"current [[country]] location in amazon config module is %s, but product was "
+"imported from [[country]] location %s. go to <Synchronization log Settings "
+"module>, <Amazon location for sync> option and choose <Use product import "
+"country> if you want all products like this to be synced based on their "
+"import country"
+msgstr ""
+"current [[country]] location in amazon config module is %s, but product was "
+"imported from [[country]] location %s. go to <Synchronization log Settings "
+"module>, <Amazon location for sync> option and choose <Use product import "
+"country> if you want all products like this to be synced based on their "
+"import country"
+
+#: aa-framework/framework.class.php:10157
+#: modules/advanced_search/ajax-request.php:406
+#: modules/speed_optimization/init.php:1785
+#, fuzzy
+msgid "Price"
+msgstr "Price"
+
+#: aa-framework/framework.class.php:10158
+#: modules/speed_optimization/init.php:219
+#: modules/synchronization/base_interface.php:313
+#: modules/synchronization/base_interface.php:320
+#, fuzzy
+msgid "Title"
+msgstr "Title"
+
+#: aa-framework/framework.class.php:10159
+#, fuzzy
+msgid "Buy URL"
+msgstr "Buy URL"
+
+#: aa-framework/framework.class.php:10160
+#, fuzzy
+msgid "Description"
+msgstr "Description"
+
+#: aa-framework/framework.class.php:10161
+#, fuzzy
+msgid "SKU"
+msgstr "SKU"
+
+#: aa-framework/framework.class.php:10162
+#, fuzzy
+msgid "Sales Rank"
+msgstr "Sales Rank"
+
+#: aa-framework/framework.class.php:10163
+#, fuzzy
+msgid "Reviews"
+msgstr "Reviews"
+
+#: aa-framework/framework.class.php:10164
+#, fuzzy
+msgid "Short description"
+msgstr "Short description"
+
+#: aa-framework/framework.class.php:10165
+#, fuzzy
+msgid "New Variations"
+msgstr "New Variations"
+
+#: aa-framework/framework.class.php:10187
+#, fuzzy
+msgid "The last sync status for this product:<br />"
+msgstr "The last sync status for this product:<br />"
+
+#: aa-framework/framework.class.php:10218
+#, fuzzy, php-format
+msgid "- %s variations were updated (ID, Asin) : %s"
+msgstr "- %s variations were updated (ID, Asin) : %s"
+
+#: aa-framework/framework.class.php:10219
+#, fuzzy, php-format
+msgid "- %s variations were not found (ID, Asin) : %s"
+msgstr "- %s variations were not found (ID, Asin) : %s"
+
+#: aa-framework/framework.class.php:10231
+#, fuzzy, php-format
+msgid "- Field %s was updated ( %d new variations added )."
+msgstr "- Field %s was updated ( %d new variations added )."
+
+#: aa-framework/framework.class.php:10253
+#: aa-framework/framework.class.php:10425
+#, fuzzy, php-format
+msgid "- Field %s was updated."
+msgstr "- Field %s was updated."
+
+#: aa-framework/framework.class.php:10273
+#: aa-framework/framework.class.php:10436
+#, fuzzy
+msgid "It seems no product field needed to be updated."
+msgstr "It seems no product field needed to be updated."
+
+#: aa-framework/framework.class.php:10282
+#, fuzzy
+msgid "This product was not synced yet."
+msgstr "This product was not synced yet."
+
+#: aa-framework/framework.class.php:10292
+#, fuzzy
+msgid ""
+"The number represents the total successfull synchronizations for this "
+"product."
+msgstr ""
+"The number represents the total successfull synchronizations for this "
+"product."
+
+#: aa-framework/framework.class.php:10293
+#: aa-framework/framework.class.php:10457
+#, fuzzy, php-format
+msgid "<span>%s</span> SYNCS"
+msgstr "<span>%s</span> SYNCS"
+
+#: aa-framework/framework.class.php:10329
+#, fuzzy, php-format
+msgid ""
+"<span title=\"the number of consecutive synchronizations requests which "
+"returned error for this product. it is related to Put amazon products in "
+"trash when syncing after... from amazon config module / bug fixes tab"
+"\">(%d)</span>"
+msgstr ""
+"<span title=\"the number of consecutive synchronizations requests which "
+"returned error for this product. it is related to Put amazon products in "
+"trash when syncing after... from amazon config module / bug fixes tab"
+"\">(%d)</span>"
+
+#: aa-framework/framework.class.php:10334
+#, fuzzy
+msgid ""
+"<span class=\"sync-current-cycle\" title=\"this row was parsed by the "
+"cronjob current sync cycle\"><i class=\"fa fa-circle\"></i></span>"
+msgstr ""
+"<span class=\"sync-current-cycle\" title=\"this row was parsed by the "
+"cronjob current sync cycle\"><i class=\"fa fa-circle\"></i></span>"
+
+#: aa-framework/framework.class.php:10395
+#, fuzzy
+msgid "The last sync (by widget) status for this product:<br />"
+msgstr "The last sync (by widget) status for this product:<br />"
+
+#: aa-framework/framework.class.php:10445
+#, fuzzy
+msgid "This product was not synced (by widget) yet."
+msgstr "This product was not synced (by widget) yet."
+
+#: aa-framework/framework.class.php:10454
+#, fuzzy, php-format
+msgid "Last Sync Date : %s"
+msgstr "Last Sync Date : %s"
+
+#: aa-framework/framework.class.php:10455
+#, fuzzy
+msgid ""
+"The number represents the total successfull synchronizations (by widget) for "
+"this product."
+msgstr ""
+"The number represents the total successfull synchronizations (by widget) for "
+"this product."
+
+#: aa-framework/framework.class.php:10493
+#, fuzzy, php-format
+msgid ""
+"<span title=\"the number of consecutive synchronizations (by widget) "
+"requests which returned error for this product. it is related to Put amazon "
+"products in trash when syncing after... from No AWS Keys Sync Widget "
+"Settings module\">(%d)</span>"
+msgstr ""
+"<span title=\"the number of consecutive synchronizations (by widget) "
+"requests which returned error for this product. it is related to Put amazon "
+"products in trash when syncing after... from No AWS Keys Sync Widget "
+"Settings module\">(%d)</span>"
+
+#: aa-framework/framework.class.php:10538
+#, fuzzy, php-format
+msgid "%s does not exist."
+msgstr "%s does not exist."
+
+#: aa-framework/framework.class.php:11228
+#, fuzzy
+msgid "Dropshipping Price"
+msgstr "Dropshipping Price"
+
+#: aa-framework/framework.class.php:11229
+#, fuzzy
+msgid "the product price"
+msgstr "the product price"
+
+#: aa-framework/framework.class.php:11230
+#, fuzzy
+msgid "the original product price (before the Dropshipping tax is applied)"
+msgstr "the original product price (before the Dropshipping tax is applied)"
+
+#: aa-framework/framework.class.php:11231
+#, fuzzy
+msgid "current product price (with the Dropshipping tax applied)"
+msgstr "current product price (with the Dropshipping tax applied)"
+
+#: aa-framework/framework.class.php:11232
+#, fuzzy
+msgid ""
+"your profit for this product (basicaly is the difference between current "
+"product price and the original price)"
+msgstr ""
+"your profit for this product (basicaly is the difference between current "
+"product price and the original price)"
+
+#: aa-framework/framework.class.php:11625
+#, fuzzy
+msgid "Processing"
+msgstr "Processing"
+
+#: aa-framework/framework.class.php:11626
+#, fuzzy
+msgid "Completed"
+msgstr "Completed"
+
+#: aa-framework/framework.class.php:11627
+#, fuzzy
+msgid "Failed"
+msgstr "Failed"
+
+#: aa-framework/framework.class.php:12127
+#, fuzzy, php-format
+msgid "%s: all the mandatory configuation settings ( %s ) seems ok"
+msgstr "%s: all the mandatory configuation settings ( %s ) seems ok"
+
+#: aa-framework/framework.class.php:12134
+#, fuzzy, php-format
+msgid ""
+"%s error: please setup the following mandatory configuation settings: %s"
+msgstr ""
+"%s error: please setup the following mandatory configuation settings: %s"
+
+#: aa-framework/framework.class.php:12153
+#, fuzzy, php-format
+msgid "%s: helper object is ok!"
+msgstr "%s: helper object is ok!"
+
+#: aa-framework/framework.class.php:12154
+#, fuzzy, php-format
+msgid "%s error: cannot initiate helper object!"
+msgstr "%s error: cannot initiate helper object!"
+
+#: aa-framework/framework.class.php:12186
+#, fuzzy, php-format
+msgid "%s error: provider is not enabled!"
+msgstr "%s error: provider is not enabled!"
+
+#: aa-framework/framework.class.php:12189
+#: aa-framework/framework.class.php:12365
+#, fuzzy, php-format
+msgid "%s: no addon is necessary!"
+msgstr "%s: no addon is necessary!"
+
+#: aa-framework/framework.class.php:12195
+#, fuzzy, php-format
+msgid "%s: addon is installed and activated!"
+msgstr "%s: addon is installed and activated!"
+
+#: aa-framework/framework.class.php:12225
+#, fuzzy, php-format
+msgid ""
+"%s error: you're using aateam demo keys as amazon keys and you've reached "
+"the max allowed limit to import products. In this case, some processes like "
+"products syncing, cross sell etc, will not work."
+msgstr ""
+"%s error: you're using aateam demo keys as amazon keys and you've reached "
+"the max allowed limit to import products. In this case, some processes like "
+"products syncing, cross sell etc, will not work."
+
+#: aa-framework/framework.class.php:12255
+#, fuzzy, php-format
+msgid ""
+"%s error: you're using aateam demo keys as amazon keys. In this case, some "
+"processes like products syncing, cross sell etc, will not work."
+msgstr ""
+"%s error: you're using aateam demo keys as amazon keys. In this case, some "
+"processes like products syncing, cross sell etc, will not work."
+
+#: aa-framework/framework.class.php:12370
+#, fuzzy, php-format
+msgid ""
+"WZone eBay Addon is disabled, please keep in mind that this functionality is "
+"at the moment only available for Amazon Products. If you wish to use it for "
+"eBay Products as well, please purchase the WZone eBay Addon from Codecanyon: "
+"<a href=\"%s\" target=\"_blank\">%s</a> "
+msgstr ""
+"WZone eBay Addon is disabled, please keep in mind that this functionality is "
+"at the moment only available for Amazon Products. If you wish to use it for "
+"eBay Products as well, please purchase the WZone eBay Addon from Codecanyon: "
+"<a href=\"%s\" target=\"_blank\">%s</a> "
+
+#: aa-framework/framework.class.php:12377
+#, fuzzy, php-format
+msgid ""
+"The WZone eBay Addon allows you to mass import products from eBay into "
+"WooCommerce in just minutes! You can purchase this addon on Codecanyon:  <a "
+"href=\"%s\" target=\"_blank\">%s</a>"
+msgstr ""
+"The WZone eBay Addon allows you to mass import products from eBay into "
+"WooCommerce in just minutes! You can purchase this addon on Codecanyon:  <a "
+"href=\"%s\" target=\"_blank\">%s</a>"
+
+#: aa-framework/helpers/amz.helper.class.php:3061
+#: aa-framework/helpers/amz.helper.class.php:3086
+#, fuzzy
+msgid "United States"
+msgstr "United States"
+
+#: aa-framework/helpers/amz.helper.class.php:3062
+#: aa-framework/helpers/amz.helper.class.php:3087
+#, fuzzy
+msgid "United Kingdom"
+msgstr "United Kingdom"
+
+#: aa-framework/helpers/amz.helper.class.php:3063
+#: aa-framework/helpers/amz.helper.class.php:3088
+#, fuzzy
+msgid "Germany"
+msgstr "Germany"
+
+#: aa-framework/helpers/amz.helper.class.php:3064
+#: aa-framework/helpers/amz.helper.class.php:3089
+#, fuzzy
+msgid "France"
+msgstr "France"
+
+#: aa-framework/helpers/amz.helper.class.php:3065
+#: aa-framework/helpers/amz.helper.class.php:3090
+#, fuzzy
+msgid "Japan"
+msgstr "Japan"
+
+#: aa-framework/helpers/amz.helper.class.php:3066
+#: aa-framework/helpers/amz.helper.class.php:3091
+#, fuzzy
+msgid "Canada"
+msgstr "Canada"
+
+#: aa-framework/helpers/amz.helper.class.php:3067
+#: aa-framework/helpers/amz.helper.class.php:3092
+#, fuzzy
+msgid "China"
+msgstr "China"
+
+#: aa-framework/helpers/amz.helper.class.php:3068
+#: aa-framework/helpers/amz.helper.class.php:3093
+#, fuzzy
+msgid "India"
+msgstr "India"
+
+#: aa-framework/helpers/amz.helper.class.php:3069
+#: aa-framework/helpers/amz.helper.class.php:3094
+#, fuzzy
+msgid "Italy"
+msgstr "Italy"
+
+#: aa-framework/helpers/amz.helper.class.php:3070
+#: aa-framework/helpers/amz.helper.class.php:3095
+#, fuzzy
+msgid "Spain"
+msgstr "Spain"
+
+#: aa-framework/helpers/amz.helper.class.php:3071
+#: aa-framework/helpers/amz.helper.class.php:3096
+#, fuzzy
+msgid "Mexico"
+msgstr "Mexico"
+
+#: aa-framework/helpers/amz.helper.class.php:3072
+#: aa-framework/helpers/amz.helper.class.php:3097
+#, fuzzy
+msgid "Brazil"
+msgstr "Brazil"
+
+#: aa-framework/helpers/amz.helper.class.php:3073
+#: aa-framework/helpers/amz.helper.class.php:3098
+#, fuzzy
+msgid "Australia"
+msgstr "Australia"
+
+#: aa-framework/helpers/amz.helper.class.php:3074
+#: aa-framework/helpers/amz.helper.class.php:3099
+#, fuzzy
+msgid "UAE"
+msgstr "UAE"
+
+#: aa-framework/helpers/amz.helper.class.php:3075
+#: aa-framework/helpers/amz.helper.class.php:3100
+#, fuzzy
+msgid "Netherlands"
+msgstr "Netherlands"
+
+#: aa-framework/helpers/amz.helper.class.php:3076
+#: aa-framework/helpers/amz.helper.class.php:3101
+#, fuzzy
+msgid "Singapore"
+msgstr "Singapore"
+
+#: aa-framework/helpers/amz.helper.class.php:3077
+#: aa-framework/helpers/amz.helper.class.php:3102
+#, fuzzy
+msgid "Saudi Arabia"
+msgstr "Saudi Arabia"
+
+#: aa-framework/helpers/amz.helper.class.php:3078
+#: aa-framework/helpers/amz.helper.class.php:3103
+#, fuzzy
+msgid "Turkey"
+msgstr "Turkey"
+
+#: aa-framework/helpers/amz.helper.class.php:3079
+#: aa-framework/helpers/amz.helper.class.php:3104
+#, fuzzy
+msgid "Sweden"
+msgstr "Sweden"
+
+#: aa-framework/helpers/amz.helper.class.php:3080
+#: aa-framework/helpers/amz.helper.class.php:3105
+#, fuzzy
+msgid "Poland"
+msgstr "Poland"
+
+#: aa-framework/helpers/amz.helper.class.php:3081
+#: aa-framework/helpers/amz.helper.class.php:3106
+#, fuzzy
+msgid "Egypt"
+msgstr "Egypt"
+
+#: aa-framework/helpers/generic.helper.class.php:85
+#, fuzzy
+msgid "could not retrieve category slugs!"
+msgstr "could not retrieve category slugs!"
+
+#: aa-framework/helpers/generic.helper.class.php:110
+#, fuzzy
+msgid " category slugs updated!"
+msgstr " category slugs updated!"
+
+#: aa-framework/helpers/generic.helper.class.php:310
+#, fuzzy, php-format
+msgid "%s fix: no products needed attributes fixing!"
+msgstr "%s fix: no products needed attributes fixing!"
+
+#: aa-framework/helpers/generic.helper.class.php:312
+#, fuzzy, php-format
+msgid "%s fix: cannot retrieve products for attributes fixing!"
+msgstr "%s fix: cannot retrieve products for attributes fixing!"
+
+#: aa-framework/helpers/generic.helper.class.php:354
+#, fuzzy, php-format
+msgid "%s fix: %s products needed attributes fixing!"
+msgstr "%s fix: %s products needed attributes fixing!"
+
+#: aa-framework/helpers/generic.helper.class.php:466
+#, fuzzy
+msgid "DO IT"
+msgstr "DO IT"
+
+#: aa-framework/helpers/generic.helper.class.php:468
+#: modules/speed_optimization/init.php:146
+#: templates/amazon/checkout_multishops.php:102
+#, fuzzy
+msgid "Cancel"
+msgstr "Cancel"
+
+#: aa-framework/helpers/generic.helper.class.php:1042
+#, fuzzy
+msgid "no duplicate terms found!"
+msgstr "no duplicate terms found!"
+
+#: aa-framework/menu.php:66
+#, fuzzy
+msgid "Plugin depedencies"
+msgstr "Plugin depedencies"
+
+#: aa-framework/menu.php:77 lib/scripts/debugbar/debugbar.php:397
+#: lib/scripts/debugbar/debugbar.php:426
+#, fuzzy
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: aa-framework/menu.php:84
+#, fuzzy
+msgid "Configuration"
+msgstr "Configuration"
+
+#: aa-framework/menu.php:100 aa-framework/menu.php:113
+#, fuzzy
+msgid "WZone Addons"
+msgstr "WZone Addons"
+
+#: aa-framework/menu.php:124
+#, fuzzy
+msgid "NO PA API Keys"
+msgstr "NO PA API Keys"
+
+#: aa-framework/menu.php:130
+#, fuzzy
+msgid "Google Chrome Extension"
+msgstr "Google Chrome Extension"
+
+#: aa-framework/menu.php:137 aa-framework/menu.php:179
+#, fuzzy
+msgid "Import Products"
+msgstr "Import Products"
+
+#: aa-framework/menu.php:143 aa-framework/menu.php:217
+#: modules/import_stats/init.php:94 modules/import_stats/init.php:95
+#: modules/import_stats/init.php:117
+#, fuzzy
+msgid "Import Stats"
+msgstr "Import Stats"
+
+#: aa-framework/menu.php:151 aa-framework/menu.php:157
+#, fuzzy
+msgid "Synchronization"
+msgstr "Synchronization"
+
+#: aa-framework/menu.php:162
+#, fuzzy
+msgid "Sync Settings"
+msgstr "Sync Settings"
+
+#: aa-framework/menu.php:170 modules/amz_report/init.php:125
+#: modules/amz_report/init.php:126
+#, fuzzy
+msgid "Associates Reports"
+msgstr "Associates Reports"
+
+#: aa-framework/menu.php:184
+#, fuzzy
+msgid "Advanced Search"
+msgstr "Advanced Search"
+
+#: aa-framework/menu.php:191
+#, fuzzy
+msgid "CSV Bulk Import"
+msgstr "CSV Bulk Import"
+
+#: aa-framework/menu.php:198 modules/asin_grabber/init.php:92
+#: modules/asin_grabber/init.php:93 modules/asin_grabber/init.php:150
+#, fuzzy
+msgid "ASIN Grabber"
+msgstr "ASIN Grabber"
+
+#: aa-framework/menu.php:206
+#, fuzzy
+msgid "Insane Import Mode"
+msgstr "Insane Import Mode"
+
+#: aa-framework/menu.php:212
+#, fuzzy
+msgid "Insane Import Settings"
+msgstr "Insane Import Settings"
+
+#: aa-framework/menu.php:225 modules/content_spinner/init.php:82
+#: modules/content_spinner/init.php:83
+#, fuzzy
+msgid "Content Spinner"
+msgstr "Content Spinner"
+
+#: aa-framework/menu.php:232 modules/amazon_recommendations/init.php:73
+#, fuzzy
+msgid "Amazon Recommendations"
+msgstr "Amazon Recommendations"
+
+#: aa-framework/menu.php:239
+#, fuzzy
+msgid "Auto Import Products"
+msgstr "Auto Import Products"
+
+#: aa-framework/menu.php:245 modules/auto_import/init.php:244
+#: modules/auto_import/init.php:245 modules/auto_import/init.php:277
+#: modules/import_stats/init.php:255
+#, fuzzy
+msgid "Auto Import Queue"
+msgstr "Auto Import Queue"
+
+#: aa-framework/menu.php:250 modules/auto_import/init.php:254
+#: modules/auto_import/init.php:255 modules/auto_import/init.php:687
+#: modules/import_stats/init.php:256
+#, fuzzy
+msgid "Auto Import Search"
+msgstr "Auto Import Search"
+
+#: aa-framework/menu.php:260
+#, fuzzy
+msgid "Plugin Status"
+msgstr "Plugin Status"
+
+#: aa-framework/menu.php:267 modules/insane_import/init.php:4008
+#: modules/speed_optimization/init.php:81
+#: modules/speed_optimization/init.php:82
+#: modules/speed_optimization/init.php:112
+#, fuzzy
+msgid "Speed Optimization"
+msgstr "Speed Optimization"
+
+#: aa-framework/menu.php:274 modules/assets_download/init.php:88
+#: modules/assets_download/init.php:89 modules/assets_download/init.php:137
+#, fuzzy
+msgid "Assets Download"
+msgstr "Assets Download"
+
+#: aa-framework/menu.php:281 modules/stats_prod/init.php:94
+#: modules/stats_prod/init.php:95
+#, fuzzy
+msgid "Products Stats"
+msgstr "Products Stats"
+
+#: aa-framework/menu.php:288 aa-framework/menu.php:294
+#: modules/synchronization/tail.php:70 modules/synchronization/tail.php:71
+#, fuzzy
+msgid "Synchronization log"
+msgstr "Synchronization log"
+
+#: aa-framework/menu.php:299
+#, fuzzy
+msgid "Synchronization log Settings"
+msgstr "Synchronization log Settings"
+
+#: aa-framework/menu.php:307
+#, fuzzy
+msgid "Plugin Cronjobs"
+msgstr "Plugin Cronjobs"
+
+#: aa-framework/menu.php:314
+#, fuzzy
+msgid "Debug Module"
+msgstr "Debug Module"
+
+#: aa-framework/menu.php:321
+#, fuzzy
+msgid "WZone Reports"
+msgstr "WZone Reports"
+
+#: aa-framework/menu.php:327
+#, fuzzy
+msgid "WZone Report Settings"
+msgstr "WZone Report Settings"
+
+#: aa-framework/menu.php:335 modules/synchronization/base_interface.php:321
+#, fuzzy
+msgid "Bitly"
+msgstr "Bitly"
+
+#: aa-framework/menu.php:342
+#, fuzzy
+msgid "Server Status"
+msgstr "Server Status"
+
+#: aa-framework/menu.php:351
+#, fuzzy
+msgid "Plugin Settings"
+msgstr "Plugin Settings"
+
+#: aa-framework/menu.php:357 modules/modules_manager/options.php:67
+#, fuzzy
+msgid "Modules Manager"
+msgstr "Modules Manager"
+
+#: aa-framework/menu.php:364
+#, fuzzy
+msgid "Setup / Backup"
+msgstr "Setup / Backup"
+
+#: aa-framework/utils/action_admin_ajax.php:447 modules/auto_import/init.php:88
+#: modules/auto_import/init.php:381 modules/auto_import/init.php:806
+#: modules/import_stats/init.php:210
+#, fuzzy
+msgid "Provider"
+msgstr "Provider"
+
+#: aa-framework/utils/action_admin_ajax.php:447
+#, fuzzy, php-format
+msgid "Number of files in cache | date: %s."
+msgstr "Number of files in cache | date: %s."
+
+#: aa-framework/utils/action_admin_ajax.php:448
+#, fuzzy
+msgid "Search Products"
+msgstr "Search Products"
+
+#: aa-framework/utils/action_admin_ajax.php:448
+#, fuzzy
+msgid "Product details"
+msgstr "Product details"
+
+#: aa-framework/utils/action_admin_ajax.php:471
+#, fuzzy, php-format
+msgid "%s files"
+msgstr "%s files"
+
+#: aa-framework/utils/action_admin_ajax.php:483
+#, fuzzy
+msgid "Expiration (value in minutes): "
+msgstr "Expiration (value in minutes): "
+
+#: aa-framework/utils/action_admin_ajax.php:489
+#, fuzzy
+msgid "Search Products: "
+msgstr "Search Products: "
+
+#: aa-framework/utils/action_admin_ajax.php:489
+#, fuzzy
+msgid "Product details: "
+msgstr "Product details: "
+
+#: aa-framework/utils/action_admin_ajax.php:633
+#, fuzzy
+msgid "Cached"
+msgstr "Cached"
+
+#: aa-framework/utils/cacheit.class.php:287
+#: aa-framework/utils/cacheit.class.php:350
+#: aa-framework/utils/cacheit.class.php:422
+#, fuzzy
+msgid "cache key main: is invalid."
+msgstr "cache key main: is invalid."
+
+#: aa-framework/utils/cacheit.class.php:296
+#: aa-framework/utils/cacheit.class.php:359
+#: aa-framework/utils/cacheit.class.php:443
+#, fuzzy
+msgid "cache: is empty."
+msgstr "cache: is empty."
+
+#: aa-framework/utils/cacheit.class.php:418
+#, fuzzy
+msgid "create cache folder: invalid folder path."
+msgstr "create cache folder: invalid folder path."
+
+#: aa-framework/utils/cacheit.class.php:431
+#, fuzzy
+msgid "create cache folder: could not be created or is not writable."
+msgstr "create cache folder: could not be created or is not writable."
+
+#: aa-framework/utils/class-updater.php:151
+#, fuzzy
+msgid "Error! Can't connect to filesystem"
+msgstr "Error! Can't connect to filesystem"
+
+#: aa-framework/utils/class-updater.php:154
+#, fuzzy
+msgid "Getting download link..."
+msgstr "Getting download link..."
+
+#: aa-framework/utils/class-updater.php:160
+#, fuzzy
+msgid "Download link could not be retrieved"
+msgstr "Download link could not be retrieved"
+
+#: aa-framework/utils/class-updater.php:171
+#, fuzzy
+msgid "Downloading package..."
+msgstr "Downloading package..."
+
+#: aa-framework/utils/plugin_utils.php:260
+#, fuzzy
+msgid "View Documentation"
+msgstr "View Documentation"
+
+#: aa-framework/utils/plugin_utils.php:260
+#, fuzzy
+msgid "Docs"
+msgstr "Docs"
+
+#: aa-framework/utils/plugin_utils.php:261
+#, fuzzy
+msgid "Visit Customer Support Forum"
+msgstr "Visit Customer Support Forum"
+
+#: aa-framework/utils/plugin_utils.php:261
+#, fuzzy
+msgid "Support Forum"
+msgstr "Support Forum"
+
+#: aa-framework/utils/utils.php:288 aa-framework/utils/utils.php:341
+#: modules/cronjobs/cronjobs.panel.php:634
+#: modules/synchronization/base_interface.php:1835
+#, fuzzy
+msgid "now"
+msgstr "now"
+
+#: aa-framework/utils/utils.php:293 modules/cronjobs/cronjobs.panel.php:623
+#: modules/synchronization/base_interface.php:1824
+#, fuzzy, php-format
+msgid "%s year"
+msgid_plural "%s years"
+msgstr[0] "%s year"
+msgstr[1] "%s years"
+
+#: aa-framework/utils/utils.php:294 modules/cronjobs/cronjobs.panel.php:624
+#: modules/synchronization/base_interface.php:1825
+#, fuzzy, php-format
+msgid "%s month"
+msgid_plural "%s months"
+msgstr[0] "%s month"
+msgstr[1] "%s months"
+
+#: aa-framework/utils/utils.php:295 modules/cronjobs/cronjobs.panel.php:625
+#: modules/synchronization/base_interface.php:1826
+#, fuzzy, php-format
+msgid "%s week"
+msgid_plural "%s weeks"
+msgstr[0] "%s week"
+msgstr[1] "%s weeks"
+
+#: aa-framework/utils/utils.php:296 modules/cronjobs/cronjobs.panel.php:626
+#: modules/synchronization/base_interface.php:1827
+#, fuzzy, php-format
+msgid "%s day"
+msgid_plural "%s days"
+msgstr[0] "%s day"
+msgstr[1] "%s days"
+
+#: aa-framework/utils/utils.php:297 aa-framework/utils/utils.php:356
+#: modules/cronjobs/cronjobs.panel.php:627
+#: modules/synchronization/base_interface.php:1828
+#, fuzzy, php-format
+msgid "%s hour"
+msgid_plural "%s hours"
+msgstr[0] "%s hour"
+msgstr[1] "%s hours"
+
+#: aa-framework/utils/utils.php:298 aa-framework/utils/utils.php:357
+#: modules/cronjobs/cronjobs.panel.php:628
+#: modules/synchronization/base_interface.php:1829
+#, fuzzy, php-format
+msgid "%s minute"
+msgid_plural "%s minutes"
+msgstr[0] "%s minute"
+msgstr[1] "%s minutes"
+
+#: aa-framework/utils/utils.php:299 aa-framework/utils/utils.php:358
+#: modules/cronjobs/cronjobs.panel.php:629
+#: modules/synchronization/base_interface.php:1830
+#, fuzzy, php-format
+msgid "%s second"
+msgid_plural "%s seconds"
+msgstr[0] "%s second"
+msgstr[1] "%s seconds"
+
+#: aa-framework/utils/utils.php:344
+#, fuzzy
+msgid "WRONG FORMAT!"
+msgstr "WRONG FORMAT!"
+
+#: aa-framework/utils/utils.php:368 aa-framework/utils/utils.php:374
+#, fuzzy, php-format
+msgid "%s milisecond"
+msgid_plural "%s miliseconds"
+msgstr[0] "%s milisecond"
+msgstr[1] "%s miliseconds"
+
+#: aa-framework/utils/utils.php:375
+#, fuzzy, php-format
+msgid "%s microsecond"
+msgid_plural "%s microseconds"
+msgstr[0] "%s microsecond"
+msgstr[1] "%s microseconds"
+
+#: lib/frontend/frontend.class.php:2751
+#, fuzzy, php-format
+msgid " %s"
+msgstr " %s"
+
+#: lib/scripts/debugbar/debugbar.php:89 lib/scripts/debugbar/debugbar.php:389
+#: lib/scripts/debugbar/debugbar.php:454
+#, fuzzy
+msgid "WZone Debug Bar"
+msgstr "WZone Debug Bar"
+
+#: lib/scripts/debugbar/debugbar.php:177
+#, fuzzy
+msgid "This is WZone Debug Bar - Dashboard"
+msgstr "This is WZone Debug Bar - Dashboard"
+
+#: lib/scripts/debugbar/debugbar.php:412
+#, fuzzy
+msgid "Full Screen"
+msgstr "Full Screen"
+
+#: lib/scripts/debugbar/debugbar.php:413
+#, fuzzy
+msgid "Pin Box Open"
+msgstr "Pin Box Open"
+
+#: lib/scripts/debugbar/debugbar.php:414
+#, fuzzy
+msgid "Close Box"
+msgstr "Close Box"
+
+#: lib/scripts/directimport/directimport.php:1402
+#, fuzzy
+msgid "Unknown error occured!"
+msgstr "Unknown error occured!"
+
+#: melib/GeoLocation.php:507 modules/amazon/options.php:107
+#, fuzzy
+msgid "Geo Location"
+msgstr "Geo Location"
+
+#: melib/GeoLocation.php:687
+#, fuzzy, php-format
+msgid "enter %s here"
+msgstr "enter %s here"
+
+#: modules/addons/init.php:60 modules/addons/init.php:61
+#, fuzzy
+msgid "Addons & Themes"
+msgstr "Addons & Themes"
+
+#: modules/advanced_search/ajax-request.php:17
+#, fuzzy
+msgid "Only administrator can use option!"
+msgstr "Only administrator can use option!"
+
+#: modules/advanced_search/ajax-request.php:72
+#, fuzzy
+msgid "Keywords"
+msgstr "Keywords"
+
+#: modules/advanced_search/ajax-request.php:107
+#, fuzzy
+msgid "Import in:"
+msgstr "Import in:"
+
+#: modules/advanced_search/ajax-request.php:121
+#, fuzzy
+msgid "BrowseNode"
+msgstr "BrowseNode"
+
+#: modules/advanced_search/ajax-request.php:145
+#, fuzzy
+msgid "Brand"
+msgstr "Brand"
+
+#: modules/advanced_search/ajax-request.php:154
+#, fuzzy
+msgid "Condition"
+msgstr "Condition"
+
+#: modules/advanced_search/ajax-request.php:169
+#, fuzzy
+msgid "Manufacturer"
+msgstr "Manufacturer"
+
+#: modules/advanced_search/ajax-request.php:178
+#, fuzzy
+msgid "Maximum Price"
+msgstr "Maximum Price"
+
+#: modules/advanced_search/ajax-request.php:187
+#, fuzzy
+msgid "Minimum Price"
+msgstr "Minimum Price"
+
+#: modules/advanced_search/ajax-request.php:196
+#, fuzzy
+msgid "Merchant Id"
+msgstr "Merchant Id"
+
+#: modules/advanced_search/ajax-request.php:205
+#, fuzzy
+msgid "Min Percentage Off"
+msgstr "Min Percentage Off"
+
+#: modules/advanced_search/ajax-request.php:214
+#, fuzzy
+msgid "Sort"
+msgstr "Sort"
+
+#: modules/advanced_search/ajax-request.php:245
+#, fuzzy
+msgid "Search for items"
+msgstr "Search for items"
+
+#: modules/advanced_search/ajax-request.php:367
+#, fuzzy
+msgid "Execution Queue:"
+msgstr "Execution Queue:"
+
+#: modules/advanced_search/ajax-request.php:369
+#, fuzzy
+msgid "No item(s) yet"
+msgstr "No item(s) yet"
+
+#: modules/advanced_search/ajax-request.php:403
+#, fuzzy
+msgid "Product name"
+msgstr "Product name"
+
+#: modules/advanced_search/ajax-request.php:404
+#: modules/synchronization/base_interface.php:1642
+#, fuzzy
+msgid "ASIN"
+msgstr "ASIN"
+
+#: modules/advanced_search/ajax-request.php:405
+#: modules/synchronization/base_interface.php:312
+#: modules/synchronization/base_interface.php:319
+#, fuzzy
+msgid "Image"
+msgstr "Image"
+
+#: modules/advanced_search/ajax-request.php:485
+#, fuzzy
+msgid "Already Imported"
+msgstr "Already Imported"
+
+#: modules/advanced_search/ajax-request.php:487
+#, fuzzy
+msgid "(Duplicate) Already exists in ASIN column"
+msgstr "(Duplicate) Already exists in ASIN column"
+
+#: modules/advanced_search/ajax-request.php:525
+#, fuzzy
+msgid ""
+"ASIN column:<br/>\n"
+"                    - if italic font & purple color = the variation parent "
+"product ASIN; the row (containing the column also) represents a variation "
+"child product, so we'll import the variation parent product as you've setted "
+"in [ Amazon config module / Import Setup tab / Force import parent if is "
+"variation option ].<br />\n"
+"                    - if default font & color = product ASIN; we have a "
+"simple product (no variations) or a variation parent product already"
+msgstr ""
+"ASIN column:<br/>\n"
+"                    - if italic font & purple color = the variation parent "
+"product ASIN; the row (containing the column also) represents a variation "
+"child product, so we'll import the variation parent product as you've setted "
+"in [ Amazon config module / Import Setup tab / Force import parent if is "
+"variation option ].<br />\n"
+"                    - if default font & color = product ASIN; we have a "
+"simple product (no variations) or a variation parent product already"
+
+#: modules/advanced_search/config.php:47
+#, fuzzy
+msgid ""
+"\n"
+"\t\t\t\t\tYou configured Advanced Search incorrectly. See \n"
+"\t\t\t\t\t"
+msgstr ""
+"\n"
+"\t\t\t\t\tYou configured Advanced Search incorrectly. See \n"
+"\t\t\t\t\t"
+
+#: modules/advanced_search/config.php:61 modules/amazon_debug/config.php:61
+#: modules/asin_grabber/config.php:64 modules/csv_products_import/config.php:60
+#, fuzzy
+msgid ""
+"\n"
+"\t\t\t\t\tYou don't have WooCommerce installed/activated! Please activate "
+"it:\n"
+"\t\t\t\t\t"
+msgstr ""
+"\n"
+"\t\t\t\t\tYou don't have WooCommerce installed/activated! Please activate "
+"it:\n"
+"\t\t\t\t\t"
+
+#: modules/advanced_search/config.php:69 modules/amazon_debug/config.php:69
+#: modules/asin_grabber/config.php:72 modules/csv_products_import/config.php:68
+#, fuzzy
+msgid ""
+"\n"
+"\t\t\t\t\tYou don't have the SOAP library installed! Please activate it!\n"
+"\t\t\t\t\t"
+msgstr ""
+"\n"
+"\t\t\t\t\tYou don't have the SOAP library installed! Please activate it!\n"
+"\t\t\t\t\t"
+
+#: modules/advanced_search/config.php:72 modules/amazon_debug/config.php:72
+#: modules/asin_grabber/config.php:75 modules/csv_products_import/config.php:71
+#, fuzzy
+msgid ""
+"\n"
+"\t\t\t\t\tYou don't have the cURL library installed! Please activate it!\n"
+"\t\t\t\t\t"
+msgstr ""
+"\n"
+"\t\t\t\t\tYou don't have the cURL library installed! Please activate it!\n"
+"\t\t\t\t\t"
+
+#: modules/amazon/amzmultikeys/init.php:190 modules/auto_import/init.php:310
+#: modules/auto_import/init.php:724 modules/import_stats/init.php:150
+#: modules/insane_import/init.php:420 modules/wizard/init.php:209
+#, fuzzy
+msgid "Loading..."
+msgstr "Loading..."
+
+#: modules/amazon/amzmultikeys/init.php:191 modules/auto_import/init.php:311
+#: modules/auto_import/init.php:725 modules/import_stats/init.php:151
+#: modules/insane_import/init.php:421 modules/wizard/init.php:210
+#, fuzzy
+msgid "Closing..."
+msgstr "Closing..."
+
+#: modules/amazon/amzmultikeys/init.php:202
+#, fuzzy
+msgid "Are you sure you want to delete this pair of keys?"
+msgstr "Are you sure you want to delete this pair of keys?"
+
+#: modules/amazon/amzmultikeys/init.php:210
+#, fuzzy
+msgid ""
+"This pair of keys don't seem to be valid for the current selected amazon "
+"location."
+msgstr ""
+"This pair of keys don't seem to be valid for the current selected amazon "
+"location."
+
+#: modules/amazon/amzmultikeys/init.php:212
+#, fuzzy
+msgid "Are you sure you want to add this pair of keys?"
+msgstr "Are you sure you want to add this pair of keys?"
+
+#: modules/amazon/amzmultikeys/init.php:223
+#, fuzzy
+msgid "Add Multiple Amazon Keys"
+msgstr "Add Multiple Amazon Keys"
+
+#: modules/amazon/amzmultikeys/init.php:227
+#, fuzzy
+msgid "ENTER AMAZON AWS ACCESS KEY"
+msgstr "ENTER AMAZON AWS ACCESS KEY"
+
+#: modules/amazon/amzmultikeys/init.php:228
+#, fuzzy
+msgid "ENTER AMAZON AWS SECRET KEY"
+msgstr "ENTER AMAZON AWS SECRET KEY"
+
+#: modules/amazon/amzmultikeys/init.php:239
+#, fuzzy
+msgid "Amazon Access Keys"
+msgstr "Amazon Access Keys"
+
+#: modules/amazon/amzmultikeys/init.php:267
+#, fuzzy
+msgid "Unpublished Keys are not used to make requests to Amazon API."
+msgstr "Unpublished Keys are not used to make requests to Amazon API."
+
+#: modules/amazon/amzmultikeys/init.php:271
+#, fuzzy
+msgid ""
+"Don't forget to <a href=\"#\" id=\"goto-save-settings\">Save the Settings</"
+"a> (at the bottom) after you finish managing your amazon keys or you've "
+"changed any other setting."
+msgstr ""
+"Don't forget to <a href=\"#\" id=\"goto-save-settings\">Save the Settings</"
+"a> (at the bottom) after you finish managing your amazon keys or you've "
+"changed any other setting."
+
+#: modules/amazon/amzmultikeys/init.php:340
+#, fuzzy, php-format
+msgid "<u>Status</u> : %s"
+msgstr "<u>Status</u> : %s"
+
+#: modules/amazon/amzmultikeys/init.php:349
+#, fuzzy, php-format
+msgid "<u>Message</u> <br /> %s"
+msgstr "<u>Message</u> <br /> %s"
+
+#: modules/amazon/amzmultikeys/init.php:358
+#, fuzzy, php-format
+msgid "<u>From File</u> : %s"
+msgstr "<u>From File</u> : %s"
+
+#: modules/amazon/amzmultikeys/init.php:361
+#, fuzzy, php-format
+msgid "<u>From Func</u> : %s"
+msgstr "<u>From Func</u> : %s"
+
+#: modules/amazon/amzmultikeys/init.php:386
+#, fuzzy, php-format
+msgid "<u>Amazon API Request Main Params</u> <br /> %s"
+msgstr "<u>Amazon API Request Main Params</u> <br /> %s"
+
+#: modules/amazon/amzmultikeys/init.php:705
+#: modules/cronjobs/cronjobs.panel.php:501 modules/report/init.php:1543
+#: modules/report/init.php:1635 modules/synchronization/base_interface.php:2086
+#, fuzzy
+msgid "Invalid action!"
+msgstr "Invalid action!"
+
+#: modules/amazon/options-func.php:192
+#, fuzzy
+msgid "Delete products older than:"
+msgstr "Delete products older than:"
+
+#: modules/amazon/options-func.php:215
+#, fuzzy
+msgid "Delete Now "
+msgstr "Delete Now "
+
+#: modules/amazon/options-func.php:261
+#, fuzzy
+msgid "Clean Log Tables:"
+msgstr "Clean Log Tables:"
+
+#: modules/amazon/options-func.php:293 modules/amazon/options-func.php:363
+#: modules/amazon/options-func.php:430 modules/amazon/options-func.php:496
+#, fuzzy
+msgid "clean Now "
+msgstr "clean Now "
+
+#: modules/amazon/options-func.php:341
+#, fuzzy
+msgid "Clean duplicate attributes:"
+msgstr "Clean duplicate attributes:"
+
+#: modules/amazon/options-func.php:408
+#, fuzzy
+msgid "Clean duplicate category slug:"
+msgstr "Clean duplicate category slug:"
+
+#: modules/amazon/options-func.php:474
+#, fuzzy
+msgid "Clean orphaned AMZ meta:"
+msgstr "Clean orphaned AMZ meta:"
+
+#: modules/amazon/options-func.php:550
+#, fuzzy
+msgid "Delete zero priced products:"
+msgstr "Delete zero priced products:"
+
+#: modules/amazon/options-func.php:572
+#, fuzzy
+msgid "delete now! "
+msgstr "delete now! "
+
+#: modules/amazon/options-func.php:643
+#, fuzzy
+msgid "Clean orphaned WooZone Product Assets:"
+msgstr "Clean orphaned WooZone Product Assets:"
+
+#: modules/amazon/options-func.php:665 modules/amazon/options-func.php:733
+#, fuzzy
+msgid "clean Now"
+msgstr "clean Now"
+
+#: modules/amazon/options-func.php:711
+#, fuzzy
+msgid "Clean orphaned Wordpress Product Attachments:"
+msgstr "Clean orphaned Wordpress Product Attachments:"
+
+#: modules/amazon/options-func.php:779
+#, fuzzy
+msgid "Fix Product Attributes (woocommerce 2.4 update):"
+msgstr "Fix Product Attributes (woocommerce 2.4 update):"
+
+#: modules/amazon/options-func.php:801 modules/amazon/options-func.php:961
+#, fuzzy
+msgid "fix Now "
+msgstr "fix Now "
+
+#: modules/amazon/options-func.php:846
+#, fuzzy
+msgid "Clear Search old Node Childrens:"
+msgstr "Clear Search old Node Childrens:"
+
+#: modules/amazon/options-func.php:868
+#, fuzzy
+msgid "Clear Now "
+msgstr "Clear Now "
+
+#: modules/amazon/options-func.php:940
+#, fuzzy
+msgid "Fix Request Amazon Issue:"
+msgstr "Fix Request Amazon Issue:"
+
+#: modules/amazon/options-func.php:1015
+#: modules/noaws_sync_widget/options.php:23
+#, fuzzy
+msgid "Put amazon products in trash when syncing after: "
+msgstr "Put amazon products in trash when syncing after: "
+
+#: modules/amazon/options-func.php:1041
+#, fuzzy
+msgid "Restore now"
+msgstr "Restore now"
+
+#: modules/amazon/options-func.php:1042
+#, fuzzy
+msgid "trashed amazon products (and variations) | their NEW status: "
+msgstr "trashed amazon products (and variations) | their NEW status: "
+
+#: modules/amazon/options-func.php:1143
+#, fuzzy
+msgid "Reset products stats:"
+msgstr "Reset products stats:"
+
+#: modules/amazon/options-func.php:1164 modules/amazon/options-func.php:1455
+#: modules/noaws_sync_widget/options.php:180
+#, fuzzy
+msgid "reset Now "
+msgstr "reset Now "
+
+#: modules/amazon/options-func.php:1209
+#, fuzzy
+msgid "Version 9.0 options prefix change:"
+msgstr "Version 9.0 options prefix change:"
+
+#: modules/amazon/options-func.php:1235
+#, fuzzy
+msgid "do it now"
+msgstr "do it now"
+
+#: modules/amazon/options-func.php:1283
+#, fuzzy
+msgid "Unblock CRON jobs:"
+msgstr "Unblock CRON jobs:"
+
+#: modules/amazon/options-func.php:1302
+#, fuzzy
+msgid "Unblock Now "
+msgstr "Unblock Now "
+
+#: modules/amazon/options-func.php:1354
+#, fuzzy
+msgid "Images Cache"
+msgstr "Images Cache"
+
+#: modules/amazon/options-func.php:1357 modules/insane_import/options.php:25
+#, fuzzy
+msgid "Clear cache"
+msgstr "Clear cache"
+
+#: modules/amazon/options-func.php:1429
+#: modules/noaws_sync_widget/options.php:153
+#, fuzzy
+msgid "Reset products SYNC stats:"
+msgstr "Reset products SYNC stats:"
+
+#: modules/amazon/options-func.php:1503
+#, fuzzy
+msgid "Badges / Flags"
+msgstr "Badges / Flags"
+
+#: modules/amazon/options-func.php:1565
+#, fuzzy
+msgid ""
+"Choose Yes, if you want to hide the default Woocommerce 'On sale- badge'"
+msgstr ""
+"Choose Yes, if you want to hide the default Woocommerce 'On sale- badge'"
+
+#: modules/amazon/options-func.php:1566
+#, fuzzy
+msgid "Hide Woocommerce Default \"On sale\" badge"
+msgstr "Hide Woocommerce Default \"On sale\" badge"
+
+#: modules/amazon/options-func.php:1583
+#, fuzzy
+msgid ""
+"Choose Yes, if you want to show 'Free Shipping' text on frontend beside the "
+"product price on product details page (you can choose No for this, and only "
+"show the 'Free Shipping' badge)"
+msgstr ""
+"Choose Yes, if you want to show 'Free Shipping' text on frontend beside the "
+"product price on product details page (you can choose No for this, and only "
+"show the 'Free Shipping' badge)"
+
+#: modules/amazon/options-func.php:1584
+#, fuzzy
+msgid "Show Default \"Free Shipping\" text beside product price"
+msgstr "Show Default \"Free Shipping\" text beside product price"
+
+#: modules/amazon/options-func.php:1601 modules/amazon/options-func.php:1602
+#, fuzzy
+msgid "Badges Box Position"
+msgstr "Badges Box Position"
+
+#: modules/amazon/options-func.php:1619
+#, fuzzy
+msgid "Badges Box Offset vertical (in pixels)"
+msgstr "Badges Box Offset vertical (in pixels)"
+
+#: modules/amazon/options-func.php:1620
+#, fuzzy
+msgid "Badges Box Offset vertical (px)"
+msgstr "Badges Box Offset vertical (px)"
+
+#: modules/amazon/options-func.php:1630
+#, fuzzy
+msgid "Badges Box Offset horizontal (in pixels)"
+msgstr "Badges Box Offset horizontal (in pixels)"
+
+#: modules/amazon/options-func.php:1631
+#, fuzzy
+msgid "Badges Box Offset horizontal (px)"
+msgstr "Badges Box Offset horizontal (px)"
+
+#: modules/amazon/options-func.php:1641
+#, fuzzy
+msgid "Activated Badges"
+msgstr "Activated Badges"
+
+#: modules/amazon/options-func.php:1642
+#, fuzzy
+msgid "Active Badges"
+msgstr "Active Badges"
+
+#: modules/amazon/options-func.php:1765
+#, fuzzy
+msgid "Dropshipping Tax"
+msgstr "Dropshipping Tax"
+
+#: modules/amazon/options-func.php:1796
+#, fuzzy
+msgid ""
+"Ex. if product price = $12 and you choose A) Dropshipping tax = 10 (in "
+"procents) => the new product price will be $13.2, b) Dropshipping tax = 5 "
+"(fixed) => the new product price will be $17"
+msgstr ""
+"Ex. if product price = $12 and you choose A) Dropshipping tax = 10 (in "
+"procents) => the new product price will be $13.2, b) Dropshipping tax = 5 "
+"(fixed) => the new product price will be $17"
+
+#: modules/amazon/options-func.php:1798
+#, fuzzy
+msgid ""
+"A) (always up) with (none) decimals => ex. 12.1 will become 13; 12.9 will "
+"become 13. B) (always down) with (none) decimals => ex. 12.1 will become 12; "
+"12.9 will become 12. C) (half up) with (none) decimals => ex. 12.1 will "
+"become 12; 12.9 will become 13, 12.5 will become 13. D) (half down) with "
+"(none) decimals => ex. 12.1 will become 13; 12.9 will become 13, 12.5 will "
+"become 12."
+msgstr ""
+"A) (always up) with (none) decimals => ex. 12.1 will become 13; 12.9 will "
+"become 13. B) (always down) with (none) decimals => ex. 12.1 will become 12; "
+"12.9 will become 12. C) (half up) with (none) decimals => ex. 12.1 will "
+"become 12; 12.9 will become 13, 12.5 will become 13. D) (half down) with "
+"(none) decimals => ex. 12.1 will become 13; 12.9 will become 13, 12.5 will "
+"become 12."
+
+#: modules/amazon/options-func.php:1810
+#, fuzzy
+msgid ""
+"Choose Yes, if you want to activate Products Price Dropshipping Tax. If "
+"activated, then each amazon product (imported with WooZone) on your website "
+"will have this Dropshipping tax applied to their (regular and sale) price."
+msgstr ""
+"Choose Yes, if you want to activate Products Price Dropshipping Tax. If "
+"activated, then each amazon product (imported with WooZone) on your website "
+"will have this Dropshipping tax applied to their (regular and sale) price."
+
+#: modules/amazon/options-func.php:1811
+#, fuzzy
+msgid "Activate Dropshipping Tax"
+msgstr "Activate Dropshipping Tax"
+
+#: modules/amazon/options-func.php:1828
+#, fuzzy, php-format
+msgid "Dropshipping Tax Type: in procents or a fixed value. %s"
+msgstr "Dropshipping Tax Type: in procents or a fixed value. %s"
+
+#: modules/amazon/options-func.php:1829
+#, fuzzy
+msgid "Dropshipping Tax Type"
+msgstr "Dropshipping Tax Type"
+
+#: modules/amazon/options-func.php:1846
+#, fuzzy, php-format
+msgid ""
+"(must be: a number like 10 or 15.25...) Dropshipping Tax Value: the value "
+"which will be applied to the products price. %s"
+msgstr ""
+"(must be: a number like 10 or 15.25...) Dropshipping Tax Value: the value "
+"which will be applied to the products price. %s"
+
+#: modules/amazon/options-func.php:1847
+#, fuzzy
+msgid "Dropshipping Tax Value"
+msgstr "Dropshipping Tax Value"
+
+#: modules/amazon/options-func.php:1861
+#, fuzzy
+msgid ""
+"Choose Yes, if you want to activate Rounded Prices, which means that your "
+"amazon products prices will be rounded to be more customer friendly."
+msgstr ""
+"Choose Yes, if you want to activate Rounded Prices, which means that your "
+"amazon products prices will be rounded to be more customer friendly."
+
+#: modules/amazon/options-func.php:1862
+#, fuzzy
+msgid "Activate rounded prices"
+msgstr "Activate rounded prices"
+
+#: modules/amazon/options-func.php:1879
+#, fuzzy, php-format
+msgid "How you want to round your amazon products prices. %s"
+msgstr "How you want to round your amazon products prices. %s"
+
+#: modules/amazon/options-func.php:1880
+#, fuzzy
+msgid "Rounded Prices Direction"
+msgstr "Rounded Prices Direction"
+
+#: modules/amazon/options-func.php:1897
+#, fuzzy, php-format
+msgid "How many decimals you want to keep for your amazon products prices. %s"
+msgstr "How many decimals you want to keep for your amazon products prices. %s"
+
+#: modules/amazon/options-func.php:1898
+#, fuzzy
+msgid "Rounded Prices Decimals"
+msgstr "Rounded Prices Decimals"
+
+#: modules/amazon/options-func.php:1915
+#, fuzzy
+msgid ""
+"Do you want to make your amazon product prices like 12.99 | 21.99 | 7.99"
+msgstr ""
+"Do you want to make your amazon product prices like 12.99 | 21.99 | 7.99"
+
+#: modules/amazon/options-func.php:1916
+#, fuzzy
+msgid "Rounded Prices For Marketing - 19.99$"
+msgstr "Rounded Prices For Marketing - 19.99$"
+
+#: modules/amazon/options-func.php:1953
+#, fuzzy
+msgid "Product Buy Button"
+msgstr "Product Buy Button"
+
+#: modules/amazon/options-func.php:2002
+#, fuzzy
+msgid ""
+"(global) This text will be shown on the button linking to the external "
+"product. (global) = all external products; external products = those with "
+"'On-site Cart' option value set to 'No'"
+msgstr ""
+"(global) This text will be shown on the button linking to the external "
+"product. (global) = all external products; external products = those with "
+"'On-site Cart' option value set to 'No'"
+
+#: modules/amazon/options-func.php:2003
+#, fuzzy
+msgid "Custom Text"
+msgstr "Custom Text"
+
+#: modules/amazon/options-func.php:2013
+#, fuzzy
+msgid ""
+"This option allows you to add custom classes to your Buy Now button. "
+"Normally this is used on custom themes where the Buy Now button layout "
+"displays different that it should. Add classes using spaces: Ex: "
+"button_class button_class_two"
+msgstr ""
+"This option allows you to add custom classes to your Buy Now button. "
+"Normally this is used on custom themes where the Buy Now button layout "
+"displays different that it should. Add classes using spaces: Ex: "
+"button_class button_class_two"
+
+#: modules/amazon/options-func.php:2014
+#, fuzzy
+msgid "Custom CSS Classes"
+msgstr "Custom CSS Classes"
+
+#: modules/amazon/options-func.php:2024
+#: modules/wizard/steps/customization.php:58
+#, fuzzy
+msgid ""
+"This option will allow you to setup how the product buy button will work. "
+"You can choose between opening in the same tab or in a new tab."
+msgstr ""
+"This option will allow you to setup how the product buy button will work. "
+"You can choose between opening in the same tab or in a new tab."
+
+#: modules/amazon/options-func.php:2025
+#, fuzzy
+msgid "Open In"
+msgstr "Open In"
+
+#: modules/amazon/options-func.php:2061
+#, fuzzy
+msgid "Product Price Disclaimer"
+msgstr "Product Price Disclaimer"
+
+#: modules/amazon/options-func.php:2131
+#, fuzzy
+msgid ""
+"Choose Yes, if you want to activate Product Price Disclaimer acording to New "
+"Amazon TOS"
+msgstr ""
+"Choose Yes, if you want to activate Product Price Disclaimer acording to New "
+"Amazon TOS"
+
+#: modules/amazon/options-func.php:2132
+#, fuzzy
+msgid "Activate Product Price Disclaimer"
+msgstr "Activate Product Price Disclaimer"
+
+#: modules/amazon/options-func.php:2149
+#, fuzzy
+msgid "Choose the text font size (in em)"
+msgstr "Choose the text font size (in em)"
+
+#: modules/amazon/options-func.php:2150
+#, fuzzy
+msgid "Text font size"
+msgstr "Text font size"
+
+#: modules/amazon/options-func.php:2167
+#, fuzzy
+msgid ""
+"Choose on which provider you want the product price disclaimer (on product "
+"details page) to be displayed"
+msgstr ""
+"Choose on which provider you want the product price disclaimer (on product "
+"details page) to be displayed"
+
+#: modules/amazon/options-func.php:2168
+#, fuzzy
+msgid "Active Providers"
+msgstr "Active Providers"
+
+#: modules/amazon/options-func.php:2220
+#, fuzzy
+msgid ""
+"Display price template. New Amazon TOS: (i) You will include a date/time "
+"stamp adjacent to your display of pricing or availability information on "
+"your application if you obtain Product Advertising Content from Data Feeds, "
+"or if you call PA API or refresh the Product Advertising Content displayed "
+"on your application less frequently than hourly. However, during the same "
+"day on which you requested and refreshed the pricing and availability "
+"information displayed on your application, you may omit the date portion of "
+"the stamp. Details and More info when clicked will show a pop-up box with "
+"the following text, according to amazon rules: Product prices and "
+"availability are accurate as of the date/time indicated and are subject to "
+"change. Any price and availability information displayed on [relevant Amazon "
+"Site(s), as applicable] at the time of purchase will apply to the purchase "
+"of this product."
+msgstr ""
+"Display price template. New Amazon TOS: (i) You will include a date/time "
+"stamp adjacent to your display of pricing or availability information on "
+"your application if you obtain Product Advertising Content from Data Feeds, "
+"or if you call PA API or refresh the Product Advertising Content displayed "
+"on your application less frequently than hourly. However, during the same "
+"day on which you requested and refreshed the pricing and availability "
+"information displayed on your application, you may omit the date portion of "
+"the stamp. Details and More info when clicked will show a pop-up box with "
+"the following text, according to amazon rules: Product prices and "
+"availability are accurate as of the date/time indicated and are subject to "
+"change. Any price and availability information displayed on [relevant Amazon "
+"Site(s), as applicable] at the time of purchase will apply to the purchase "
+"of this product."
+
+#: modules/amazon/options-func.php:2221
+#, fuzzy
+msgid "Choose display price template"
+msgstr "Choose display price template"
+
+#: modules/amazon/options-func.php:2231
+#, fuzzy
+msgid ""
+"Even if you choose this template model, it will be displayed only if it's "
+"the same day on which you requested and refreshed the pricing and "
+"availability information displayed on your application, otherwise the above "
+"template model will be used."
+msgstr ""
+"Even if you choose this template model, it will be displayed only if it's "
+"the same day on which you requested and refreshed the pricing and "
+"availability information displayed on your application, otherwise the above "
+"template model will be used."
+
+#: modules/amazon/options-func.php:2235
+#, fuzzy
+msgid "Choose the date display format"
+msgstr "Choose the date display format"
+
+#: modules/amazon/options-func.php:2236
+#, fuzzy
+msgid ""
+"Date format - <b>available only for 1st display price template option</b>"
+msgstr ""
+"Date format - <b>available only for 1st display price template option</b>"
+
+#: modules/amazon/options-func.php:2281
+#, fuzzy
+msgid "Refresh categories:"
+msgstr "Refresh categories:"
+
+#: modules/amazon/options-func.php:2315
+#, fuzzy
+msgid "execute now "
+msgstr "execute now "
+
+#: modules/amazon/options.php:72
+#, fuzzy
+msgid "Amazon SETUP"
+msgstr "Amazon SETUP"
+
+#: modules/amazon/options.php:78
+#, fuzzy
+msgid "Plugin SETUP"
+msgstr "Plugin SETUP"
+
+#: modules/amazon/options.php:85
+#, fuzzy
+msgid "Import SETUP"
+msgstr "Import SETUP"
+
+#: modules/amazon/options.php:91
+#, fuzzy
+msgid "BUG Fixes"
+msgstr "BUG Fixes"
+
+#: modules/amazon/options.php:95
+#, fuzzy
+msgid "DEBUG"
+msgstr "DEBUG"
+
+#: modules/amazon/options.php:99
+#, fuzzy
+msgid "String Translation"
+msgstr "String Translation"
+
+#: modules/amazon/options.php:103
+#, fuzzy
+msgid "Dropshipping"
+msgstr "Dropshipping"
+
+#: modules/amazon/options.php:117 modules/amazon/options.php:124
+#: modules/amazon/options.php:130 modules/amazon/options.php:136
+#: modules/amazon/options.php:142 modules/amazon/options.php:148
+#: modules/amazon/options.php:154
+#, fuzzy
+msgid "General & Amazon"
+msgstr "General & Amazon"
+
+#: modules/amazon/options.php:119 modules/amazon/options.php:126
+#: modules/amazon/options.php:132
+#, fuzzy
+msgid "eBay"
+msgstr "eBay"
+
+#: modules/amazon/options.php:138
+#, fuzzy
+msgid "EBay"
+msgstr "EBay"
+
+#: modules/amazon/options.php:160
+#, fuzzy
+msgid "Amazon"
+msgstr "Amazon"
+
+#: modules/amazon/options.php:340
+#, fuzzy
+msgid "Select functionalities to be showed on frontend"
+msgstr "Select functionalities to be showed on frontend"
+
+#: modules/amazon/options.php:341
+#, fuzzy
+msgid "Choose what functionalities to use on frontend."
+msgstr "Choose what functionalities to use on frontend."
+
+#: modules/amazon/options.php:417
+#, fuzzy
+msgid "Server Charset:"
+msgstr "Server Charset:"
+
+#: modules/amazon/options.php:418
+#, fuzzy
+msgid "Server Charset (used by php-query class)"
+msgstr "Server Charset (used by php-query class)"
+
+#: modules/amazon/options.php:515
+#, fuzzy
+msgid "Select attributes"
+msgstr "Select attributes"
+
+#: modules/amazon/options.php:516
+#, fuzzy
+msgid "Choose what attributes to be added on import process."
+msgstr "Choose what attributes to be added on import process."
+
+#: modules/amazon/options.php:614
+#, fuzzy
+msgid "Ratio product validation:"
+msgstr "Ratio product validation:"
+
+#: modules/amazon/options.php:616
+#, fuzzy
+msgid ""
+"The minimum percentage of total assets download (product + variations) from "
+"which a product is considered valid!"
+msgstr ""
+"The minimum percentage of total assets download (product + variations) from "
+"which a product is considered valid!"
+
+#: modules/amazon/options.php:836
+#, fuzzy
+msgid "Select remote image sizes"
+msgstr "Select remote image sizes"
+
+#: modules/amazon/options.php:837
+#, fuzzy
+msgid "Choose what remote image sizes you want."
+msgstr "Choose what remote image sizes you want."
+
+#: modules/amazon/product-tabs.php:23
+#, fuzzy
+msgid "Amazon Customer Reviews"
+msgstr "Amazon Customer Reviews"
+
+#: modules/amazon/product-tabs.php:100
+#, fuzzy
+msgid "Content"
+msgstr "Content"
+
+#: modules/amazon/product-tabs.php:101
+#, fuzzy
+msgid "HTML and text to display."
+msgstr "HTML and text to display."
+
+#: modules/amazon/product-tabs.php:189
+#, fuzzy
+msgid ""
+"In order for The WooCommerce Product Tabs to work, you need to install and "
+"activate <a href=\"http://www.woothemes.com/woocommerce/\" target=\"_blank"
+"\">WooCommerce</a> first. <a href=\""
+msgstr ""
+"In order for The WooCommerce Product Tabs to work, you need to install and "
+"activate <a href=\"http://www.woothemes.com/woocommerce/\" target=\"_blank"
+"\">WooCommerce</a> first. <a href=\""
+
+#: modules/amazon_debug/config.php:47
+#, fuzzy
+msgid ""
+"\n"
+"\t\t\t\t\tYou configured Amazon Debug incorrectly. See \n"
+"\t\t\t\t\t"
+msgstr ""
+"\n"
+"\t\t\t\t\tYou configured Amazon Debug incorrectly. See \n"
+"\t\t\t\t\t"
+
+#: modules/amazon_recommendations/init.php:74 modules/server_status/init.php:78
+#, fuzzy
+msgid "System Status"
+msgstr "System Status"
+
+#: modules/asin_grabber/config.php:50
+#, fuzzy
+msgid ""
+"\n"
+"\t\t\t\t\tYou configured ASIN Grabber incorrectly. See \n"
+"\t\t\t\t\t"
+msgstr ""
+"\n"
+"\t\t\t\t\tYou configured ASIN Grabber incorrectly. See \n"
+"\t\t\t\t\t"
+
+#: modules/asin_grabber/init.php:350 modules/insane_import/init.php:1442
+#, fuzzy
+msgid " Please provide a valid Amazon Url."
+msgstr " Please provide a valid Amazon Url."
+
+#: modules/asin_grabber/init.php:470 modules/insane_import/init.php:1567
+#, fuzzy, php-format
+msgid " The script was successfully. %s ASINs found: %s"
+msgstr " The script was successfully. %s ASINs found: %s"
+
+#: modules/asin_grabber/init.php:476 modules/insane_import/init.php:1580
+#, fuzzy
+msgid ""
+" The script was unable to grab any ASIN codes. Please try again using "
+"another Page Type parameter."
+msgstr ""
+" The script was unable to grab any ASIN codes. Please try again using "
+"another Page Type parameter."
+
+#: modules/assets_download/init.php:163
+#, fuzzy
+msgid "Post"
+msgstr "Post"
+
+#: modules/assets_download/init.php:168
+#, fuzzy
+msgid "Delete Asset"
+msgstr "Delete Asset"
+
+#: modules/assets_download/init.php:174
+#, fuzzy
+msgid "Assets"
+msgstr "Assets"
+
+#: modules/assets_download/init.php:195
+#, fuzzy
+msgid "OR create cron job for doing the assets download jobs"
+msgstr "OR create cron job for doing the assets download jobs"
+
+#: modules/assets_download/init.php:298
+#, fuzzy
+msgid "was successfully downloaded and resized in"
+msgstr "was successfully downloaded and resized in"
+
+#: modules/assets_download/init.php:300 modules/assets_download/init.php:303
+#, fuzzy
+msgid "could not be downloaded and resized - duration: "
+msgstr "could not be downloaded and resized - duration: "
+
+#: modules/assets_download/init.php:500
+#, fuzzy, php-format
+msgid "%s was successfully downloaded"
+msgstr "%s was successfully downloaded"
+
+#: modules/assets_download/init.php:651
+#, fuzzy
+msgid "no assets available for download"
+msgstr "no assets available for download"
+
+#: modules/assets_download/init.php:671
+#, fuzzy
+msgid "empty asset"
+msgstr "empty asset"
+
+#: modules/auto_import/init.php:64 modules/report/options.php:8
+#: modules/synchronization/base_interface.php:70
+#, fuzzy
+msgid "Every 12 hours"
+msgstr "Every 12 hours"
+
+#: modules/auto_import/init.php:65 modules/report/options.php:9
+#: modules/synchronization/base_interface.php:71
+#, fuzzy
+msgid "Every single day"
+msgstr "Every single day"
+
+#: modules/auto_import/init.php:66 modules/report/options.php:10
+#: modules/synchronization/base_interface.php:72
+#, fuzzy
+msgid "Every 2 days"
+msgstr "Every 2 days"
+
+#: modules/auto_import/init.php:67 modules/report/options.php:11
+#: modules/synchronization/base_interface.php:73
+#, fuzzy
+msgid "Every 3 days"
+msgstr "Every 3 days"
+
+#: modules/auto_import/init.php:68 modules/report/options.php:12
+#: modules/synchronization/base_interface.php:74
+#, fuzzy
+msgid "Every 4 days"
+msgstr "Every 4 days"
+
+#: modules/auto_import/init.php:69 modules/report/options.php:13
+#: modules/synchronization/base_interface.php:75
+#, fuzzy
+msgid "Every 5 days"
+msgstr "Every 5 days"
+
+#: modules/auto_import/init.php:70 modules/report/options.php:14
+#: modules/synchronization/base_interface.php:76
+#, fuzzy
+msgid "Every 6 days"
+msgstr "Every 6 days"
+
+#: modules/auto_import/init.php:71 modules/report/options.php:15
+#: modules/synchronization/base_interface.php:77
+#, fuzzy
+msgid "Every 1 week"
+msgstr "Every 1 week"
+
+#: modules/auto_import/init.php:72 modules/report/options.php:16
+#: modules/synchronization/base_interface.php:78
+#, fuzzy
+msgid "Every 2 weeks"
+msgstr "Every 2 weeks"
+
+#: modules/auto_import/init.php:73 modules/report/options.php:17
+#: modules/synchronization/base_interface.php:79
+#, fuzzy
+msgid "Every 3 weeks"
+msgstr "Every 3 weeks"
+
+#: modules/auto_import/init.php:74 modules/report/options.php:18
+#: modules/synchronization/base_interface.php:80
+#, fuzzy
+msgid "Every 1 month"
+msgstr "Every 1 month"
+
+#: modules/auto_import/init.php:97 modules/auto_import/init.php:850
+#: modules/auto_import/init.php:867
+#, fuzzy
+msgid "Search title"
+msgstr "Search title"
+
+#: modules/auto_import/init.php:133
+#, fuzzy
+msgid "Category ID"
+msgstr "Category ID"
+
+#: modules/auto_import/init.php:137
+#, fuzzy
+msgid "Grab Nb Pages"
+msgstr "Grab Nb Pages"
+
+#: modules/auto_import/init.php:141
+#, fuzzy
+msgid "Page Nb"
+msgstr "Page Nb"
+
+#: modules/auto_import/init.php:145
+#, fuzzy
+msgid "Choose Site"
+msgstr "Choose Site"
+
+#: modules/auto_import/init.php:148
+#, fuzzy
+msgid "Browse Node Tree"
+msgstr "Browse Node Tree"
+
+#: modules/auto_import/init.php:153 modules/insane_import/init.php:1093
+#, fuzzy
+msgid "Image Import Type"
+msgstr "Image Import Type"
+
+#: modules/auto_import/init.php:156 modules/insane_import/init.php:1103
+#: modules/wizard/steps/fine_tuning.php:5
+#, fuzzy
+msgid "Number of Images"
+msgstr "Number of Images"
+
+#: modules/auto_import/init.php:159 modules/insane_import/init.php:1108
+#, fuzzy
+msgid "Number of Variations"
+msgstr "Number of Variations"
+
+#: modules/auto_import/init.php:162 modules/insane_import/init.php:1116
+#: modules/wizard/steps/fine_tuning.php:60
+#, fuzzy
+msgid "Spin on Import"
+msgstr "Spin on Import"
+
+#: modules/auto_import/init.php:165 modules/insane_import/init.php:1120
+#, fuzzy
+msgid "Import attributes"
+msgstr "Import attributes"
+
+#: modules/auto_import/init.php:168
+#, fuzzy
+msgid "Import in category"
+msgstr "Import in category"
+
+#: modules/auto_import/init.php:172 modules/auto_import/init.php:1218
+#, fuzzy
+msgid "Products Import Type"
+msgstr "Products Import Type"
+
+#: modules/auto_import/init.php:190
+#, fuzzy
+msgid "General Parameters"
+msgstr "General Parameters"
+
+#: modules/auto_import/init.php:191
+#, fuzzy
+msgid "Search Parameters"
+msgstr "Search Parameters"
+
+#: modules/auto_import/init.php:192
+#, fuzzy
+msgid "Import Parameters"
+msgstr "Import Parameters"
+
+#: modules/auto_import/init.php:357 modules/auto_import/init.php:768
+#, fuzzy
+msgid "Auto Import Cronjob Stats"
+msgstr "Auto Import Cronjob Stats"
+
+#: modules/auto_import/init.php:386 modules/import_stats/init.php:225
+#: modules/import_stats/init.php:251 modules/report/init.php:1380
+#, fuzzy
+msgid "From"
+msgstr "From"
+
+#: modules/auto_import/init.php:392 modules/import_stats/init.php:231
+#, fuzzy
+msgid "Async products import"
+msgstr "Async products import"
+
+#: modules/auto_import/init.php:396 modules/import_stats/init.php:235
+#, fuzzy
+msgid "Auto Import Search ID"
+msgstr "Auto Import Search ID"
+
+#: modules/auto_import/init.php:404 modules/auto_import/init.php:503
+#: modules/auto_import/init.php:827 modules/auto_import/init.php:907
+#, fuzzy
+msgid "Nb tries (max = 3)"
+msgstr "Nb tries (max = 3)"
+
+#: modules/auto_import/init.php:408 modules/auto_import/init.php:831
+#, fuzzy
+msgid "0 tries"
+msgstr "0 tries"
+
+#: modules/auto_import/init.php:409 modules/auto_import/init.php:832
+#, fuzzy
+msgid "1 try"
+msgstr "1 try"
+
+#: modules/auto_import/init.php:410 modules/auto_import/init.php:833
+#, fuzzy
+msgid "2 tries"
+msgstr "2 tries"
+
+#: modules/auto_import/init.php:411 modules/auto_import/init.php:834
+#, fuzzy
+msgid "3 tries"
+msgstr "3 tries"
+
+#: modules/auto_import/init.php:420 modules/auto_import/init.php:843
+#, fuzzy
+msgid "Done successfully"
+msgstr "Done successfully"
+
+#: modules/auto_import/init.php:428 modules/import_stats/init.php:264
+#, fuzzy
+msgid "Search ASIN"
+msgstr "Search ASIN"
+
+#: modules/auto_import/init.php:439 modules/auto_import/init.php:861
+#: modules/import_stats/init.php:275
+#: modules/noaws_sync_widget/list.table.php:187 modules/report/init.php:287
+#: modules/speed_optimization/init.php:217
+#: modules/synchronization/base_interface.php:318
+#: modules/synchronization/base_interface.php:1641
+#, fuzzy
+msgid "ID"
+msgstr "ID"
+
+#: modules/auto_import/init.php:472 modules/import_stats/init.php:308
+#, fuzzy
+msgid "Product Title <br /> ASIN || From || Actions"
+msgstr "Product Title <br /> ASIN || From || Actions"
+
+#: modules/auto_import/init.php:496
+#, fuzzy
+msgid "Created Date <br /> Imported Date"
+msgstr "Created Date <br /> Imported Date"
+
+#: modules/auto_import/init.php:502 modules/auto_import/init.php:906
+#: modules/report/init.php:1377
+#, fuzzy
+msgid "Nb tries"
+msgstr "Nb tries"
+
+#: modules/auto_import/init.php:510 modules/auto_import/init.php:914
+#: modules/speed_optimization/init.php:527
+#: modules/speed_optimization/init.php:1788
+#, fuzzy
+msgid "Delete"
+msgstr "Delete"
+
+#: modules/auto_import/init.php:514 modules/auto_import/init.php:918
+#, fuzzy
+msgid "Delete row"
+msgstr "Delete row"
+
+#: modules/auto_import/init.php:537 modules/auto_import/init.php:939
+#, fuzzy
+msgid "Delete all rows"
+msgstr "Delete all rows"
+
+#: modules/auto_import/init.php:592 modules/auto_import/init.php:992
+#, fuzzy, php-format
+msgid "start: %s , end: %s , duration: %s"
+msgstr "start: %s , end: %s , duration: %s"
+
+#: modules/auto_import/init.php:600 modules/auto_import/init.php:1000
+#, fuzzy, php-format
+msgid "start: %s"
+msgstr "start: %s"
+
+#: modules/auto_import/init.php:607 modules/auto_import/init.php:1007
+#: modules/synchronization/base_interface.php:545
+#, fuzzy
+msgid "in progress"
+msgstr "in progress"
+
+#: modules/auto_import/init.php:611 modules/auto_import/init.php:1011
+#: modules/synchronization/base_interface.php:549
+#, fuzzy
+msgid "to be initialized"
+msgstr "to be initialized"
+
+#: modules/auto_import/init.php:616 modules/auto_import/init.php:1016
+#: modules/synchronization/base_interface.php:553
+#: modules/synchronization/base_interface.php:557
+#, fuzzy
+msgid "completed"
+msgstr "completed"
+
+#: modules/auto_import/init.php:627 modules/auto_import/init.php:1027
+#, fuzzy
+msgid "Last Cron Stats"
+msgstr "Last Cron Stats"
+
+#: modules/auto_import/init.php:635
+#, fuzzy
+msgid "Estimated \"New\" rows in queue"
+msgstr "Estimated \"New\" rows in queue"
+
+#: modules/auto_import/init.php:641 modules/auto_import/init.php:1037
+#, fuzzy
+msgid "Current processed chunk IDs"
+msgstr "Current processed chunk IDs"
+
+#: modules/auto_import/init.php:645 modules/auto_import/init.php:1041
+#, fuzzy
+msgid "Last processed row (in chunk) ID"
+msgstr "Last processed row (in chunk) ID"
+
+#: modules/auto_import/init.php:651
+#: modules/synchronization/base_interface.php:853
+#, fuzzy
+msgid "Last Report"
+msgstr "Last Report"
+
+#: modules/auto_import/init.php:655
+#: modules/synchronization/base_interface.php:857
+#, fuzzy
+msgid "Generation date"
+msgstr "Generation date"
+
+#: modules/auto_import/init.php:662
+#: modules/synchronization/base_interface.php:847
+#: modules/synchronization/base_interface.php:864
+#, fuzzy
+msgid "not available yet."
+msgstr "not available yet."
+
+#: modules/auto_import/init.php:801
+#, fuzzy
+msgid "Unpublished"
+msgstr "Unpublished"
+
+#: modules/auto_import/init.php:874
+#, fuzzy
+msgid "Params"
+msgstr "Params"
+
+#: modules/auto_import/init.php:881
+#, fuzzy
+msgid "Queue Prods"
+msgstr "Queue Prods"
+
+#: modules/auto_import/init.php:900
+#, fuzzy
+msgid "Execution Info"
+msgstr "Execution Info"
+
+#: modules/auto_import/init.php:929
+#, fuzzy
+msgid "Unpublish"
+msgstr "Unpublish"
+
+#: modules/auto_import/init.php:931 modules/wizard/steps/price_setup.php:43
+#, fuzzy
+msgid "Publish"
+msgstr "Publish"
+
+#: modules/auto_import/init.php:1104 modules/auto_import/init.php:1507
+#, fuzzy
+msgid "Parameters"
+msgstr "Parameters"
+
+#: modules/auto_import/init.php:1192 modules/auto_import/init.php:1494
+#: modules/insane_import/init.php:620 modules/insane_import/init.php:840
+#, fuzzy
+msgid "Add Search to schedule"
+msgstr "Add Search to schedule"
+
+#: modules/auto_import/init.php:1221
+#, fuzzy
+msgid "Do it NOW!"
+msgstr "Do it NOW!"
+
+#: modules/auto_import/init.php:1225
+#, fuzzy
+msgid "Asynchronuous products import"
+msgstr "Asynchronuous products import"
+
+#: modules/auto_import/init.php:1247
+#, fuzzy
+msgid "Auto-Import products in progress ..."
+msgstr "Auto-Import products in progress ..."
+
+#: modules/auto_import/init.php:1249
+#, fuzzy, php-format
+msgid ""
+"Please be patient while the products are been set in the auto import queue "
+"(<i>we add products in queue by <strong>chunks of %s products</strong> per "
+"ajax request</i>). \n"
+"\t\tDo not navigate away from this page until this script is done. \n"
+"\t\tYou will be notified via this box when the regenerating is completed."
+msgstr ""
+"Please be patient while the products are been set in the auto import queue "
+"(<i>we add products in queue by <strong>chunks of %s products</strong> per "
+"ajax request</i>). \n"
+"\t\tDo not navigate away from this page until this script is done. \n"
+"\t\tYou will be notified via this box when the regenerating is completed."
+
+#: modules/auto_import/init.php:1257 modules/insane_import/init.php:513
+#, fuzzy
+msgid "Import Status"
+msgstr "Import Status"
+
+#: modules/auto_import/init.php:1263 modules/insane_import/init.php:452
+#: modules/insane_import/init.php:521 modules/speed_optimization/init.php:149
+#: modules/speed_optimization/init.php:939
+#, fuzzy
+msgid "STOP"
+msgstr "STOP"
+
+#: modules/auto_import/init.php:1264 modules/insane_import/init.php:458
+#, fuzzy
+msgid "the process is running"
+msgstr "the process is running"
+
+#: modules/auto_import/init.php:1273 modules/insane_import/init.php:533
+#: modules/insane_import/init.php:542 modules/insane_import/init.php:550
+#, fuzzy
+msgid "Progress"
+msgstr "Progress"
+
+#: modules/auto_import/init.php:1274 modules/insane_import/init.php:534
+#: modules/insane_import/init.php:543 modules/insane_import/init.php:551
+#, fuzzy
+msgid "Parsed"
+msgstr "Parsed"
+
+#: modules/auto_import/init.php:1275 modules/insane_import/init.php:535
+#, fuzzy
+msgid "Elapsed time"
+msgstr "Elapsed time"
+
+#: modules/auto_import/init.php:1657
+#, fuzzy
+msgid "Save Search to schedule"
+msgstr "Save Search to schedule"
+
+#: modules/auto_import/init.php:1778
+#, fuzzy
+msgid "search was added"
+msgstr "search was added"
+
+#: modules/auto_import/init.php:1784
+#, fuzzy
+msgid "search already exists"
+msgstr "search already exists"
+
+#: modules/auto_import/init.php:1929
+#, fuzzy
+msgid "product already exists"
+msgstr "product already exists"
+
+#: modules/auto_import/init.php:1991
+#, fuzzy
+msgid "added in queue"
+msgstr "added in queue"
+
+#: modules/auto_import/init.php:1996
+#, fuzzy
+msgid "already exists in queue"
+msgstr "already exists in queue"
+
+#: modules/auto_import/init.php:2433
+#, fuzzy
+msgid "Invalid search parameters!"
+msgstr "Invalid search parameters!"
+
+#: modules/content_spinner/init.php:130
+#, fuzzy
+msgid "Amazon Automated Content Spinner"
+msgstr "Amazon Automated Content Spinner"
+
+#: modules/content_spinner/init.php:156
+#, fuzzy
+msgid "Preview"
+msgstr "Preview"
+
+#: modules/content_spinner/init.php:164
+#, fuzzy
+msgid "Spinn Content"
+msgstr "Spinn Content"
+
+#: modules/cronjobs/cronjobs.panel.php:124 modules/wizard/init.php:1554
+#, fuzzy, php-format
+msgid ""
+"Issue encountered when trying to spawn a call to the WP-Cron system on your "
+"website. The WP-Cron jobs on your website may not work. The issue details: %s"
+msgstr ""
+"Issue encountered when trying to spawn a call to the WP-Cron system on your "
+"website. The WP-Cron jobs on your website may not work. The issue details: %s"
+
+#: modules/cronjobs/cronjobs.panel.php:127 modules/wizard/init.php:1557
+#, fuzzy
+msgid ""
+"Successfully spawn a call to the WP-Cron system on your website. The WP-Cron "
+"jobs on your website seems to work fine."
+msgstr ""
+"Successfully spawn a call to the WP-Cron system on your website. The WP-Cron "
+"jobs on your website seems to work fine."
+
+#: modules/cronjobs/cronjobs.panel.php:162
+#, fuzzy, php-format
+msgid "Local timezone is <strong>%s</strong>"
+msgstr "Local timezone is <strong>%s</strong>"
+
+#: modules/cronjobs/cronjobs.panel.php:163
+#, fuzzy, php-format
+msgid "UTC time is <strong>%s</strong>"
+msgstr "UTC time is <strong>%s</strong>"
+
+#: modules/cronjobs/cronjobs.panel.php:164
+#, fuzzy, php-format
+msgid "Local time is <strong>%s</strong>"
+msgstr "Local time is <strong>%s</strong>"
+
+#: modules/cronjobs/cronjobs.panel.php:189
+#, fuzzy
+msgid "You currently have no scheduled cron events."
+msgstr "You currently have no scheduled cron events."
+
+#: modules/cronjobs/cronjobs.panel.php:213
+#, fuzzy, php-format
+msgid "You have %s scheduled cron events."
+msgstr "You have %s scheduled cron events."
+
+#: modules/cronjobs/cronjobs.panel.php:298
+#: modules/cronjobs/cronjobs.panel.php:299
+#: modules/cronjobs/cronjobs.panel.php:300
+#: modules/cronjobs/cronjobs.panel.php:310
+#, fuzzy
+msgid "None"
+msgstr "None"
+
+#: modules/cronjobs/cronjobs.panel.php:300
+#, fuzzy
+msgid "Non-repeating"
+msgstr "Non-repeating"
+
+#: modules/cronjobs/cronjobs.panel.php:309
+#, fuzzy, php-format
+msgid "%s seconds"
+msgstr "%s seconds"
+
+#: modules/cronjobs/cronjobs.panel.php:312
+#, fuzzy
+msgid "Clear"
+msgstr "Clear"
+
+#: modules/cronjobs/cronjobs.panel.php:312
+#: modules/modules_manager/aaModulesManager.class.php:134
+#, fuzzy
+msgid "Activate"
+msgstr "Activate"
+
+#: modules/cronjobs/cronjobs.panel.php:394 modules/insane_import/init.php:343
+#: modules/modules_manager/aaModulesManager.class.php:73
+#: modules/report/init.php:223 modules/synchronization/base_interface.php:225
+#, fuzzy
+msgid "Loading"
+msgstr "Loading"
+
+#: modules/cronjobs/cronjobs.panel.php:400
+#, fuzzy
+msgid "Reinitialize cronjobs"
+msgstr "Reinitialize cronjobs"
+
+#: modules/cronjobs/cronjobs.panel.php:403
+#, fuzzy
+msgid "Reload cronjobs list"
+msgstr "Reload cronjobs list"
+
+#: modules/cronjobs/cronjobs.panel.php:409
+#, fuzzy
+msgid "Hook Name"
+msgstr "Hook Name"
+
+#: modules/cronjobs/cronjobs.panel.php:410
+#, fuzzy
+msgid "Arguments"
+msgstr "Arguments"
+
+#: modules/cronjobs/cronjobs.panel.php:411
+#, fuzzy
+msgid "Next Run"
+msgstr "Next Run"
+
+#: modules/cronjobs/cronjobs.panel.php:412
+#: modules/synchronization/base_interface.php:410
+#, fuzzy
+msgid "Recurrence"
+msgstr "Recurrence"
+
+#: modules/cronjobs/cronjobs.panel.php:413
+#, fuzzy
+msgid "Last run"
+msgstr "Last run"
+
+#: modules/cronjobs/cronjobs.panel.php:414
+#, fuzzy
+msgid "Last status"
+msgstr "Last status"
+
+#: modules/cronjobs/cronjobs.panel.php:415
+#, fuzzy
+msgid "Last duration"
+msgstr "Last duration"
+
+#: modules/cronjobs/cronjobs.panel.php:416
+#: modules/noaws_sync_widget/list.table.php:189 modules/report/init.php:292
+#: modules/speed_optimization/init.php:221
+#: modules/speed_optimization/init.php:1758
+#: modules/speed_optimization/init.php:1837
+#: modules/synchronization/base_interface.php:316
+#, fuzzy
+msgid "Action"
+msgstr "Action"
+
+#: modules/csv_products_import/config.php:46
+#, fuzzy
+msgid ""
+"\n"
+"\t\t\t\t\tYou configured CSV Bulk Import incorrectly. See \n"
+"\t\t\t\t\t"
+msgstr ""
+"\n"
+"\t\t\t\t\tYou configured CSV Bulk Import incorrectly. See \n"
+"\t\t\t\t\t"
+
+#: modules/direct_import/init.php:70 modules/direct_import/init.php:71
+#, fuzzy
+msgid "WZone NO PA API"
+msgstr "WZone NO PA API"
+
+#: modules/import_stats/init.php:239 modules/import_stats/init.php:257
+#, fuzzy
+msgid "NO PA API Keys Import"
+msgstr "NO PA API Keys Import"
+
+#: modules/import_stats/init.php:243 modules/import_stats/init.php:258
+#: modules/insane_import/init.php:279 modules/insane_import/init.php:280
+#, fuzzy
+msgid "Insane Import"
+msgstr "Insane Import"
+
+#: modules/import_stats/init.php:321
+#, fuzzy
+msgid "Duration"
+msgstr "Duration"
+
+#: modules/import_stats/init.php:327
+#, fuzzy
+msgid "Database stats"
+msgstr "Database stats"
+
+#: modules/import_stats/init.php:334
+#, fuzzy
+msgid "Imported Date"
+msgstr "Imported Date"
+
+#: modules/insane_import/config.php:50
+#, fuzzy
+msgid ""
+"\n"
+"                    You configured Insane Import Mode incorrectly. See \n"
+"                    "
+msgstr ""
+"\n"
+"                    You configured Insane Import Mode incorrectly. See \n"
+"                    "
+
+#: modules/insane_import/config.php:64
+#, fuzzy
+msgid ""
+"\n"
+"                    You don't have WooCommerce installed/activated! Please "
+"activate it:\n"
+"                    "
+msgstr ""
+"\n"
+"                    You don't have WooCommerce installed/activated! Please "
+"activate it:\n"
+"                    "
+
+#: modules/insane_import/config.php:73
+#, fuzzy
+msgid ""
+"\n"
+"                    You don't have the SOAP library installed! Please "
+"activate it!\n"
+"                    "
+msgstr ""
+"\n"
+"                    You don't have the SOAP library installed! Please "
+"activate it!\n"
+"                    "
+
+#: modules/insane_import/config.php:76
+#, fuzzy
+msgid ""
+"\n"
+"                    You don't have the cURL library installed! Please "
+"activate it!\n"
+"                    "
+msgstr ""
+"\n"
+"                    You don't have the cURL library installed! Please "
+"activate it!\n"
+"                    "
+
+#: modules/insane_import/init.php:422
+#, fuzzy
+msgid "load prods by search"
+msgstr "load prods by search"
+
+#: modules/insane_import/init.php:423
+#, fuzzy
+msgid "load prods by grab"
+msgstr "load prods by grab"
+
+#: modules/insane_import/init.php:424
+#, fuzzy
+msgid "load prods by bulk"
+msgstr "load prods by bulk"
+
+#: modules/insane_import/init.php:425
+#, fuzzy
+msgid "export asins"
+msgstr "export asins"
+
+#: modules/insane_import/init.php:426
+#, fuzzy
+msgid "import products"
+msgstr "import products"
+
+#: modules/insane_import/init.php:427
+#, fuzzy
+msgid " First page"
+msgstr " First page"
+
+#: modules/insane_import/init.php:428
+#, fuzzy, php-format
+msgid " First %s pages"
+msgstr " First %s pages"
+
+#: modules/insane_import/init.php:429
+#, fuzzy
+msgid " Please first add some ASINs!"
+msgstr " Please first add some ASINs!"
+
+#: modules/insane_import/init.php:430
+#, fuzzy
+msgid " No ASINs found!"
+msgstr " No ASINs found!"
+
+#: modules/insane_import/init.php:431
+#, fuzzy, php-format
+msgid " %s ASINs found: "
+msgstr " %s ASINs found: "
+
+#: modules/insane_import/init.php:432
+#, fuzzy, php-format
+msgid " %s ASINs already parsed (loaded, invalid, imported): %s"
+msgstr " %s ASINs already parsed (loaded, invalid, imported): %s"
+
+#: modules/insane_import/init.php:433
+#, fuzzy
+msgid " No ASINs found to export!"
+msgstr " No ASINs found to export!"
+
+#: modules/insane_import/init.php:435
+#, fuzzy
+msgid "Loading Products in Queue In Progress..."
+msgstr "Loading Products in Queue In Progress..."
+
+#: modules/insane_import/init.php:436
+#, fuzzy
+msgid "Importing Products In Progress..."
+msgstr "Importing Products In Progress..."
+
+#: modules/insane_import/init.php:438
+#, fuzzy, php-format
+msgid "%s PPM"
+msgstr "%s PPM"
+
+#: modules/insane_import/init.php:439
+#, fuzzy
+msgid "SPEED is VERY SLOW."
+msgstr "SPEED is VERY SLOW."
+
+#: modules/insane_import/init.php:440
+#, fuzzy
+msgid "SPEED is SLOW."
+msgstr "SPEED is SLOW."
+
+#: modules/insane_import/init.php:441
+#, fuzzy
+msgid "SPEED is OK."
+msgstr "SPEED is OK."
+
+#: modules/insane_import/init.php:442
+#, fuzzy
+msgid "SPEED is FAST."
+msgstr "SPEED is FAST."
+
+#: modules/insane_import/init.php:443
+#, fuzzy
+msgid "SPEED is VERY FAST."
+msgstr "SPEED is VERY FAST."
+
+#: modules/insane_import/init.php:444
+#, fuzzy
+msgid "SPEED is INSANE."
+msgstr "SPEED is INSANE."
+
+#: modules/insane_import/init.php:446
+#, fuzzy
+msgid "day"
+msgstr "day"
+
+#: modules/insane_import/init.php:447
+#, fuzzy
+msgid "hour"
+msgstr "hour"
+
+#: modules/insane_import/init.php:448
+#, fuzzy
+msgid "minute"
+msgstr "minute"
+
+#: modules/insane_import/init.php:449
+#, fuzzy
+msgid "second"
+msgstr "second"
+
+#: modules/insane_import/init.php:453
+#, fuzzy
+msgid "CLOSE BOX"
+msgstr "CLOSE BOX"
+
+#: modules/insane_import/init.php:455
+#, fuzzy
+msgid "No products selected for import!"
+msgstr "No products selected for import!"
+
+#: modules/insane_import/init.php:456
+#, fuzzy
+msgid "the process is stopped"
+msgstr "the process is stopped"
+
+#: modules/insane_import/init.php:457
+#, fuzzy
+msgid "the process will stop after the current product"
+msgstr "the process will stop after the current product"
+
+#: modules/insane_import/init.php:459
+#, fuzzy
+msgid "the process is finished"
+msgstr "the process is finished"
+
+#: modules/insane_import/init.php:460
+#, fuzzy, php-format
+msgid "%s of %s products"
+msgstr "%s of %s products"
+
+#: modules/insane_import/init.php:461
+#, fuzzy, php-format
+msgid "%s of %s images"
+msgstr "%s of %s images"
+
+#: modules/insane_import/init.php:462
+#, fuzzy, php-format
+msgid "%s of %s variations"
+msgstr "%s of %s variations"
+
+#: modules/insane_import/init.php:464
+#, fuzzy
+msgid "current product"
+msgstr "current product"
+
+#: modules/insane_import/init.php:465
+#, fuzzy
+msgid "next product"
+msgstr "next product"
+
+#: modules/insane_import/init.php:467
+#, fuzzy
+msgid "check all"
+msgstr "check all"
+
+#: modules/insane_import/init.php:468
+#, fuzzy
+msgid "uncheck all"
+msgstr "uncheck all"
+
+#: modules/insane_import/init.php:470
+#, fuzzy, php-format
+msgid "the process will stop after the current chunk of %s products"
+msgstr "the process will stop after the current chunk of %s products"
+
+#: modules/insane_import/init.php:493
+#, fuzzy
+msgid "Execution action ..."
+msgstr "Execution action ..."
+
+#: modules/insane_import/init.php:502
+#, fuzzy
+msgid "Import products in progress ..."
+msgstr "Import products in progress ..."
+
+#: modules/insane_import/init.php:504
+#, fuzzy
+msgid ""
+"Please be patient while the products are been imported. \n"
+"\t\t\t\t\t\t\t\t\t\t\t\tThis can take a while if your server is slow "
+"(inexpensive hosting) or if you have many products. \n"
+"\t\t\t\t\t\t\t\t\t\t\t\tDo not navigate away from this page until this "
+"script is done. \n"
+"\t\t\t\t\t\t\t\t\t\t\t\tYou will be notified via this box when the "
+"regenerating is completed."
+msgstr ""
+"Please be patient while the products are been imported. \n"
+"\t\t\t\t\t\t\t\t\t\t\t\tThis can take a while if your server is slow "
+"(inexpensive hosting) or if you have many products. \n"
+"\t\t\t\t\t\t\t\t\t\t\t\tDo not navigate away from this page until this "
+"script is done. \n"
+"\t\t\t\t\t\t\t\t\t\t\t\tYou will be notified via this box when the "
+"regenerating is completed."
+
+#: modules/insane_import/init.php:514
+#, fuzzy
+msgid "Estimated Remained Time"
+msgstr "Estimated Remained Time"
+
+#: modules/insane_import/init.php:515
+#, fuzzy
+msgid "Speed"
+msgstr "Speed"
+
+#: modules/insane_import/init.php:525
+#, fuzzy
+msgid "PPM"
+msgstr "PPM"
+
+#: modules/insane_import/init.php:577 modules/insane_import/init.php:1075
+#, fuzzy
+msgid "View Messages Log"
+msgstr "View Messages Log"
+
+#: modules/insane_import/init.php:630 modules/insane_import/init.php:848
+#, fuzzy
+msgid "SEARCH FOR PRODUCTS"
+msgstr "SEARCH FOR PRODUCTS"
+
+#: modules/insane_import/init.php:631
+#, fuzzy
+msgid "GRAB PRODUCTS"
+msgstr "GRAB PRODUCTS"
+
+#: modules/insane_import/init.php:632 modules/insane_import/init.php:849
+#, fuzzy
+msgid "ALREADY HAVE A LIST?"
+msgstr "ALREADY HAVE A LIST?"
+
+#: modules/insane_import/init.php:633
+#, fuzzy
+msgid "Chrome Extension"
+msgstr "Chrome Extension"
+
+#: modules/insane_import/init.php:683 modules/insane_import/init.php:874
+#, fuzzy
+msgid "Grab"
+msgstr "Grab"
+
+#: modules/insane_import/init.php:706 modules/insane_import/init.php:902
+#, fuzzy
+msgid "Launch search"
+msgstr "Launch search"
+
+#: modules/insane_import/init.php:725
+#, fuzzy
+msgid "Amazon URL"
+msgstr "Amazon URL"
+
+#: modules/insane_import/init.php:726
+#, fuzzy
+msgid "Paste the Amazon page URL here"
+msgstr "Paste the Amazon page URL here"
+
+#: modules/insane_import/init.php:727
+#, fuzzy
+msgid ""
+"The Amazon Page from where you want to import the ASIN codes. E.g: http://"
+"www.amazon.com/gp/top-rated"
+msgstr ""
+"The Amazon Page from where you want to import the ASIN codes. E.g: http://"
+"www.amazon.com/gp/top-rated"
+
+#: modules/insane_import/init.php:731
+#, fuzzy
+msgid "Page type:"
+msgstr "Page type:"
+
+#: modules/insane_import/init.php:743
+#, fuzzy
+msgid "GET ASIN codes"
+msgstr "GET ASIN codes"
+
+#: modules/insane_import/init.php:750 modules/insane_import/init.php:912
+#, fuzzy
+msgid "ASIN codes"
+msgstr "ASIN codes"
+
+#: modules/insane_import/init.php:753 modules/insane_import/init.php:915
+#: modules/insane_import/init.php:1050
+#, fuzzy
+msgid "ASIN delimiter by"
+msgstr "ASIN delimiter by"
+
+#: modules/insane_import/init.php:756 modules/insane_import/init.php:916
+#: modules/insane_import/init.php:1051
+#, fuzzy
+msgid "New line"
+msgstr "New line"
+
+#: modules/insane_import/init.php:762 modules/insane_import/init.php:917
+#: modules/insane_import/init.php:1052
+#, fuzzy
+msgid "Comma"
+msgstr "Comma"
+
+#: modules/insane_import/init.php:768 modules/insane_import/init.php:918
+#: modules/insane_import/init.php:1053
+#, fuzzy
+msgid "TAB"
+msgstr "TAB"
+
+#: modules/insane_import/init.php:781 modules/insane_import/init.php:921
+#, fuzzy
+msgid "Add ASIN codes to Queue"
+msgstr "Add ASIN codes to Queue"
+
+#: modules/insane_import/init.php:867
+#, fuzzy
+msgid "All categories"
+msgstr "All categories"
+
+#: modules/insane_import/init.php:887
+#, fuzzy
+msgid "Page nb"
+msgstr "Page nb"
+
+#: modules/insane_import/init.php:951
+#, fuzzy
+msgid "Load in Queue Log"
+msgstr "Load in Queue Log"
+
+#: modules/insane_import/init.php:985
+#, fuzzy
+msgid "queued products"
+msgstr "queued products"
+
+#: modules/insane_import/init.php:989 modules/insane_import/init.php:1066
+#, fuzzy
+msgid "Export ASINs"
+msgstr "Export ASINs"
+
+#: modules/insane_import/init.php:1019
+#, fuzzy
+msgid "Found"
+msgstr "Found"
+
+#: modules/insane_import/init.php:1020
+#, fuzzy
+msgid "asins"
+msgstr "asins"
+
+#: modules/insane_import/init.php:1023
+#, fuzzy
+msgid "Loaded and valid"
+msgstr "Loaded and valid"
+
+#: modules/insane_import/init.php:1024 modules/insane_import/init.php:1029
+#: modules/insane_import/init.php:1033 modules/insane_import/init.php:1037
+#, fuzzy
+msgid "products"
+msgstr "products"
+
+#: modules/insane_import/init.php:1028
+#, fuzzy
+msgid "Selected for Import"
+msgstr "Selected for Import"
+
+#: modules/insane_import/init.php:1032
+#, fuzzy
+msgid "Imported"
+msgstr "Imported"
+
+#: modules/insane_import/init.php:1036
+#, fuzzy
+msgid "Errors on Import"
+msgstr "Errors on Import"
+
+#: modules/insane_import/init.php:1041
+#, fuzzy
+msgid "show products"
+msgstr "show products"
+
+#: modules/insane_import/init.php:1042
+#, fuzzy
+msgid "collapse products list"
+msgstr "collapse products list"
+
+#: modules/insane_import/init.php:1058
+#, fuzzy
+msgid "All Loaded and valid"
+msgstr "All Loaded and valid"
+
+#: modules/insane_import/init.php:1059
+#, fuzzy
+msgid "All Selected for Import"
+msgstr "All Selected for Import"
+
+#: modules/insane_import/init.php:1060
+#, fuzzy
+msgid "All Imported Successfully"
+msgstr "All Imported Successfully"
+
+#: modules/insane_import/init.php:1061
+#, fuzzy
+msgid "All Not Imported - Errors occured"
+msgstr "All Not Imported - Errors occured"
+
+#: modules/insane_import/init.php:1062
+#, fuzzy
+msgid "Remained Loaded in Queue"
+msgstr "Remained Loaded in Queue"
+
+#: modules/insane_import/init.php:1063
+#, fuzzy
+msgid "Remained Selected in Queue"
+msgstr "Remained Selected in Queue"
+
+#: modules/insane_import/init.php:1064
+#, fuzzy
+msgid "All Found invalid"
+msgstr "All Found invalid"
+
+#: modules/insane_import/init.php:1079
+#, fuzzy
+msgid "Insane Mode Import Fine Tuning"
+msgstr "Insane Mode Import Fine Tuning"
+
+#: modules/insane_import/init.php:1089
+#, fuzzy
+msgid "Remote amazon images is active."
+msgstr "Remote amazon images is active."
+
+#: modules/insane_import/init.php:1096
+#, fuzzy
+msgid "Download images at import"
+msgstr "Download images at import"
+
+#: modules/insane_import/init.php:1100
+#, fuzzy
+msgid "Asynchronuous image download"
+msgstr "Asynchronuous image download"
+
+#: modules/insane_import/init.php:1113
+#, fuzzy
+msgid "Others"
+msgstr "Others"
+
+#: modules/insane_import/init.php:1132 modules/insane_import/init.php:1137
+#, fuzzy
+msgid "IMPORT PRODUCTS"
+msgstr "IMPORT PRODUCTS"
+
+#: modules/insane_import/init.php:1136
+#, fuzzy
+msgid "Run"
+msgstr "Run"
+
+#: modules/insane_import/init.php:1144
+#, fuzzy
+msgid "ESTIMATED TIME"
+msgstr "ESTIMATED TIME"
+
+#: modules/insane_import/init.php:1164
+#, fuzzy
+msgid "Products per minute"
+msgstr "Products per minute"
+
+#: modules/insane_import/init.php:1187
+#, fuzzy
+msgid "Import Log"
+msgstr "Import Log"
+
+#: modules/insane_import/init.php:1436
+#, fuzzy
+msgid "Founding products from remote amazon url..."
+msgstr "Founding products from remote amazon url..."
+
+#: modules/insane_import/init.php:1690
+#, fuzzy
+msgid "Loading products by ASIN..."
+msgstr "Loading products by ASIN..."
+
+#: modules/insane_import/init.php:1709
+#, fuzzy
+msgid "No ASINs provided!"
+msgstr "No ASINs provided!"
+
+#: modules/insane_import/init.php:2135
+#, fuzzy
+msgid "Loading products by Searching..."
+msgstr "Loading products by Searching..."
+
+#: modules/insane_import/init.php:2574
+#, fuzzy, php-format
+msgid "%s items in %s pages"
+msgstr "%s items in %s pages"
+
+#: modules/insane_import/init.php:2632
+#, fuzzy, php-format
+msgid "%s ASINs loaded in queue: %s"
+msgstr "%s ASINs loaded in queue: %s"
+
+#: modules/insane_import/init.php:2636
+#, fuzzy, php-format
+msgid "%s ASINs already imported: %s"
+msgstr "%s ASINs already imported: %s"
+
+#: modules/insane_import/init.php:2640
+#, fuzzy, php-format
+msgid "%s ASINs already parsed (loaded, invalid, imported): %s"
+msgstr "%s ASINs already parsed (loaded, invalid, imported): %s"
+
+#: modules/insane_import/init.php:2646 modules/insane_import/init.php:2650
+#, fuzzy, php-format
+msgid "%s ASINs invalid: %s"
+msgstr "%s ASINs invalid: %s"
+
+#: modules/insane_import/init.php:2656
+#, fuzzy, php-format
+msgid "%s ASINs variation childs (child=parent): %s"
+msgstr "%s ASINs variation childs (child=parent): %s"
+
+#: modules/insane_import/init.php:2950
+#, fuzzy, php-format
+msgid "%s variations"
+msgstr "%s variations"
+
+#: modules/insane_import/init.php:2959
+#, fuzzy
+msgid ""
+"The sales rank is a function of the number of sales of a particular ASIN "
+"compared to the number of sales of other ASINs in same category. So sales "
+"rank doesn't tell you the quantity sold of a particular ASIN; it just tells "
+"you a relationship among ASINs. The lower rank , the better a product is "
+"selling. Rank #1 is the best -> you can sell it very fast in 24 hr if your "
+"price is relatively competitive. To summarize: #1 is the top seller, #2 has "
+"sold less than #1, but more than #3 and all after, #3 has sold less then #1 "
+"and #2, but more than #4 and all after"
+msgstr ""
+"The sales rank is a function of the number of sales of a particular ASIN "
+"compared to the number of sales of other ASINs in same category. So sales "
+"rank doesn't tell you the quantity sold of a particular ASIN; it just tells "
+"you a relationship among ASINs. The lower rank , the better a product is "
+"selling. Rank #1 is the best -> you can sell it very fast in 24 hr if your "
+"price is relatively competitive. To summarize: #1 is the top seller, #2 has "
+"sold less than #1, but more than #3 and all after, #3 has sold less then #1 "
+"and #2, but more than #4 and all after"
+
+#: modules/insane_import/init.php:2965 modules/insane_import/init.php:2968
+#, fuzzy
+msgid "by:"
+msgstr "by:"
+
+#: modules/insane_import/init.php:3942 modules/speed_optimization/init.php:310
+#, fuzzy
+msgid "A"
+msgstr "A"
+
+#: modules/insane_import/init.php:3944 modules/insane_import/init.php:3998
+#, fuzzy
+msgid "Great!"
+msgstr "Great!"
+
+#: modules/insane_import/init.php:3947 modules/speed_optimization/init.php:315
+#, fuzzy
+msgid "B"
+msgstr "B"
+
+#: modules/insane_import/init.php:3949 modules/insane_import/init.php:3999
+#: modules/speed_optimization/init.php:317
+#: modules/speed_optimization/init.php:1614
+#, fuzzy
+msgid "Needs work"
+msgstr "Needs work"
+
+#: modules/insane_import/init.php:3952 modules/speed_optimization/init.php:320
+#, fuzzy
+msgid "C"
+msgstr "C"
+
+#: modules/insane_import/init.php:3954 modules/insane_import/init.php:4000
+#: modules/speed_optimization/init.php:322
+#: modules/speed_optimization/init.php:1615
+#, fuzzy
+msgid "Poor!"
+msgstr "Poor!"
+
+#: modules/insane_import/init.php:3954 modules/speed_optimization/init.php:322
+#, fuzzy
+msgid "(needs more work)"
+msgstr "(needs more work)"
+
+#: modules/insane_import/init.php:3957 modules/speed_optimization/init.php:325
+#, fuzzy
+msgid "D"
+msgstr "D"
+
+#: modules/insane_import/init.php:3959 modules/insane_import/init.php:4001
+#: modules/speed_optimization/init.php:284
+#: modules/speed_optimization/init.php:327
+#: modules/speed_optimization/init.php:1616
+#, fuzzy
+msgid "Bad"
+msgstr "Bad"
+
+#: modules/insane_import/init.php:4009
+#, fuzzy
+msgid "Estimated score of imported products:"
+msgstr "Estimated score of imported products:"
+
+#: modules/insane_import/options.php:22
+#, fuzzy
+msgid "Cache"
+msgstr "Cache"
+
+#: modules/modules_manager/aaModulesManager.class.php:85
+#, fuzzy
+msgid "Icon"
+msgstr "Icon"
+
+#: modules/modules_manager/aaModulesManager.class.php:86
+#, fuzzy
+msgid "Version"
+msgstr "Version"
+
+#: modules/modules_manager/aaModulesManager.class.php:87
+#, fuzzy
+msgid "Name"
+msgstr "Name"
+
+#: modules/modules_manager/aaModulesManager.class.php:88
+#, fuzzy
+msgid "About"
+msgstr "About"
+
+#: modules/modules_manager/aaModulesManager.class.php:131
+#, fuzzy
+msgid "Core Modules, can't be deactivated!"
+msgstr "Core Modules, can't be deactivated!"
+
+#: modules/modules_manager/aaModulesManager.class.php:146
+#, fuzzy
+msgid "Activate selected modules"
+msgstr "Activate selected modules"
+
+#: modules/modules_manager/aaModulesManager.class.php:147
+#, fuzzy
+msgid "Deactivate selected modules"
+msgstr "Deactivate selected modules"
+
+#: modules/modules_manager/config.php:16
+#, fuzzy
+msgid "Modules manager"
+msgstr "Modules manager"
+
+#: modules/modules_manager/config.php:23
+#, fuzzy
+msgid "Using this module you can activate / deactivate plugin modules."
+msgstr "Using this module you can activate / deactivate plugin modules."
+
+#: modules/modules_manager/options.php:19
+#, fuzzy
+msgid "Unlock - Premium SEO Pack"
+msgstr "Unlock - Premium SEO Pack"
+
+#: modules/modules_manager/options.php:32
+#, fuzzy
+msgid ""
+"You need to log into your CodeCanyon account and go to your “Downloads” "
+"page. Locate this plugin you purchased in your “Downloads” list and click on "
+"the “License Certificate” link next to the download link. After you have "
+"downloaded the certificate you can open it in a text editor such as Notepad "
+"and copy the Item Purchase Code."
+msgstr ""
+"You need to log into your CodeCanyon account and go to your “Downloads” "
+"page. Locate this plugin you purchased in your “Downloads” list and click on "
+"the “License Certificate” link next to the download link. After you have "
+"downloaded the certificate you can open it in a text editor such as Notepad "
+"and copy the Item Purchase Code."
+
+#: modules/modules_manager/options.php:39
+#, fuzzy
+msgid "Item Purchase Code"
+msgstr "Item Purchase Code"
+
+#: modules/modules_manager/options.php:40
+#, fuzzy
+msgid "Get it from CodeCanyon account and go to your “Downloads�? page."
+msgstr "Get it from CodeCanyon account and go to your “Downloads�? page."
+
+#: modules/modules_manager/options.php:47
+#, fuzzy
+msgid "Your Email"
+msgstr "Your Email"
+
+#: modules/modules_manager/options.php:48
+#, fuzzy
+msgid ""
+"We will notify you via this email about this product update and bug fix."
+msgstr ""
+"We will notify you via this email about this product update and bug fix."
+
+#: modules/noaws_import/init.php:362 modules/noaws_import/init.php:363
+#, fuzzy
+msgid "No AWS Keys Import"
+msgstr "No AWS Keys Import"
+
+#: modules/noaws_sync_widget/init.php:172
+#: modules/noaws_sync_widget/init.php:173
+#, fuzzy
+msgid "No AWS Keys Sync Widget"
+msgstr "No AWS Keys Sync Widget"
+
+#: modules/noaws_sync_widget/list.table.php:99
+#, fuzzy
+msgid "No syncs avaliable."
+msgstr "No syncs avaliable."
+
+#: modules/noaws_sync_widget/list.table.php:188
+#, fuzzy
+msgid "Bulk asins"
+msgstr "Bulk asins"
+
+#: modules/noaws_sync_widget/list.table.php:191
+#, fuzzy
+msgid "Status Details"
+msgstr "Status Details"
+
+#: modules/noaws_sync_widget/list.table.php:193
+#, fuzzy
+msgid "Response date"
+msgstr "Response date"
+
+#: modules/noaws_sync_widget/list.table.php:194
+#, fuzzy
+msgid "Created date"
+msgstr "Created date"
+
+#: modules/noaws_sync_widget/options.php:245
+#, fuzzy
+msgid "Sync product fields?"
+msgstr "Sync product fields?"
+
+#: modules/noaws_sync_widget/options.php:246
+#, fuzzy
+msgid ""
+"Choose what product fields you want synced? <span style=\"color: red;\">For "
+"sync to work, please make sure you select at least one product field to be "
+"updated (Price or Title)!</span>"
+msgstr ""
+"Choose what product fields you want synced? <span style=\"color: red;\">For "
+"sync to work, please make sure you select at least one product field to be "
+"updated (Price or Title)!</span>"
+
+#: modules/price_select/init.php:496
+#, fuzzy
+msgid "WooZone Price"
+msgstr "WooZone Price"
+
+#: modules/product_report/init.php:104
+#, fuzzy
+msgid "[WooZone] Report a problem"
+msgstr "[WooZone] Report a problem"
+
+#: modules/product_report/init.php:134
+#, fuzzy
+msgid "Product ASIN"
+msgstr "Product ASIN"
+
+#: modules/product_report/init.php:139
+#, fuzzy
+msgid "Description report"
+msgstr "Description report"
+
+#: modules/product_report/init.php:140
+#, fuzzy
+msgid ""
+"Here you can write the issue you encounter with this prodct after import."
+msgstr ""
+"Here you can write the issue you encounter with this prodct after import."
+
+#: modules/product_report/init.php:144
+#, fuzzy
+msgid "Send report"
+msgstr "Send report"
+
+#: modules/report/init.php:82
+#, fuzzy
+msgid "Report"
+msgstr "Report"
+
+#: modules/report/init.php:86
+#, fuzzy
+msgid "Products status"
+msgstr "Products status"
+
+#: modules/report/init.php:87
+#, fuzzy
+msgid "Auto import stats"
+msgstr "Auto import stats"
+
+#: modules/report/init.php:143 modules/report/init.php:144
+#: modules/report/init.php:173
+#, fuzzy
+msgid "Report logs"
+msgstr "Report logs"
+
+#: modules/report/init.php:213
+#, fuzzy
+msgid "No report logs available."
+msgstr "No report logs available."
+
+#: modules/report/init.php:214 modules/speed_optimization/init.php:197
+#: modules/speed_optimization/init.php:1334
+#: modules/synchronization/base_interface.php:216
+#, fuzzy
+msgid "Loading.."
+msgstr "Loading.."
+
+#: modules/report/init.php:240
+#, fuzzy
+msgid "Log id"
+msgstr "Log id"
+
+#: modules/report/init.php:260
+#, fuzzy
+msgid "Log action"
+msgstr "Log action"
+
+#: modules/report/init.php:277
+#, fuzzy
+msgid "Total report logs"
+msgstr "Total report logs"
+
+#: modules/report/init.php:280
+#, fuzzy
+msgid "Reload report logs list"
+msgstr "Reload report logs list"
+
+#: modules/report/init.php:288
+#, fuzzy
+msgid "Log Id"
+msgstr "Log Id"
+
+#: modules/report/init.php:289
+#, fuzzy
+msgid "Log Action"
+msgstr "Log Action"
+
+#: modules/report/init.php:290
+#, fuzzy
+msgid "Log Desc"
+msgstr "Log Desc"
+
+#: modules/report/init.php:291 modules/speed_optimization/init.php:222
+#: modules/synchronization/base_interface.php:325
+#, fuzzy
+msgid "Date Added"
+msgstr "Date Added"
+
+#: modules/report/init.php:396 modules/report/init.php:427
+#, fuzzy
+msgid "View log"
+msgstr "View log"
+
+#: modules/report/init.php:429
+#, fuzzy, php-format
+msgid ""
+"Log id: <strong>%s</strong> | Log action: <strong>%s</strong> | Date: <em>"
+"%s</em>"
+msgstr ""
+"Log id: <strong>%s</strong> | Log action: <strong>%s</strong> | Date: <em>"
+"%s</em>"
+
+#: modules/report/init.php:541
+#, fuzzy
+msgid "WooZone Report"
+msgstr "WooZone Report"
+
+#: modules/report/init.php:544
+#, fuzzy
+msgid " Report module | "
+msgstr " Report module | "
+
+#: modules/report/init.php:547
+#, fuzzy
+msgid "From: "
+msgstr "From: "
+
+#: modules/report/init.php:966 modules/report/init.php:1309
+#, fuzzy
+msgid "no products"
+msgstr "no products"
+
+#: modules/report/init.php:997
+#, fuzzy
+msgid "WooZone Synchronisation Status"
+msgstr "WooZone Synchronisation Status"
+
+#: modules/report/init.php:999
+#, fuzzy
+msgid "Successfully synchronised :"
+msgstr "Successfully synchronised :"
+
+#: modules/report/init.php:1000 modules/report/init.php:1002
+#: modules/report/init.php:1342 modules/report/init.php:1344
+#: modules/report/init.php:1346 modules/report/init.php:1348
+#, fuzzy, php-format
+msgid "%s products"
+msgstr "%s products"
+
+#: modules/report/init.php:1001 modules/report/init.php:1343
+#, fuzzy
+msgid "Errors occured :"
+msgstr "Errors occured :"
+
+#: modules/report/init.php:1018
+#, fuzzy
+msgid "WooZone Performance"
+msgstr "WooZone Performance"
+
+#: modules/report/init.php:1020 modules/report/init.php:1022
+#: modules/report/init.php:1024 modules/report/init.php:1026
+#, fuzzy, php-format
+msgid "<span>%s</span> <span>total</span>"
+msgstr "<span>%s</span> <span>total</span>"
+
+#: modules/report/init.php:1021
+#, fuzzy
+msgid "<span>Number of products</span>"
+msgstr "<span>Number of products</span>"
+
+#: modules/report/init.php:1023
+#, fuzzy
+msgid "<span>Views</span>"
+msgstr "<span>Views</span>"
+
+#: modules/report/init.php:1025
+#, fuzzy
+msgid "<span>Added to cart</span>"
+msgstr "<span>Added to cart</span>"
+
+#: modules/report/init.php:1027
+#, fuzzy
+msgid "<span>Redirected to Amazon</span>"
+msgstr "<span>Redirected to Amazon</span>"
+
+#: modules/report/init.php:1035
+#, fuzzy, php-format
+msgid "WooZone Report - %s"
+msgstr "WooZone Report - %s"
+
+#: modules/report/init.php:1041
+#, fuzzy
+msgid ""
+"<span>It contains all products status from the time of the last report.</"
+"span>"
+msgstr ""
+"<span>It contains all products status from the time of the last report.</"
+"span>"
+
+#: modules/report/init.php:1042 modules/report/init.php:1363
+#, fuzzy
+msgid ""
+"© AA-Team, 2018 <br />You are receiving this email because<br /> you're an "
+"awesome customer of AA-Team."
+msgstr ""
+"© AA-Team, 2018 <br />You are receiving this email because<br /> you're an "
+"awesome customer of AA-Team."
+
+#: modules/report/init.php:1056 modules/report/init.php:1063
+#: modules/report/init.php:1376
+#, fuzzy
+msgid "Product (ASIN / ID)"
+msgstr "Product (ASIN / ID)"
+
+#: modules/report/init.php:1057
+#, fuzzy
+msgid "Syncs number"
+msgstr "Syncs number"
+
+#: modules/report/init.php:1058
+#, fuzzy
+msgid "Sync last status"
+msgstr "Sync last status"
+
+#: modules/report/init.php:1059
+#, fuzzy
+msgid "Sync last date"
+msgstr "Sync last date"
+
+#: modules/report/init.php:1064
+#, fuzzy
+msgid "Views"
+msgstr "Views"
+
+#: modules/report/init.php:1065 modules/synchronization/base_interface.php:323
+#, fuzzy
+msgid "Added to cart"
+msgstr "Added to cart"
+
+#: modules/report/init.php:1066
+#, fuzzy
+msgid "Redirect to Amazon"
+msgstr "Redirect to Amazon"
+
+#: modules/report/init.php:1079
+#, fuzzy, php-format
+msgid "%s Syncs"
+msgstr "%s Syncs"
+
+#: modules/report/init.php:1339
+#, fuzzy
+msgid "WooZone Auto Import Status"
+msgstr "WooZone Auto Import Status"
+
+#: modules/report/init.php:1341
+#, fuzzy
+msgid "Successfully imported :"
+msgstr "Successfully imported :"
+
+#: modules/report/init.php:1345
+#, fuzzy
+msgid "Already imported :"
+msgstr "Already imported :"
+
+#: modules/report/init.php:1347
+#, fuzzy
+msgid "New remained :"
+msgstr "New remained :"
+
+#: modules/report/init.php:1356
+#, fuzzy, php-format
+msgid "WooZone Report AI - %s"
+msgstr "WooZone Report AI - %s"
+
+#: modules/report/init.php:1362
+#, fuzzy
+msgid ""
+"<span>It contains all auto imported products from the time of the last "
+"report.</span>"
+msgstr ""
+"<span>It contains all auto imported products from the time of the last "
+"report.</span>"
+
+#: modules/report/init.php:1378
+#, fuzzy
+msgid "Import last status"
+msgstr "Import last status"
+
+#: modules/report/init.php:1379
+#, fuzzy
+msgid "Import last date"
+msgstr "Import last date"
+
+#: modules/report/init.php:1399
+#, fuzzy, php-format
+msgid "%s Tries"
+msgstr "%s Tries"
+
+#: modules/report/init.php:1555
+#, fuzzy
+msgid "No status saved yet from Send Report Now!"
+msgstr "No status saved yet from Send Report Now!"
+
+#: modules/report/init.php:1611
+#, fuzzy
+msgid "last operation: <em>"
+msgstr "last operation: <em>"
+
+#: modules/report/options.php:62
+#, fuzzy
+msgid "report sending recurrency"
+msgstr "report sending recurrency"
+
+#: modules/report/options.php:64
+#, fuzzy
+msgid "Recurrency:"
+msgstr "Recurrency:"
+
+#: modules/report/options.php:74
+#, fuzzy
+msgid "Send Report NOW"
+msgstr "Send Report NOW"
+
+#: modules/server_status/ajax.php:54
+#, fuzzy, php-format
+msgid ""
+"%s - We recommend setting memory to at least 128MB. See: <a href=\"%s\" "
+"class=\"WooZone-form-button WooZone-form-button-info\">Increasing memory "
+"allocated to PHP</a>"
+msgstr ""
+"%s - We recommend setting memory to at least 128MB. See: <a href=\"%s\" "
+"class=\"WooZone-form-button WooZone-form-button-info\">Increasing memory "
+"allocated to PHP</a>"
+
+#: modules/server_status/ajax.php:100 modules/wizard/init.php:1517
+#, fuzzy
+msgid "wp_remote_get() was successful - Webservices Amazon is working."
+msgstr "wp_remote_get() was successful - Webservices Amazon is working."
+
+#: modules/server_status/ajax.php:103 modules/wizard/init.php:1520
+#, fuzzy
+msgid ""
+"wp_remote_get() failed. Webservices Amazon won't work with your server. "
+"Contact your hosting provider. Error:"
+msgstr ""
+"wp_remote_get() failed. Webservices Amazon won't work with your server. "
+"Contact your hosting provider. Error:"
+
+#: modules/server_status/ajax.php:106 modules/wizard/init.php:1523
+#, fuzzy
+msgid ""
+"wp_remote_get() failed. Webservices Amazon may not work with your server."
+msgstr ""
+"wp_remote_get() failed. Webservices Amazon may not work with your server."
+
+#: modules/server_status/ajax.php:123 modules/wizard/init.php:1444
+#, fuzzy
+msgid "Your server has the SOAP Client class enabled."
+msgstr "Your server has the SOAP Client class enabled."
+
+#: modules/server_status/ajax.php:126
+#, fuzzy, php-format
+msgid ""
+"Your server does not have the <a href=\"%s\">SOAP Client</a> class enabled - "
+"some gateway plugins which use SOAP may not work as expected."
+msgstr ""
+"Your server does not have the <a href=\"%s\">SOAP Client</a> class enabled - "
+"some gateway plugins which use SOAP may not work as expected."
+
+#: modules/server_status/ajax.php:143 modules/wizard/init.php:1478
+#, fuzzy
+msgid "Your server has the SimpleXML library enabled."
+msgstr "Your server has the SimpleXML library enabled."
+
+#: modules/server_status/ajax.php:146
+#, fuzzy, php-format
+msgid ""
+"Your server does not have the <a href=\"%s\">SimpleXML</a> library enabled - "
+"some gateway plugins which use SimpleXML library may not work as expected."
+msgstr ""
+"Your server does not have the <a href=\"%s\">SimpleXML</a> library enabled - "
+"some gateway plugins which use SimpleXML library may not work as expected."
+
+#: modules/server_status/ajax.php:194
+#, fuzzy
+msgid "is available"
+msgstr "is available"
+
+#: modules/server_status/ajax.php:197
+#, fuzzy
+msgid "by"
+msgstr "by"
+
+#: modules/server_status/ajax.php:197
+#, fuzzy
+msgid "version"
+msgstr "version"
+
+#: modules/server_status/init.php:77
+#, fuzzy
+msgid "Check System status"
+msgstr "Check System status"
+
+#: modules/server_status/init.php:138
+#, fuzzy
+msgid "Modules"
+msgstr "Modules"
+
+#: modules/server_status/init.php:144
+#, fuzzy
+msgid "Active Modules"
+msgstr "Active Modules"
+
+#: modules/server_status/init.php:160
+#, fuzzy
+msgid "Plugin Integrity"
+msgstr "Plugin Integrity"
+
+#: modules/server_status/init.php:166
+#, fuzzy
+msgid "Database"
+msgstr "Database"
+
+#: modules/server_status/init.php:207
+#, fuzzy
+msgid "No Affiliate ID set. Please set one in the plugin tab Amazon Config."
+msgstr "No Affiliate ID set. Please set one in the plugin tab Amazon Config."
+
+#: modules/server_status/init.php:228
+#, fuzzy
+msgid "WooZone import settings"
+msgstr "WooZone import settings"
+
+#: modules/server_status/init.php:234
+#, fuzzy
+msgid "Request Type"
+msgstr "Request Type"
+
+#: modules/server_status/init.php:238
+#, fuzzy
+msgid "Amazon API location"
+msgstr "Amazon API location"
+
+#: modules/server_status/init.php:242
+#, fuzzy
+msgid "On-site Cart"
+msgstr "On-site Cart"
+
+#: modules/server_status/init.php:246
+#, fuzzy
+msgid "Download Item Attribute"
+msgstr "Download Item Attribute"
+
+#: modules/server_status/init.php:250 modules/speed_optimization/init.php:1757
+#, fuzzy
+msgid "Variation"
+msgstr "Variation"
+
+#: modules/server_status/init.php:258
+#, fuzzy
+msgid "Cross-selling"
+msgstr "Cross-selling"
+
+#: modules/server_status/init.php:265
+#, fuzzy
+msgid "Syncronize Capabilities Testing:"
+msgstr "Syncronize Capabilities Testing:"
+
+#: modules/server_status/init.php:336
+#, fuzzy
+msgid "Environment"
+msgstr "Environment"
+
+#: modules/server_status/init.php:342
+#, fuzzy
+msgid "Home URL"
+msgstr "Home URL"
+
+#: modules/server_status/init.php:346
+#, fuzzy
+msgid "WooZone Version"
+msgstr "WooZone Version"
+
+#: modules/server_status/init.php:350
+#, fuzzy
+msgid "WP Version"
+msgstr "WP Version"
+
+#: modules/server_status/init.php:354
+#, fuzzy
+msgid "Web Server Info"
+msgstr "Web Server Info"
+
+#: modules/server_status/init.php:358
+#, fuzzy
+msgid "PHP Version"
+msgstr "PHP Version"
+
+#: modules/server_status/init.php:362
+#, fuzzy
+msgid "MySQL Version"
+msgstr "MySQL Version"
+
+#: modules/server_status/init.php:366 modules/wizard/steps/requirements.php:51
+#, fuzzy
+msgid "WP Memory Limit"
+msgstr "WP Memory Limit"
+
+#: modules/server_status/init.php:370
+#, fuzzy
+msgid "WP Debug Mode"
+msgstr "WP Debug Mode"
+
+#: modules/server_status/init.php:371 modules/server_status/init.php:428
+#: modules/server_status/init.php:563
+#, fuzzy
+msgid "Yes"
+msgstr "Yes"
+
+#: modules/server_status/init.php:371 modules/server_status/init.php:428
+#: modules/server_status/init.php:564
+#, fuzzy
+msgid "No"
+msgstr "No"
+
+#: modules/server_status/init.php:374
+#, fuzzy
+msgid "WP Ajax Debug"
+msgstr "WP Ajax Debug"
+
+#: modules/server_status/init.php:380
+#, fuzzy
+msgid "WP Max Upload Size"
+msgstr "WP Max Upload Size"
+
+#: modules/server_status/init.php:384
+#, fuzzy
+msgid "PHP Post Max Size"
+msgstr "PHP Post Max Size"
+
+#: modules/server_status/init.php:388
+#, fuzzy
+msgid "PHP Time Limit"
+msgstr "PHP Time Limit"
+
+#: modules/server_status/init.php:392 modules/wizard/steps/requirements.php:108
+#, fuzzy
+msgid "WP Remote GET"
+msgstr "WP Remote GET"
+
+#: modules/server_status/init.php:396 modules/wizard/steps/requirements.php:70
+#, fuzzy
+msgid "SOAP Client"
+msgstr "SOAP Client"
+
+#: modules/server_status/init.php:400 modules/wizard/steps/requirements.php:89
+#, fuzzy
+msgid "SimpleXML library"
+msgstr "SimpleXML library"
+
+#: modules/server_status/init.php:407
+#, fuzzy
+msgid "Plugins"
+msgstr "Plugins"
+
+#: modules/server_status/init.php:413
+#, fuzzy
+msgid "Installed Plugins"
+msgstr "Installed Plugins"
+
+#: modules/server_status/init.php:420 modules/wizard/init.php:656
+#, fuzzy
+msgid "Settings"
+msgstr "Settings"
+
+#: modules/server_status/init.php:427
+#, fuzzy
+msgid "Force SSL"
+msgstr "Force SSL"
+
+#: modules/server_status/init.php:434
+#, fuzzy
+msgid "Woocommerce Dependencies - Needed for the cart option to work properly"
+msgstr "Woocommerce Dependencies - Needed for the cart option to work properly"
+
+#: modules/server_status/init.php:465
+#, fuzzy
+msgid "Page not set"
+msgstr "Page not set"
+
+#: modules/server_status/init.php:475
+#, fuzzy
+msgid "Page does not exist"
+msgstr "Page does not exist"
+
+#: modules/server_status/init.php:480
+#, fuzzy, php-format
+msgid "Page does not contain the shortcode: %s"
+msgstr "Page does not contain the shortcode: %s"
+
+#: modules/server_status/init.php:567
+#, fuzzy
+msgid "Disable Ajax Debug"
+msgstr "Disable Ajax Debug"
+
+#: modules/server_status/init.php:568
+#, fuzzy
+msgid "Enable Ajax Debug"
+msgstr "Enable Ajax Debug"
+
+#: modules/speed_optimization/init.php:124
+#, fuzzy
+msgid "Loading ..."
+msgstr "Loading ..."
+
+#: modules/speed_optimization/init.php:125
+#, fuzzy
+msgid "Deleting the image ..."
+msgstr "Deleting the image ..."
+
+#: modules/speed_optimization/init.php:126
+#, fuzzy
+msgid "Optimizing attributes ..."
+msgstr "Optimizing attributes ..."
+
+#: modules/speed_optimization/init.php:127
+#, fuzzy
+msgid "Deleting the variation ..."
+msgstr "Deleting the variation ..."
+
+#: modules/speed_optimization/init.php:128
+#, fuzzy
+msgid "Deleting selected variations ..."
+msgstr "Deleting selected variations ..."
+
+#: modules/speed_optimization/init.php:129
+#, fuzzy
+msgid "Removing category from product ..."
+msgstr "Removing category from product ..."
+
+#: modules/speed_optimization/init.php:130
+#, fuzzy
+msgid "Removing selected categories from product ..."
+msgstr "Removing selected categories from product ..."
+
+#: modules/speed_optimization/init.php:131
+#, fuzzy
+msgid ""
+"If you have a large number of products, this operation can take a while, "
+"please be patient."
+msgstr ""
+"If you have a large number of products, this operation can take a while, "
+"please be patient."
+
+#: modules/speed_optimization/init.php:133
+#, fuzzy
+msgid "All products are optimized as you requested."
+msgstr "All products are optimized as you requested."
+
+#: modules/speed_optimization/init.php:134
+#: modules/speed_optimization/init.php:1737
+#, fuzzy
+msgid "This product has no variations."
+msgstr "This product has no variations."
+
+#: modules/speed_optimization/init.php:135
+#, fuzzy
+msgid ""
+"<strong>DISCLAIMER:</strong> If you remove all variations, the products will "
+"be converted to simple products and you will be unable to use the OnSite "
+"Cart & 90 Days Cookie! Please disable them in Amazon Config."
+msgstr ""
+"<strong>DISCLAIMER:</strong> If you remove all variations, the products will "
+"be converted to simple products and you will be unable to use the OnSite "
+"Cart & 90 Days Cookie! Please disable them in Amazon Config."
+
+#: modules/speed_optimization/init.php:137
+#, fuzzy
+msgid "Are you sure you want to delete this image?"
+msgstr "Are you sure you want to delete this image?"
+
+#: modules/speed_optimization/init.php:138
+#, fuzzy
+msgid "Are you sure you want to optimize the attributes?"
+msgstr "Are you sure you want to optimize the attributes?"
+
+#: modules/speed_optimization/init.php:139
+#, fuzzy
+msgid "Are you sure you want to remove the product from this category?"
+msgstr "Are you sure you want to remove the product from this category?"
+
+#: modules/speed_optimization/init.php:140
+#, fuzzy
+msgid ""
+"Are you sure you want to remove the product from the selected categories?"
+msgstr ""
+"Are you sure you want to remove the product from the selected categories?"
+
+#: modules/speed_optimization/init.php:141
+#, fuzzy
+msgid "Are you sure you want to delete this variation?"
+msgstr "Are you sure you want to delete this variation?"
+
+#: modules/speed_optimization/init.php:142
+#, fuzzy
+msgid "Are you sure you want to delete the selected variations?"
+msgstr "Are you sure you want to delete the selected variations?"
+
+#: modules/speed_optimization/init.php:143
+#, fuzzy
+msgid "Please select products from the list to mass-optimize."
+msgstr "Please select products from the list to mass-optimize."
+
+#: modules/speed_optimization/init.php:145
+#, fuzzy
+msgid "OK"
+msgstr "OK"
+
+#: modules/speed_optimization/init.php:147
+#, fuzzy
+msgid "Close"
+msgstr "Close"
+
+#: modules/speed_optimization/init.php:148
+#, fuzzy
+msgid "Resume"
+msgstr "Resume"
+
+#: modules/speed_optimization/init.php:182
+#: modules/synchronization/base_interface.php:290
+#, fuzzy
+msgid "Total products"
+msgstr "Total products"
+
+#: modules/speed_optimization/init.php:196
+#: modules/synchronization/base_interface.php:208
+#, fuzzy
+msgid "No products available."
+msgstr "No products available."
+
+#: modules/speed_optimization/init.php:204
+#: modules/speed_optimization/init.php:230
+#, fuzzy
+msgid "Mass Speed Optimize Products"
+msgstr "Mass Speed Optimize Products"
+
+#: modules/speed_optimization/init.php:218
+#, fuzzy
+msgid "Product"
+msgstr "Product"
+
+#: modules/speed_optimization/init.php:220
+#, fuzzy
+msgid "Score"
+msgstr "Score"
+
+#: modules/speed_optimization/init.php:257
+#: modules/speed_optimization/init.php:491
+#: modules/speed_optimization/init.php:1627
+#: modules/wizard/steps/fine_tuning.php:24
+#, fuzzy
+msgid "Variations"
+msgstr "Variations"
+
+#: modules/speed_optimization/init.php:260
+#: modules/speed_optimization/init.php:489
+#: modules/speed_optimization/init.php:1628
+#, fuzzy
+msgid "Images"
+msgstr "Images"
+
+#: modules/speed_optimization/init.php:263
+#: modules/speed_optimization/init.php:492
+#: modules/speed_optimization/init.php:1630
+#, fuzzy
+msgid "Categories"
+msgstr "Categories"
+
+#: modules/speed_optimization/init.php:266
+#: modules/speed_optimization/init.php:490
+#: modules/speed_optimization/init.php:1629
+#, fuzzy
+msgid "Attributes"
+msgstr "Attributes"
+
+#: modules/speed_optimization/init.php:274
+#, fuzzy
+msgid "That's Great!"
+msgstr "That's Great!"
+
+#: modules/speed_optimization/init.php:278
+#, fuzzy, php-format
+msgid "We recommend optimizing the %s"
+msgstr "We recommend optimizing the %s"
+
+#: modules/speed_optimization/init.php:281
+#, fuzzy
+msgid "Poor! <i>Needs more work</i>"
+msgstr "Poor! <i>Needs more work</i>"
+
+#: modules/speed_optimization/init.php:293
+#, fuzzy
+msgid "This product has:"
+msgstr "This product has:"
+
+#: modules/speed_optimization/init.php:312
+#: modules/speed_optimization/init.php:1613
+#, fuzzy
+msgid "Optimized!"
+msgstr "Optimized!"
+
+#: modules/speed_optimization/init.php:333
+#, fuzzy
+msgid "LEGEND"
+msgstr "LEGEND"
+
+#: modules/speed_optimization/init.php:340
+#, fuzzy
+msgid "SCORE"
+msgstr "SCORE"
+
+#: modules/speed_optimization/init.php:370
+#, fuzzy
+msgid ""
+"Images occupy a significant amount of visual space. As a result, optimizing "
+"images can often yield some of the largest byte savings and performance "
+"improvements for your website. Eliminate unnecessary image resources!"
+msgstr ""
+"Images occupy a significant amount of visual space. As a result, optimizing "
+"images can often yield some of the largest byte savings and performance "
+"improvements for your website. Eliminate unnecessary image resources!"
+
+#: modules/speed_optimization/init.php:371
+#, fuzzy
+msgid ""
+"Amazon products come with a lot of attributes. Only one product can have "
+"hundred of attributes. This might cause your site to slow down. That’s why "
+"we developed a tool that helps you optimize the attributes in just a click!"
+msgstr ""
+"Amazon products come with a lot of attributes. Only one product can have "
+"hundred of attributes. This might cause your site to slow down. That’s why "
+"we developed a tool that helps you optimize the attributes in just a click!"
+
+#: modules/speed_optimization/init.php:372
+#, fuzzy
+msgid ""
+"If your product has many variations , this will surely increase your website "
+"loading time. We recomend keeping maximum <strong>5 variations</strong> per "
+"product.<br/><br/><strong>DISCLAIMER:</strong> If you remove all variations, "
+"the products will be converted to simple products and you will be unable to "
+"use the OnSite Cart & 90 Days Cookie! Please disable them in Amazon Config."
+msgstr ""
+"If your product has many variations , this will surely increase your website "
+"loading time. We recomend keeping maximum <strong>5 variations</strong> per "
+"product.<br/><br/><strong>DISCLAIMER:</strong> If you remove all variations, "
+"the products will be converted to simple products and you will be unable to "
+"use the OnSite Cart & 90 Days Cookie! Please disable them in Amazon Config."
+
+#: modules/speed_optimization/init.php:373
+#, fuzzy
+msgid ""
+"If you’re using the \"Use Category from Amazon\" option upon import, you "
+"might notice that the whole categories tree gets imported with the product. "
+"Using this tool, you can leave fewer categories. This increases your website "
+"speed."
+msgstr ""
+"If you’re using the \"Use Category from Amazon\" option upon import, you "
+"might notice that the whole categories tree gets imported with the product. "
+"Using this tool, you can leave fewer categories. This increases your website "
+"speed."
+
+#: modules/speed_optimization/init.php:374
+#, fuzzy
+msgid ""
+"This tool will help you mass optimize all your products based on the options "
+"you setup here."
+msgstr ""
+"This tool will help you mass optimize all your products based on the options "
+"you setup here."
+
+#: modules/speed_optimization/init.php:386
+#, fuzzy
+msgid "MASS OPTIMIZE ALL PRODUCTS"
+msgstr "MASS OPTIMIZE ALL PRODUCTS"
+
+#: modules/speed_optimization/init.php:396
+#, fuzzy
+msgid "Important"
+msgstr "Important"
+
+#: modules/speed_optimization/init.php:397
+#, fuzzy
+msgid "This feature does not have a rollback option!"
+msgstr "This feature does not have a rollback option!"
+
+#: modules/speed_optimization/init.php:403
+#: modules/speed_optimization/init.php:1309
+#, fuzzy
+msgid "IMAGES"
+msgstr "IMAGES"
+
+#: modules/speed_optimization/init.php:403
+#, fuzzy
+msgid "(Select how many images to leave on each product)"
+msgstr "(Select how many images to leave on each product)"
+
+#: modules/speed_optimization/init.php:405
+#, fuzzy
+msgid "Leave only featured image"
+msgstr "Leave only featured image"
+
+#: modules/speed_optimization/init.php:416
+#: modules/speed_optimization/init.php:1310
+#, fuzzy
+msgid "ATTRIBUTES"
+msgstr "ATTRIBUTES"
+
+#: modules/speed_optimization/init.php:416
+#, fuzzy
+msgid "(Select if you want to optimize attributes for all products)"
+msgstr "(Select if you want to optimize attributes for all products)"
+
+#: modules/speed_optimization/init.php:418
+#, fuzzy
+msgid "YES"
+msgstr "YES"
+
+#: modules/speed_optimization/init.php:419
+#, fuzzy
+msgid "NO"
+msgstr "NO"
+
+#: modules/speed_optimization/init.php:425
+#: modules/speed_optimization/init.php:1311
+#, fuzzy
+msgid "VARIATIONS"
+msgstr "VARIATIONS"
+
+#: modules/speed_optimization/init.php:425
+#, fuzzy
+msgid "(Select how many variations to leave on each product)"
+msgstr "(Select how many variations to leave on each product)"
+
+#: modules/speed_optimization/init.php:430
+#, fuzzy
+msgid "No variations"
+msgstr "No variations"
+
+#: modules/speed_optimization/init.php:436
+#: modules/speed_optimization/init.php:1312
+#, fuzzy
+msgid "CATEGORIES"
+msgstr "CATEGORIES"
+
+#: modules/speed_optimization/init.php:436
+#, fuzzy
+msgid "(Select how many categories to leave on each product)"
+msgstr "(Select how many categories to leave on each product)"
+
+#: modules/speed_optimization/init.php:452
+#, fuzzy
+msgid "CANCEL"
+msgstr "CANCEL"
+
+#: modules/speed_optimization/init.php:453
+#, fuzzy
+msgid "MASS OPTIMIZE"
+msgstr "MASS OPTIMIZE"
+
+#: modules/speed_optimization/init.php:477
+#, fuzzy
+msgid "You have the possibility to optimize the following"
+msgstr "You have the possibility to optimize the following"
+
+#: modules/speed_optimization/init.php:525
+#, fuzzy
+msgid "Featured Image"
+msgstr "Featured Image"
+
+#: modules/speed_optimization/init.php:537
+#: modules/speed_optimization/init.php:613
+#, fuzzy
+msgid "This product has no images."
+msgstr "This product has no images."
+
+#: modules/speed_optimization/init.php:634
+#, fuzzy
+msgid "Optimize Attributes"
+msgstr "Optimize Attributes"
+
+#: modules/speed_optimization/init.php:636
+#, fuzzy
+msgid "Optimized attributes"
+msgstr "Optimized attributes"
+
+#: modules/speed_optimization/init.php:746
+#, fuzzy
+msgid "Variation deleted."
+msgstr "Variation deleted."
+
+#: modules/speed_optimization/init.php:796
+#, fuzzy, php-format
+msgid "%s variations removed."
+msgstr "%s variations removed."
+
+#: modules/speed_optimization/init.php:801
+#, fuzzy
+msgid "Error removing variations!"
+msgstr "Error removing variations!"
+
+#: modules/speed_optimization/init.php:807
+#, fuzzy
+msgid ""
+"No variations selected. Use the checkboxes above to select what variations "
+"to delete."
+msgstr ""
+"No variations selected. Use the checkboxes above to select what variations "
+"to delete."
+
+#: modules/speed_optimization/init.php:824
+#, fuzzy
+msgid "Category removed from product."
+msgstr "Category removed from product."
+
+#: modules/speed_optimization/init.php:855
+#, fuzzy, php-format
+msgid "%s categories removed from product."
+msgstr "%s categories removed from product."
+
+#: modules/speed_optimization/init.php:860
+#, fuzzy
+msgid "Error removing categories!"
+msgstr "Error removing categories!"
+
+#: modules/speed_optimization/init.php:866
+#, fuzzy
+msgid ""
+"No categories where selected. Use the checkboxes above to select what "
+"categories to remove."
+msgstr ""
+"No categories where selected. Use the checkboxes above to select what "
+"categories to remove."
+
+#: modules/speed_optimization/init.php:947
+#, fuzzy
+msgid "Next Product to be processed"
+msgstr "Next Product to be processed"
+
+#: modules/speed_optimization/init.php:1265
+#, fuzzy
+msgid "Attributes optimised."
+msgstr "Attributes optimised."
+
+#: modules/speed_optimization/init.php:1795
+#, fuzzy
+msgid "Delete selected"
+msgstr "Delete selected"
+
+#: modules/speed_optimization/init.php:1812
+#, fuzzy
+msgid "This product has no categories."
+msgstr "This product has no categories."
+
+#: modules/speed_optimization/init.php:1848
+#, fuzzy
+msgid "Remove"
+msgstr "Remove"
+
+#: modules/speed_optimization/init.php:1855
+#, fuzzy
+msgid "Remove selected"
+msgstr "Remove selected"
+
+#: modules/synchronization/base_interface.php:146
+#, fuzzy
+msgid "Synchronization logs"
+msgstr "Synchronization logs"
+
+#: modules/synchronization/base_interface.php:151
+#, fuzzy
+msgid "Products stats"
+msgstr "Products stats"
+
+#: modules/synchronization/base_interface.php:209
+#, fuzzy
+msgid "Sync now (<span>{nb}</span> remained)"
+msgstr "Sync now (<span>{nb}</span> remained)"
+
+#: modules/synchronization/base_interface.php:210
+#, fuzzy
+msgid "(ASIN: {1} / ID: #{2}): {3}"
+msgstr "(ASIN: {1} / ID: #{2}): {3}"
+
+#: modules/synchronization/base_interface.php:211
+#, fuzzy
+msgid "Sync now is finished."
+msgstr "Sync now is finished."
+
+#: modules/synchronization/base_interface.php:212
+#, fuzzy
+msgid "Sync all now in progress. Please be patient till it's finished."
+msgstr "Sync all now in progress. Please be patient till it's finished."
+
+#: modules/synchronization/base_interface.php:213
+#, fuzzy
+msgid "stop processing."
+msgstr "stop processing."
+
+#: modules/synchronization/base_interface.php:214
+#, fuzzy
+msgid "Sync now is stopped."
+msgstr "Sync now is stopped."
+
+#: modules/synchronization/base_interface.php:215
+#, fuzzy
+msgid "Sync now will be stopped..."
+msgstr "Sync now will be stopped..."
+
+#: modules/synchronization/base_interface.php:256
+#, fuzzy
+msgid "Synchronisation Cronjob Stats"
+msgstr "Synchronisation Cronjob Stats"
+
+#: modules/synchronization/base_interface.php:264
+#: modules/synchronization/base_interface.php:351
+#, fuzzy
+msgid "Synchronisation Settings"
+msgstr "Synchronisation Settings"
+
+#: modules/synchronization/base_interface.php:291
+#, fuzzy
+msgid "Synchronized products"
+msgstr "Synchronized products"
+
+#: modules/synchronization/base_interface.php:295
+#, fuzzy
+msgid "stop auto reload"
+msgstr "stop auto reload"
+
+#: modules/synchronization/base_interface.php:297
+#, fuzzy
+msgid "seconds"
+msgstr "seconds"
+
+#: modules/synchronization/base_interface.php:299
+#, fuzzy
+msgid "Reload products list"
+msgstr "Reload products list"
+
+#: modules/synchronization/base_interface.php:301
+#, fuzzy
+msgid "Sync all now"
+msgstr "Sync all now"
+
+#: modules/synchronization/base_interface.php:311
+#, fuzzy
+msgid "SYNC STATUS"
+msgstr "SYNC STATUS"
+
+#: modules/synchronization/base_interface.php:314
+#, fuzzy
+msgid "Sync Stats"
+msgstr "Sync Stats"
+
+#: modules/synchronization/base_interface.php:315
+#, fuzzy
+msgid "Last Sync"
+msgstr "Last Sync"
+
+#: modules/synchronization/base_interface.php:322
+#, fuzzy
+msgid "Hits"
+msgstr "Hits"
+
+#: modules/synchronization/base_interface.php:324
+#, fuzzy
+msgid "Redirected to Amazon"
+msgstr "Redirected to Amazon"
+
+#: modules/synchronization/base_interface.php:389
+#, fuzzy
+msgid "Each product has to sync the following"
+msgstr "Each product has to sync the following"
+
+#: modules/synchronization/base_interface.php:427
+#, fuzzy
+msgid "Products per request"
+msgstr "Products per request"
+
+#: modules/synchronization/base_interface.php:465
+#, fuzzy
+msgid "only these fields can be synchronised: "
+msgstr "only these fields can be synchronised: "
+
+#: modules/synchronization/base_interface.php:467
+#, fuzzy
+msgid "ebay: Price, Title, Buy URL, Description, SKU"
+msgstr "ebay: Price, Title, Buy URL, Description, SKU"
+
+#: modules/synchronization/base_interface.php:469
+#, fuzzy
+msgid "amazon New API: Price, Title, Buy URL, Sales Rank, Short description"
+msgstr "amazon New API: Price, Title, Buy URL, Sales Rank, Short description"
+
+#: modules/synchronization/base_interface.php:475
+#, fuzzy
+msgid "Save settings"
+msgstr "Save settings"
+
+#: modules/synchronization/base_interface.php:642
+#, fuzzy
+msgid ""
+"We'll begin the process to re-sync amazon error (ex. throttled) ones shortly"
+msgstr ""
+"We'll begin the process to re-sync amazon error (ex. throttled) ones shortly"
+
+#: modules/synchronization/base_interface.php:709
+#, fuzzy
+msgid "Started on: "
+msgstr "Started on: "
+
+#: modules/synchronization/base_interface.php:717
+#, fuzzy
+msgid "Current Sync Cycle: "
+msgstr "Current Sync Cycle: "
+
+#: modules/synchronization/base_interface.php:723
+#, fuzzy
+msgid "Duration: "
+msgstr "Duration: "
+
+#: modules/synchronization/base_interface.php:745
+#, fuzzy, php-format
+msgid "%d remained to be synced from %d total items"
+msgstr "%d remained to be synced from %d total items"
+
+#: modules/synchronization/base_interface.php:750
+#, fuzzy, php-format
+msgid "ID Last item in cycle: %d"
+msgstr "ID Last item in cycle: %d"
+
+#: modules/synchronization/base_interface.php:755
+#: modules/synchronization/base_interface.php:2487
+#, fuzzy, php-format
+msgid "ID Last synced item: %d"
+msgstr "ID Last synced item: %d"
+
+#: modules/synchronization/base_interface.php:787
+#, fuzzy, php-format
+msgid "Number of items moved in trash (or deleted): %s"
+msgstr "Number of items moved in trash (or deleted): %s"
+
+#: modules/synchronization/base_interface.php:798
+#, fuzzy, php-format
+msgid "Number of items marked as not found: %s"
+msgstr "Number of items marked as not found: %s"
+
+#: modules/synchronization/base_interface.php:806
+#, fuzzy
+msgid ""
+"products added after the current cycle started, are not included in the "
+"syncing process"
+msgstr ""
+"products added after the current cycle started, are not included in the "
+"syncing process"
+
+#: modules/synchronization/base_interface.php:807
+#, fuzzy
+msgid "item = product (simple or variable) or just a variation"
+msgstr "item = product (simple or variable) or just a variation"
+
+#: modules/synchronization/base_interface.php:835
+#, fuzzy
+msgid "Next Sync Cycle"
+msgstr "Next Sync Cycle"
+
+#: modules/synchronization/base_interface.php:839
+#, fuzzy
+msgid "Estimated Start time"
+msgstr "Estimated Start time"
+
+#: modules/synchronization/base_interface.php:843
+#, fuzzy
+msgid ""
+"depends on last sync cycle start time and on (recurrence and products per "
+"request) synchronisation settings"
+msgstr ""
+"depends on last sync cycle start time and on (recurrence and products per "
+"request) synchronisation settings"
+
+#: modules/synchronization/base_interface.php:1514
+#, fuzzy
+msgid "missing"
+msgstr "missing"
+
+#: modules/synchronization/base_interface.php:1567
+#, fuzzy
+msgid "NOT SYNCED"
+msgstr "NOT SYNCED"
+
+#: modules/synchronization/base_interface.php:1568
+#, fuzzy
+msgid "ALREADY SYNCED"
+msgstr "ALREADY SYNCED"
+
+#: modules/synchronization/base_interface.php:1569
+#, fuzzy
+msgid "NEXT TO BE SYNCED"
+msgstr "NEXT TO BE SYNCED"
+
+#: modules/synchronization/base_interface.php:1592
+#, fuzzy
+msgid " - based on recurrence"
+msgstr " - based on recurrence"
+
+#: modules/synchronization/base_interface.php:1660
+#, fuzzy
+msgid "SYNC NOW"
+msgstr "SYNC NOW"
+
+#: modules/synchronization/base_interface.php:1715
+#, fuzzy
+msgid "VARIABLE"
+msgstr "VARIABLE"
+
+#: modules/synchronization/base_interface.php:2021
+#, fuzzy
+msgid "per page"
+msgstr "per page"
+
+#: modules/synchronization/base_interface.php:2113
+#, fuzzy
+msgid "Sync settings saved successfully."
+msgstr "Sync settings saved successfully."
+
+#: modules/synchronization/base_interface.php:2483
+#, fuzzy, php-format
+msgid ""
+"Estimated %s remained products (and product variations) of a %s total to be "
+"synced in current cycle (we do not include products added after the current "
+"cycle started)"
+msgstr ""
+"Estimated %s remained products (and product variations) of a %s total to be "
+"synced in current cycle (we do not include products added after the current "
+"cycle started)"
+
+#: modules/synchronization/base_interface.php:2490
+#, fuzzy, php-format
+msgid ""
+"Re-syncing amazon errors (ex. throttled). Products: %d remained from %d "
+"total items to try - step %s from %s | %s"
+msgstr ""
+"Re-syncing amazon errors (ex. throttled). Products: %d remained from %d "
+"total items to try - step %s from %s | %s"
+
+#: modules/synchronization/init.php:1184 modules/synchronization/init.php:1218
+#, fuzzy, php-format
+msgid "Products Sync - full cycle (%s)"
+msgstr "Products Sync - full cycle (%s)"
+
+#: modules/wizard/init.php:172 modules/wizard/init.php:173
+#, fuzzy
+msgid "Wizard"
+msgstr "Wizard"
+
+#: modules/wizard/init.php:211
+#, fuzzy
+msgid "Saving..."
+msgstr "Saving..."
+
+#: modules/wizard/init.php:212
+#, fuzzy
+msgid "canceled"
+msgstr "canceled"
+
+#: modules/wizard/init.php:213
+#, fuzzy
+msgid "Checking your keys ..."
+msgstr "Checking your keys ..."
+
+#: modules/wizard/init.php:214
+#, fuzzy
+msgid "You must enter you're AffiliateID."
+msgstr "You must enter you're AffiliateID."
+
+#: modules/wizard/init.php:217
+#, fuzzy
+msgid ""
+"We're sorry, but in order for us to recommand some settings, you must answer "
+"the above question."
+msgstr ""
+"We're sorry, but in order for us to recommand some settings, you must answer "
+"the above question."
+
+#: modules/wizard/init.php:633
+#, fuzzy
+msgid "Index"
+msgstr "Index"
+
+#: modules/wizard/init.php:639 modules/wizard/init.php:644
+#: modules/wizard/init.php:649
+#, fuzzy
+msgid "Questions"
+msgstr "Questions"
+
+#: modules/wizard/init.php:661 modules/wizard/steps/price_setup.php:5
+#, fuzzy
+msgid "Prices Setup"
+msgstr "Prices Setup"
+
+#: modules/wizard/init.php:666
+#, fuzzy
+msgid "Fine Tuning"
+msgstr "Fine Tuning"
+
+#: modules/wizard/init.php:671
+#, fuzzy
+msgid "Customization"
+msgstr "Customization"
+
+#: modules/wizard/init.php:676
+#, fuzzy
+msgid "Amazon Keys"
+msgstr "Amazon Keys"
+
+#: modules/wizard/init.php:683
+#, fuzzy
+msgid "Finished"
+msgstr "Finished"
+
+#: modules/wizard/init.php:689
+#, fuzzy
+msgid "System Requirements"
+msgstr "System Requirements"
+
+#: modules/wizard/init.php:714
+#, fuzzy
+msgid "Next"
+msgstr "Next"
+
+#: modules/wizard/init.php:715
+#, fuzzy
+msgid "Previous"
+msgstr "Previous"
+
+#: modules/wizard/init.php:738 modules/wizard/init.php:742
+#, fuzzy
+msgid "Finish"
+msgstr "Finish"
+
+#: modules/wizard/init.php:1409
+#, fuzzy, php-format
+msgid ""
+"%s - We recommend setting memory to at least 128MB. See: <a href=\"%s\" "
+"target=\"_blank\" class=\"WooZone-form-button WooZone-form-button-info"
+"\">Increasing memory allocated to PHP</a>"
+msgstr ""
+"%s - We recommend setting memory to at least 128MB. See: <a href=\"%s\" "
+"target=\"_blank\" class=\"WooZone-form-button WooZone-form-button-info"
+"\">Increasing memory allocated to PHP</a>"
+
+#: modules/wizard/init.php:1450
+#, fuzzy, php-format
+msgid ""
+"Your server does not have the <a href=\"%s\" target=\"_blank\">SOAP Client</"
+"a> class enabled - some gateway plugins which use SOAP may not work as "
+"expected."
+msgstr ""
+"Your server does not have the <a href=\"%s\" target=\"_blank\">SOAP Client</"
+"a> class enabled - some gateway plugins which use SOAP may not work as "
+"expected."
+
+#: modules/wizard/init.php:1484
+#, fuzzy, php-format
+msgid ""
+"Your server does not have the <a href=\"%s\" target=\"_blank\">SimpleXML</a> "
+"library enabled - some gateway plugins which use SimpleXML library may not "
+"work as expected."
+msgstr ""
+"Your server does not have the <a href=\"%s\" target=\"_blank\">SimpleXML</a> "
+"library enabled - some gateway plugins which use SimpleXML library may not "
+"work as expected."
+
+#: modules/wizard/steps/_footer_html.php:16
+#, fuzzy
+msgid "Return to the WooZone Dashboard"
+msgstr "Return to the WooZone Dashboard"
+
+#: modules/wizard/steps/_header.php:16
+#, fuzzy
+msgid "WooZone &rsaquo; Setup Wizard"
+msgstr "WooZone &rsaquo; Setup Wizard"
+
+#: modules/wizard/steps/_header_html.php:35
+#: modules/wizard/steps/_header_html.php:78
+#, fuzzy
+msgid "Welcome to WZone Setup Wizard"
+msgstr "Welcome to WZone Setup Wizard"
+
+#: modules/wizard/steps/_header_html.php:39
+#: modules/wizard/steps/_header_html.php:82
+#, fuzzy
+msgid "Please take 5 minutes to setup the most important plugin settings."
+msgstr "Please take 5 minutes to setup the most important plugin settings."
+
+#: modules/wizard/steps/_header_html.php:46
+#, fuzzy
+msgid "GET STARTED"
+msgstr "GET STARTED"
+
+#: modules/wizard/steps/_header_html.php:50
+#, fuzzy
+msgid "skip"
+msgstr "skip"
+
+#: modules/wizard/steps/_header_html.php:58
+#, fuzzy
+msgid "Congrats! You have successfully set up WooZone Wizard!"
+msgstr "Congrats! You have successfully set up WooZone Wizard!"
+
+#: modules/wizard/steps/_header_html.php:62
+#, fuzzy
+msgid "Now you can go and import Amazon products into your website!"
+msgstr "Now you can go and import Amazon products into your website!"
+
+#: modules/wizard/steps/amazon_config.php:14
+#, fuzzy
+msgid ""
+"The following fields are required in order to send requests to Amazon and "
+"retrieve data about products  and listings. If you do not already have "
+"access keys set up, please visit the AWS Account Management page to create "
+"and retrieve them."
+msgstr ""
+"The following fields are required in order to send requests to Amazon and "
+"retrieve data about products  and listings. If you do not already have "
+"access keys set up, please visit the AWS Account Management page to create "
+"and retrieve them."
+
+#: modules/wizard/steps/amazon_config.php:20
+#, fuzzy, php-format
+msgid ""
+"If you are using the aateam demo keys, you can test out and import up to %d "
+"products."
+msgstr ""
+"If you are using the aateam demo keys, you can test out and import up to %d "
+"products."
+
+#: modules/wizard/steps/amazon_config.php:21
+#, fuzzy
+msgid "Go to Insane Import Module"
+msgstr "Go to Insane Import Module"
+
+#: modules/wizard/steps/amazon_config.php:33
+#, fuzzy
+msgid "Enter Your Access Key ID"
+msgstr "Enter Your Access Key ID"
+
+#: modules/wizard/steps/amazon_config.php:45
+#, fuzzy
+msgid "Enter Your Secret Access Key"
+msgstr "Enter Your Secret Access Key"
+
+#: modules/wizard/steps/amazon_config.php:54
+#, fuzzy
+msgid "Your Affiliate IDs"
+msgstr "Your Affiliate IDs"
+
+#: modules/wizard/steps/amazon_config.php:75
+#, fuzzy, php-format
+msgid "Enter Your Affiliate ID For %s"
+msgstr "Enter Your Affiliate ID For %s"
+
+#: modules/wizard/steps/amazon_config.php:129
+#, fuzzy
+msgid "Auto Detect"
+msgstr "Auto Detect"
+
+#: modules/wizard/steps/amazon_config.php:130
+#, fuzzy
+msgid "SOAP"
+msgstr "SOAP"
+
+#: modules/wizard/steps/amazon_config.php:131
+#, fuzzy
+msgid "XML (over cURL, streams, fsockopen)"
+msgstr "XML (over cURL, streams, fsockopen)"
+
+#: modules/wizard/steps/amazon_config.php:166
+#, fuzzy
+msgid "Check Amazon AWS Keys"
+msgstr "Check Amazon AWS Keys"
+
+#: modules/wizard/steps/customization.php:6
+#, fuzzy
+msgid "Checkout Message"
+msgstr "Checkout Message"
+
+#: modules/wizard/steps/customization.php:10
+#, fuzzy
+msgid "You will be redirected to {amazon_website} to complete your checkout!"
+msgstr "You will be redirected to {amazon_website} to complete your checkout!"
+
+#: modules/wizard/steps/customization.php:16
+#, fuzzy
+msgid "Redirect in"
+msgstr "Redirect in"
+
+#: modules/wizard/steps/customization.php:24
+#, fuzzy
+msgid "How many seconds to wait before redirect to Amazon!"
+msgstr "How many seconds to wait before redirect to Amazon!"
+
+#: modules/wizard/steps/customization.php:30
+#, fuzzy
+msgid "Buy Button Custom Text"
+msgstr "Buy Button Custom Text"
+
+#: modules/wizard/steps/customization.php:39
+#, fuzzy
+msgid ""
+"(global) This text will be shown on the button linking to the external "
+"product. (global) = all external products; external products = those with "
+"\"On-site Cart\" option value set to \"No\""
+msgstr ""
+"(global) This text will be shown on the button linking to the external "
+"product. (global) = all external products; external products = those with "
+"\"On-site Cart\" option value set to \"No\""
+
+#: modules/wizard/steps/customization.php:45
+#, fuzzy
+msgid "Buy Button Opens in:"
+msgstr "Buy Button Opens in:"
+
+#: modules/wizard/steps/customization.php:53
+#, fuzzy
+msgid "Same tab"
+msgstr "Same tab"
+
+#: modules/wizard/steps/customization.php:54
+#, fuzzy
+msgid "New tab"
+msgstr "New tab"
+
+#: modules/wizard/steps/customization.php:73
+#, fuzzy
+msgid "\"As Of\" Text Font Size"
+msgstr "\"As Of\" Text Font Size"
+
+#: modules/wizard/steps/customization.php:83
+#, fuzzy
+msgid ""
+"Choose the font size (in em) for \"as of\" text that's next to the price in "
+"frontend"
+msgstr ""
+"Choose the font size (in em) for \"as of\" text that's next to the price in "
+"frontend"
+
+#: modules/wizard/steps/fine_tuning.php:15
+#: modules/wizard/steps/fine_tuning.php:35
+#, fuzzy
+msgid "all"
+msgstr "all"
+
+#: modules/wizard/steps/fine_tuning.php:19
+#, fuzzy
+msgid "How many images to download for each products. Default is all"
+msgstr "How many images to download for each products. Default is all"
+
+#: modules/wizard/steps/fine_tuning.php:34
+#, fuzzy
+msgid "none"
+msgstr "none"
+
+#: modules/wizard/steps/fine_tuning.php:36
+#, fuzzy, php-format
+msgid "%s"
+msgstr "%s"
+
+#: modules/wizard/steps/fine_tuning.php:55
+#, fuzzy
+msgid ""
+"Get product variations. Be carefull about All variations. One product can "
+"have a lot of variations, execution time is dramatically increased!"
+msgstr ""
+"Get product variations. Be carefull about All variations. One product can "
+"have a lot of variations, execution time is dramatically increased!"
+
+#: modules/wizard/steps/fine_tuning.php:70
+#, fuzzy
+msgid ""
+"Choose if you want to auto spin content at amazon import to avoid google "
+"finding duplicate content"
+msgstr ""
+"Choose if you want to auto spin content at amazon import to avoid google "
+"finding duplicate content"
+
+#: modules/wizard/steps/price_setup.php:13
+#: modules/wizard/steps/price_setup.php:30
+#, fuzzy
+msgid "Only Amazon"
+msgstr "Only Amazon"
+
+#: modules/wizard/steps/price_setup.php:14
+#, fuzzy
+msgid "Amazon OR other sellers"
+msgstr "Amazon OR other sellers"
+
+#: modules/wizard/steps/price_setup.php:18
+#, fuzzy
+msgid "Get product offer lowest price from Amazon or other Amazon sellers."
+msgstr "Get product offer lowest price from Amazon or other Amazon sellers."
+
+#: modules/wizard/steps/price_setup.php:22
+#, fuzzy
+msgid "Import Product from Merchant"
+msgstr "Import Product from Merchant"
+
+#: modules/wizard/steps/price_setup.php:31
+#, fuzzy
+msgid "Amazon and other sellers"
+msgstr "Amazon and other sellers"
+
+#: modules/wizard/steps/price_setup.php:35
+#, fuzzy
+msgid ""
+"Get products: A. only from Amazon or B. from (Amazon and other sellers). "
+"ATTENTION: If you choose \"Only Amazon\" then only products which have "
+"Amazon among their sellers will be imported!"
+msgstr ""
+"Get products: A. only from Amazon or B. from (Amazon and other sellers). "
+"ATTENTION: If you choose \"Only Amazon\" then only products which have "
+"Amazon among their sellers will be imported!"
+
+#: modules/wizard/steps/price_setup.php:39
+#, fuzzy
+msgid "Import as"
+msgstr "Import as"
+
+#: modules/wizard/steps/price_setup.php:48
+#, fuzzy
+msgid "Default import products with status \"Published\" or \"Draft\""
+msgstr "Default import products with status \"Published\" or \"Draft\""
+
+#: modules/wizard/steps/price_setup.php:52
+#, fuzzy
+msgid "Import Products with Price 0"
+msgstr "Import Products with Price 0"
+
+#: modules/wizard/steps/price_setup.php:62
+#, fuzzy
+msgid "Choose if you want to import products with price 0 (free products)"
+msgstr "Choose if you want to import products with price 0 (free products)"
+
+#: modules/wizard/steps/price_setup.php:68
+#, fuzzy
+msgid "Import Attributes"
+msgstr "Import Attributes"
+
+#: modules/wizard/steps/price_setup.php:78
+#, fuzzy
+msgid "This option will allow to import the product item attributes."
+msgstr "This option will allow to import the product item attributes."
+
+#: modules/wizard/steps/questions.php:9
+#, fuzzy, php-format
+msgid "What kind of site is %s ?"
+msgstr "What kind of site is %s ?"
+
+#: modules/wizard/steps/questions.php:48
+#, fuzzy
+msgid "Blog"
+msgstr "Blog"
+
+#: modules/wizard/steps/questions.php:49
+#, fuzzy
+msgid "Online Store"
+msgstr "Online Store"
+
+#: modules/wizard/steps/questions.php:50
+#, fuzzy
+msgid "Personal Website"
+msgstr "Personal Website"
+
+#: modules/wizard/steps/questions.php:51
+#, fuzzy
+msgid "Other"
+msgstr "Other"
+
+#: modules/wizard/steps/questions.php:86 modules/wizard/steps/questions2.php:20
+#: modules/wizard/steps/questions3.php:22
+#, fuzzy
+msgid ""
+"Based on these answers, in the wizard you will get recommended settings for "
+"what your needs are."
+msgstr ""
+"Based on these answers, in the wizard you will get recommended settings for "
+"what your needs are."
+
+#: modules/wizard/steps/questions2.php:9
+#, fuzzy, php-format
+msgid "What is the state of the website: %s ?"
+msgstr "What is the state of the website: %s ?"
+
+#: modules/wizard/steps/questions2.php:14
+#, fuzzy
+msgid "Fresh Install"
+msgstr "Fresh Install"
+
+#: modules/wizard/steps/questions2.php:15
+#, fuzzy
+msgid "Already have some content"
+msgstr "Already have some content"
+
+#: modules/wizard/steps/questions3.php:9
+#, fuzzy, php-format
+msgid "With what purpose you want to use %s ?"
+msgstr "With what purpose you want to use %s ?"
+
+#: modules/wizard/steps/questions3.php:14
+#, fuzzy
+msgid ""
+"I already have a website and I want to earn some easy money from affiliation"
+msgstr ""
+"I already have a website and I want to earn some easy money from affiliation"
+
+#: modules/wizard/steps/questions3.php:15
+#, fuzzy
+msgid ""
+"I' creating a new website with the sole purpose of having a store featuring "
+"amazon products"
+msgstr ""
+"I' creating a new website with the sole purpose of having a store featuring "
+"amazon products"
+
+#: modules/wizard/steps/questions3.php:16
+#, fuzzy
+msgid ""
+"I already have a webstore and want to earn some money from affiliation also"
+msgstr ""
+"I already have a webstore and want to earn some money from affiliation also"
+
+#: modules/wizard/steps/questions3.php:17
+#, fuzzy
+msgid ""
+"I only want to import products from Amazon, but to take care of the checkout "
+"process myself"
+msgstr ""
+"I only want to import products from Amazon, but to take care of the checkout "
+"process myself"
+
+#: modules/wizard/steps/requirements.php:9
+#, fuzzy
+msgid "Server status : these are all mandatory"
+msgstr "Server status : these are all mandatory"
+
+#: modules/wizard/steps/requirements.php:13
+#, fuzzy
+msgid "Cart page"
+msgstr "Cart page"
+
+#: modules/wizard/steps/requirements.php:32
+#, fuzzy
+msgid "Checkout  Page"
+msgstr "Checkout  Page"
+
+#: modules/wizard/steps/requirements.php:127
+#, fuzzy
+msgid "WP Cron"
+msgstr "WP Cron"
+
+#: modules/wizard/steps/settings.php:5
+#, fuzzy
+msgid "On Site Cart"
+msgstr "On Site Cart"
+
+#: modules/wizard/steps/settings.php:15
+#, fuzzy
+msgid ""
+"This option will allow your customers to add multiple Amazon Products into "
+"Cart and checkout trought Amazon's system with all at once."
+msgstr ""
+"This option will allow your customers to add multiple Amazon Products into "
+"Cart and checkout trought Amazon's system with all at once."
+
+#: modules/wizard/steps/settings.php:21
+#, fuzzy
+msgid "90 Days Cookies"
+msgstr "90 Days Cookies"
+
+#: modules/wizard/steps/settings.php:31
+#, fuzzy
+msgid ""
+"If a customer adds a product into amazon cart, it’s kept there for 90 days, "
+"and if the user continues shopping you will get the commissions also!"
+msgstr ""
+"If a customer adds a product into amazon cart, it’s kept there for 90 days, "
+"and if the user continues shopping you will get the commissions also!"
+
+#: modules/wizard/steps/settings.php:37
+#, fuzzy
+msgid "Cross Selling"
+msgstr "Cross Selling"
+
+#: modules/wizard/steps/settings.php:47
+#, fuzzy
+msgid "Show Frequently Bought Together Products"
+msgstr "Show Frequently Bought Together Products"
+
+#: modules/wizard/steps/settings.php:53
+#, fuzzy
+msgid "Product Availability by Country Box"
+msgstr "Product Availability by Country Box"
+
+#: modules/wizard/steps/settings.php:63
+#, fuzzy
+msgid "This shows if a product is available in a certain country"
+msgstr "This shows if a product is available in a certain country"
+
+#: modules/wizard/steps/settings.php:69
+#, fuzzy
+msgid "Show Coupon"
+msgstr "Show Coupon"
+
+#: modules/wizard/steps/settings.php:79
+#, fuzzy
+msgid "This option will display coupones if they are available on products"
+msgstr "This option will display coupones if they are available on products"
+
+#: modules/wizard/steps/settings.php:85
+#, fuzzy
+msgid "Checkout E-mail"
+msgstr "Checkout E-mail"
+
+#: modules/wizard/steps/settings.php:95
+#, fuzzy
+msgid "Ask the user e-mail address before the checkout process happens"
+msgstr "Ask the user e-mail address before the checkout process happens"
+
+#: modules/wizard/steps/settings.php:101
+#, fuzzy
+msgid "Remote Amazon Images"
+msgstr "Remote Amazon Images"
+
+#: modules/wizard/steps/settings.php:111
+#, fuzzy
+msgid "This option will display all products images from Amazon CDN"
+msgstr "This option will display all products images from Amazon CDN"
+
+#: modules/wizard/steps/settings.php:117
+#, fuzzy
+msgid "Show Free Shipping"
+msgstr "Show Free Shipping"
+
+#: modules/wizard/steps/settings.php:127
+#, fuzzy
+msgid ""
+"If a product has free shipping will be displayed in the product details page"
+msgstr ""
+"If a product has free shipping will be displayed in the product details page"
+
+#: modules/woocustom/init.php:232 modules/woocustom/init.php:456
+#, fuzzy, php-format
+msgid "%s ASIN"
+msgstr "%s ASIN"
+
+#: modules/woocustom/init.php:282
+#, fuzzy
+msgid "View this Product online"
+msgstr "View this Product online"
+
+#: modules/woocustom/init.php:311
+#, fuzzy
+msgid "WooZone Info"
+msgstr "WooZone Info"
+
+#: modules/woocustom/init.php:457
+#, fuzzy, php-format
+msgid "View this Product on %s"
+msgstr "View this Product on %s"
+
+#: modules/woocustom/init.php:459
+#, fuzzy
+msgid "variations number for this product"
+msgstr "variations number for this product"
+
+#: modules/woocustom/init.php:688
+#, fuzzy
+msgid "WooZone: All Orders"
+msgstr "WooZone: All Orders"
+
+#: modules/woocustom/init.php:691
+#, fuzzy
+msgid "WooZone: Orders with amazon products"
+msgstr "WooZone: Orders with amazon products"
+
+#: modules/woocustom/init.php:692
+#, fuzzy
+msgid "WooZone: Orders with amazon products & Dropshipping tax"
+msgstr "WooZone: Orders with amazon products & Dropshipping tax"
+
+#: modules/woocustom/init.php:693
+#, fuzzy
+msgid "WooZone: Orders without amazon products"
+msgstr "WooZone: Orders without amazon products"
+
+#: modules/woocustom/init.php:701
+#, fuzzy
+msgid "WooZone Status: All"
+msgstr "WooZone Status: All"
+
+#: modules/woocustom/init.php:704
+#, fuzzy, php-format
+msgid "WooZone Status: %s"
+msgstr "WooZone Status: %s"
+
+#: modules/woocustom/init.php:715
+#, fuzzy
+msgid "WooZone: Products Provider"
+msgstr "WooZone: Products Provider"
+
+#: modules/woocustom/init.php:861
+#, fuzzy
+msgid "Your Profit from Dropshiping Tax"
+msgstr "Your Profit from Dropshiping Tax"
+
+#: modules/woocustom/init.php:965
+#, fuzzy, php-format
+msgid "ASIN = %s"
+msgstr "ASIN = %s"
+
+#: modules/woocustom/init.php:966 modules/woocustom/init.php:979
+#, fuzzy
+msgid "View this Product on Amazon"
+msgstr "View this Product on Amazon"
+
+#: modules/woocustom/init.php:978
+#, fuzzy, php-format
+msgid "Parent ASIN = %s"
+msgstr "Parent ASIN = %s"
+
+#: modules/woocustom/init.php:1107
+#, fuzzy, php-format
+msgid "product was ordered from [[country]] location %s"
+msgstr "product was ordered from [[country]] location %s"
+
+#: modules/woocustom/init.php:1125
+#, fuzzy
+msgid "Order Contains Amazon Products"
+msgstr "Order Contains Amazon Products"
+
+#: modules/woocustom/init.php:1128
+#, fuzzy
+msgid "Order Contains Amazon Products & Dropshipping Tax"
+msgstr "Order Contains Amazon Products & Dropshipping Tax"
+
+#: modules/woocustom/init.php:1156
+#, fuzzy, php-format
+msgid "Amazon Status: %s"
+msgstr "Amazon Status: %s"
+
+#: modules/woocustom/init.php:1223
+#, fuzzy
+msgid "Sort by Sales Rank"
+msgstr "Sort by Sales Rank"
+
+#: templates/amazon/checkout_multishops.php:47
+#, fuzzy
+msgid "Total"
+msgstr "Total"
+
+#: templates/amazon/checkout_multishops.php:48
+#, fuzzy
+msgid "total price for this amazon store (with the dropship tax applied)"
+msgstr "total price for this amazon store (with the dropship tax applied)"
+
+#: templates/amazon/checkout_multishops.php:49
+#, fuzzy
+msgid "your profit for this amazon store"
+msgstr "your profit for this amazon store"
+
+#: templates/amazon/checkout_multishops.php:64
+#, fuzzy, php-format
+msgid "(%s available from %s product)"
+msgid_plural "(%s available from %s products)"
+msgstr[0] "(%s available from %s product)"
+msgstr[1] "(%s available from %s products)"
+
+#: templates/amazon/checkout_multishops.php:67
+#, fuzzy, php-format
+msgid "(%s product)"
+msgid_plural "(%s products)"
+msgstr[0] "(%s product)"
+msgstr[1] "(%s products)"
+
+#: templates/amazon/checkout_multishops.php:98
+#, fuzzy
+msgid "Order this product on Amazon"
+msgstr "Order this product on Amazon"
+
+#: templates/amazon/checkout_multishops.php:145
+#, fuzzy
+msgid "Global Total"
+msgstr "Global Total"
+
+#: templates/amazon/checkout_multishops.php:146
+#, fuzzy
+msgid "total price for all amazon stores (with the dropship tax applied)"
+msgstr "total price for all amazon stores (with the dropship tax applied)"
+
+#: templates/amazon/checkout_multishops.php:147
+#, fuzzy
+msgid "your profit for all amazon stores"
+msgstr "your profit for all amazon stores"
+
+#: templates/amazon/checkout_multishops.php:166
+#, fuzzy
+msgid "Amazon Checkout"
+msgstr "Amazon Checkout"
+
+#: templates/badges/badges-icons.php:29 templates/badges/badges.php:28
+#, fuzzy
+msgid "On Sale"
+msgstr "On Sale"
+
+#: templates/badges/badges-icons.php:38 templates/badges/badges.php:36
+#, fuzzy
+msgid "Amazon Prime"
+msgstr "Amazon Prime"
+
+#: templates/badges/badges-icons.php:47 templates/badges/badges.php:45
+#: templates/badges/badges.php:47
+#, fuzzy
+msgid "Free Shipping"
+msgstr "Free Shipping"
+
+#. Plugin URI of the plugin/theme
+#, fuzzy
+msgid ""
+"http://codecanyon.net/item/woocommerce-amazon-affiliates-wordpress-"
+"plugin/3057503"
+msgstr ""
+"http://codecanyon.net/item/woocommerce-amazon-affiliates-wordpress-"
+"plugin/3057503"
+
+#. Description of the plugin/theme
+#, fuzzy
+msgid ""
+"Choose from over a million products & earn advertising fees from the 1’st "
+"internet retailer online! You can earn up to 10% advertising fees from the "
+"1’st trusted e-commerce leader with minimal effort. This plugin allows you "
+"to import unlimited number of products directly from Amazon right into your "
+"Wordpress WooCommerce Store! EnjoY!"
+msgstr ""
+"Choose from over a million products & earn advertising fees from the 1’st "
+"internet retailer online! You can earn up to 10% advertising fees from the "
+"1’st trusted e-commerce leader with minimal effort. This plugin allows you "
+"to import unlimited number of products directly from Amazon right into your "
+"Wordpress WooCommerce Store! EnjoY!"
+
+#. Author of the plugin/theme
+#, fuzzy
+msgid "AA-Team"
+msgstr "AA-Team"
+
+#. Author URI of the plugin/theme
+#, fuzzy
+msgid "http://codecanyon.net/user/AA-Team/portfolio"
+msgstr "http://codecanyon.net/user/AA-Team/portfolio"
