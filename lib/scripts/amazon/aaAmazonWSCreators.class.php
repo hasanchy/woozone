@@ -285,11 +285,61 @@ class aaAmazonWSCreators
 				'options' => $requestOptions
 			);
 
-			$response = $client->post($token_endpoint, $requestOptions);
-			$body_raw = (string)$response->getBody();
-			$this->last_response = $body_raw;
+			/*==============================*/
+
+			$response = wp_remote_post(
+				$token_endpoint,
+				array(
+					'headers' => array(
+						'Content-Type' => 'application/x-www-form-urlencoded',
+					),
+					'body'    => http_build_query(
+						array(
+							'grant_type'    => 'client_credentials',
+							'client_id'     => $this->credentialId,
+							'client_secret' => $this->credentialSecret,
+							'scope'         => 'creatorsapi::default',
+						)
+					),
+					'timeout' => 30,
+				)
+			);
+
+			if ( is_wp_error( $response ) ) {
+				throw new \Exception( \esc_html( $response->get_error_message() ) );
+			}
+
+			$body          = json_decode( wp_remote_retrieve_body( $response ), true );
+			$response_code = wp_remote_retrieve_response_code( $response );
+
+			// var_dump( $body );
+			// exit;
+			if ( $response_code !== 200 ) {
+				if ( isset( $body['error_description'] ) ) {
+					if ( strpos( $body['error_description'], 'invalid_client_secret' ) !== false ) {
+						$message = \esc_html__( 'Invalid Client Secret provided', 'auto-amazon-affiliate-for-woocommerce' );
+					} elseif ( strpos( $body['error'], 'invalid_client' ) !== false ) {
+						$message = \esc_html__( 'The Client ID is invalid, or the selected Creators API version does not match your credentials.', 'auto-amazon-affiliate-for-woocommerce' );
+					} else {
+						$message = \esc_html( $body['error_description'] );
+					}
+				} elseif ( isset( $body['error'] ) && strpos( $body['error'], 'invalid_client' ) !== false ) {
+					$message = \esc_html__( 'The Client ID is invalid, or the selected Amazon country does not match your API credentials.', 'auto-amazon-affiliate-for-woocommerce' );
+				} else {
+					$message = isset( $body['error'] ) ? \esc_html( $body['error'] ) : \esc_html__( 'An error occurred while fetching access token', 'auto-amazon-affiliate-for-woocommerce' );
+				}
+
+				throw new \Exception( \esc_html__( 'Verification failed: ', 'auto-amazon-affiliate-for-woocommerce' ) . \esc_html( $message ), \esc_html( $response_code ) );
+			}
+			/*==============================*/
+
+
+
+			// $response = $client->post($token_endpoint, $requestOptions);
+			// $body_raw = (string)$response->getBody();
+			// $this->last_response = $body_raw;
 			
-			$body = json_decode($body_raw, true);
+			// $body = json_decode($body_raw, true);
 			
 			if (isset($body['access_token']) || isset($body['accessToken'])) {
 				$token = isset($body['access_token']) ? $body['access_token'] : $body['accessToken'];
@@ -346,8 +396,85 @@ class aaAmazonWSCreators
 
 	public function makeRequest($endpoint, $data = array(), $method = 'POST')
 	{
-		$token = $this->getAccessToken();
-		$is_v2 = (empty($this->credentialVersion) || stripos($this->credentialVersion, 'v3') === false);
+		$accessToken = $this->getAccessToken();
+
+		$payload = array(
+			'keywords'     => $data['keywords'],
+			'marketplace'  => $data['marketplace'],
+			'partnerTag'   => $data['partnerTag'],
+			'itemCount'    => 10,
+			'itemPage'     => 1,
+			'sortBy'       => 'Relevance',
+			'condition'    => 'Any',
+			'searchIndex'  => 'All',
+			'availability' => 'Available',
+			'resources'    => array(
+				'images.primary.highRes',
+				'images.primary.large',
+				'images.variants.highRes',
+				'images.variants.large',
+				'itemInfo.byLineInfo',
+				'itemInfo.classifications',
+				'itemInfo.contentInfo',
+				'itemInfo.contentRating',
+				'itemInfo.externalIds',
+				'itemInfo.features',
+				'itemInfo.manufactureInfo',
+				'itemInfo.productInfo',
+				'itemInfo.technicalInfo',
+				'itemInfo.title',
+				'itemInfo.tradeInInfo',
+				'offersV2.listings.availability',
+				'offersV2.listings.condition',
+				'offersV2.listings.dealDetails',
+				'offersV2.listings.isBuyBoxWinner',
+				'offersV2.listings.loyaltyPoints',
+				'offersV2.listings.merchantInfo',
+				'offersV2.listings.price',
+				'offersV2.listings.type',
+				'browseNodeInfo.browseNodes'
+			),
+		);
+
+		$response = wp_remote_post(
+			'https://creatorsapi.amazon/catalog/v1/searchItems',
+			array(
+				'headers' => array(
+					'Content-Type'  => 'application/json',
+					'x-marketplace' => 'www.amazon.com',
+					'Authorization' => "Bearer {$accessToken}, Version 3.1",
+				),
+				'body'    => wp_json_encode( $payload ),
+				'timeout' => 30,
+			)
+		);
+
+		if ( is_wp_error( $response ) ) {
+			$error_message = $response->get_error_message();
+
+			if ( stripos( $error_message, 'Operation timed out' ) !== false ) {
+				$error_message = \esc_html__( 'The Creators API request timed out before a response was received. This usually happens due to a slow network connection, temporary server issues, or high response time from the API provider. Please try again in a moment.', 'auto-amazon-affiliate-for-woocommerce' );
+			}
+
+			throw new \Exception( \esc_html__( 'Creators API request failed: ', 'auto-amazon-affiliate-for-woocommerce' ) . \esc_html( $error_message ) );
+		}
+
+		$body_raw      = wp_remote_retrieve_body( $response );
+		$response_code = wp_remote_retrieve_response_code( $response );
+		$body = json_decode($body_raw, true);
+
+		// print_r($body_raw); // Debugging line to inspect the response body
+		// exit;
+
+		if ( $response_code !== 200 ) {
+			$message = isset( $body['message'] ) ? \esc_html( $body['message'] ) : \esc_html__( 'Failed to fetch product data from Amazon Creators API.', 'auto-amazon-affiliate-for-woocommerce' );
+
+			throw new \Exception( \esc_html( $message ), \esc_html( $response_code ) );
+		}
+
+		return $body;
+
+		/*$is_v2 = (empty($this->credentialVersion) || stripos($this->credentialVersion, 'v3') === false);
 		
 		$partnerTag = isset($this->settings['main_aff_id']) ? $this->settings['main_aff_id'] : '';
 		
@@ -448,7 +575,7 @@ class aaAmazonWSCreators
 				'last_request' => $this->last_request,
 				'last_response' => $e->getMessage()
 			);
-		}
+		}*/
 	}
 
 	// Mocking PA-API 5.0 search method
@@ -507,7 +634,8 @@ class aaAmazonWSCreators
 		}
 
 		$response = $this->makeRequest('/searchItems', $data);
-		return $this->requestResponseParse('SearchItems', $response);
+
+		return $this->requestResponseParse('SearchItems', $response['searchResult']);
 	}
 
 	public function lookup($pms=array())

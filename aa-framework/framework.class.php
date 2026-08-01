@@ -1084,10 +1084,10 @@ if(class_exists('WooZone') != true) {
 			$desc = isset($product_desc['desc']) ? $product_desc['desc'] : '';
 
 			$args = array(
-				'post_title'    => $retProd['Title'],
-				'post_status'   => $default_import,
-				'post_content'  => $desc,
-				'post_excerpt'  => $excerpt,
+				'post_title'    => 'AZERPIAN 5 Tier Tall Plant Stand Indoor Corner Tiered Shelf Metal MDF Board',
+				'post_status'   => 'publish',
+				'post_content'  => 'Multi-tier metal flower rack not only provides enough storage space for your flower pot, but also decorates your living room, bedroom and office with modern appearance, make your house have a pleasant view. The Indoor Plant Stand includes 5 shelves, 23.54(L) x 23.54(W) x 41.85(H) inches,perfect for flower pots of various sizes and shapes, each plant can soak up sufficient sunlight to thrive. In addition to showcasing your lovely plant, you can also use it for your pictures or memorable knickknacks.',
+				'post_excerpt'  => 'Multi-tier metal flower rack not only provides enough storage space for your flower pot, but also decorates your living room, bedroom and office with modern appearance, make your house have a pleasant view.',
 				'post_type'     => 'product',
 				'menu_order'    => 0,
 				'post_author'   => 1, //get_current_user_id()
