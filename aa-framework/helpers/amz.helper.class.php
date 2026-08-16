@@ -985,14 +985,18 @@ if ( class_exists('WooZoneAmazonHelper') != true ) { class WooZoneAmazonHelper e
 
 				if ( in_array($this->the_plugin->amzapi, array('newapi', 'creatorsapi')) ) {
 					//[new in api v5]
-					$search_index->sortValues = implode('#', array(
-						'AvgCustomerReviews',
-						'Featured',
-						'NewestArrivals',
-						'PriceHighToLow',
-						'PriceLowToHigh',
-						'Relevance',
-					));
+					if ( 'AllCategories' === $key ) {
+						$search_index->sortValues = 'Relevance';
+					} else {
+						$search_index->sortValues = implode('#', array(
+							'AvgCustomerReviews',
+							'Featured',
+							'NewestArrivals',
+							'PriceHighToLow',
+							'PriceLowToHigh',
+							'Relevance',
+						));
+					}
 				}
 
 				$categs[$key] = explode( '#', $search_index->sortValues );
@@ -3167,6 +3171,15 @@ if ( class_exists('WooZoneAmazonHelper') != true ) { class WooZoneAmazonHelper e
 
 		//:: make request to amazon api
 		extract($pms);
+		
+		if ( isset($parameters['category']) && 'AllCategories' === $parameters['category'] ) {
+			if ( isset($_optionalParameters['Sort']) ) {
+				unset($_optionalParameters['Sort']);
+			}
+			if ( isset($_optionalParameters['SortBy']) ) {
+				unset($_optionalParameters['SortBy']);
+			}
+		}
 		
 		// lock current amazon key - aateam keys
 		// moved from here in 2018-feb

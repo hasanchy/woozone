@@ -620,15 +620,46 @@ class aaAmazonWSCreators
 
 		$retnew = array();
 		$items = array();
+		$totalResults = 0;
 
 		switch ($method) {
 			case 'SearchItems':
-			case 'GetItems':
-			case 'GetVariations':
-				$items = isset($response['items']) ? $response['items'] : array();
+				if (isset($response['searchResult']['items'])) {
+					$items = $response['searchResult']['items'];
+				} else if (isset($response['items'])) {
+					$items = $response['items'];
+				}
+				if (isset($response['searchResult']['totalResultCount'])) {
+					$totalResults = (int)$response['searchResult']['totalResultCount'];
+				} else if (isset($response['totalResultCount'])) {
+					$totalResults = (int)$response['totalResultCount'];
+				}
 				break;
+
+			case 'GetItems':
+				if (isset($response['itemsResult']['items'])) {
+					$items = $response['itemsResult']['items'];
+				} else if (isset($response['items'])) {
+					$items = $response['items'];
+				}
+				break;
+
+			case 'GetVariations':
+				if (isset($response['variationsResult']['items'])) {
+					$items = $response['variationsResult']['items'];
+				} else if (isset($response['itemsResult']['items'])) {
+					$items = $response['itemsResult']['items'];
+				} else if (isset($response['items'])) {
+					$items = $response['items'];
+				}
+				break;
+
 			case 'GetBrowseNodes':
-				$items = isset($response['browseNodes']) ? $response['browseNodes'] : array();
+				if (isset($response['browseNodesResult']['browseNodes'])) {
+					$items = $response['browseNodesResult']['browseNodes'];
+				} else if (isset($response['browseNodes'])) {
+					$items = $response['browseNodes'];
+				}
 				break;
 		}
 
@@ -642,12 +673,16 @@ class aaAmazonWSCreators
 			$newitems = $newitems[0];
 		}
 
+		if ($totalResults === 0) {
+			$totalResults = count($newitems);
+		}
+
 		switch ($method) {
 			case 'SearchItems':
 				$retnew['Items'] = array(
 					'Item' => $newitems,
-					'TotalResults' => isset($response['totalResultCount']) ? $response['totalResultCount'] : count($newitems),
-					'TotalPages' => isset($response['totalResultCount']) ? ceil($response['totalResultCount'] / 10) : 1,
+					'TotalResults' => $totalResults,
+					'TotalPages' => $totalResults > 0 ? ceil($totalResults / 10) : 1,
 				);
 				$retnew['Items']['Request']['IsValid'] = 'True';
 				break;
@@ -687,10 +722,17 @@ class aaAmazonWSCreators
 			);
 		}
 
+		$detailPageUrl = '';
+		if (isset($item['detailPageURL'])) {
+			$detailPageUrl = $item['detailPageURL'];
+		} else if (isset($item['detailPageUrl'])) {
+			$detailPageUrl = $item['detailPageUrl'];
+		}
+
 		$mapped = array(
 			'ASIN' => isset($item['asin']) ? $item['asin'] : '',
 			'ParentASIN' => isset($item['itemInfo']['parentAsin']) ? $item['itemInfo']['parentAsin'] : '',
-			'DetailPageURL' => isset($item['detailPageUrl']) ? $item['detailPageUrl'] : '',
+			'DetailPageURL' => $detailPageUrl,
 			'ItemAttributes' => array(
 				'Title' => isset($item['itemInfo']['title']['displayValue']) ? $item['itemInfo']['title']['displayValue'] : '',
 				'Feature' => isset($item['itemInfo']['features']['displayValues']) ? $item['itemInfo']['features']['displayValues'] : array(),
@@ -713,8 +755,8 @@ class aaAmazonWSCreators
 			$mapped['ImageSets']['ImageSet'] = array();
 			foreach ($item['images']['variants'] as $variant) {
 				$mapped['ImageSets']['ImageSet'][] = array(
-					'LargeImage' => array('URL' => $variant['large']['url']),
-					'SmallImage' => array('URL' => $variant['small']['url']),
+					'LargeImage' => array('URL' => isset($variant['large']['url']) ? $variant['large']['url'] : ''),
+					'SmallImage' => array('URL' => isset($variant['small']['url']) ? $variant['small']['url'] : ''),
 				);
 			}
 		}
@@ -722,15 +764,16 @@ class aaAmazonWSCreators
 		// Offers (v2)
 		if (isset($item['offersV2']['listings'][0])) {
 			$listing = $item['offersV2']['listings'][0];
-			$amount = (float)$listing['price']['amount'];
+			$priceObj = isset($listing['price']['money']) ? $listing['price']['money'] : (isset($listing['price']) ? $listing['price'] : array());
+			$amount = isset($priceObj['amount']) ? (float)$priceObj['amount'] : 0.0;
 			// Convert to minor units (multiplied by 100)
 			$minorAmount = number_format($amount * 100, 2, '.', '');
 			$minorAmount = number_format($minorAmount, 0, '.', '');
 
 			$priceArr = array(
 				'Amount' => $minorAmount,
-				'CurrencyCode' => $listing['price']['currency'],
-				'FormattedPrice' => $listing['price']['displayAmount'],
+				'CurrencyCode' => isset($priceObj['currency']) ? $priceObj['currency'] : '',
+				'FormattedPrice' => isset($priceObj['displayAmount']) ? $priceObj['displayAmount'] : '',
 			);
 			$mapped['Offers'] = array(
 				'TotalOffers' => count($item['offersV2']['listings']),

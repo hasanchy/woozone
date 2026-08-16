@@ -2290,6 +2290,8 @@ if (class_exists('WooZoneInsaneImport') != true) {
 							'_optionalParameters'	=> $_optionalParameters,
 							'page'					=> $page,
 						));
+
+						//var_dump('<pre>', $rsp, '</pre>'); echo __FILE__ . ":" . __LINE__;die . PHP_EOL;
 						
 						// status messages
 						if ( isset($rsp['req_link']) && ! empty($rsp['req_link']) ) {

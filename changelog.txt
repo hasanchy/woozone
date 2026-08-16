@@ -1,5 +1,7 @@
 # Change Log
 All notable changes to this project will be documented here...
+## [15.3.0] - 25.05.2026 
+- Creators Api key fix
 
 ## [15.2.0] - 25.05.2026
 - [FIX] - Path Traversal vulnerability fix (CVE-2026-27040)
